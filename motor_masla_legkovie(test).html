@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700" />
+
+    <meta charset="UTF-8" />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+      div {
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: 0;
+      }
+      p {
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: 0;
+      }
+
+      .vehicle-oil-prices-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-width: 1313px;
+        padding-top: 24px;
+        padding-right: 102px;
+        padding-left: 102px;
+      }
+      .motor-oil-prices-section {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        width: 977px;
+      }
+      .motor-oil-heading {
+        font: 700 32px/36px Inter, sans-serif;
+        color: rgba(23, 33, 38, 1);
+        white-space: pre-wrap;
+      }
+      .price-card-container {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 65px;
+      }
+      .price-block {
+        box-sizing: border-box;
+        width: 100%;
+      }
+      .price-card-list {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .price-card {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        width: 305px;
+      }
+      .red-box-with-price {
+        box-sizing: border-box;
+        width: 100%;
+        height: 156px;
+        background: rgba(166, 113, 113, 1);
+      }
+      .price-text-display-style1 {
+        margin-top: 8px;
+        font: 700 24px/28px Inter, sans-serif;
+        color: rgba(23, 33, 38, 1);
+        white-space: pre-wrap;
+      }
+      .vertical-center-column {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+        margin-top: 51px;
+      }
+      .detailed-info-card {
+        flex: 0 0 auto;
+        font: 500 14px Inter, sans-serif;
+        color: rgba(23, 33, 38, 1);
+        white-space: pre-wrap;
+      }
+      .detail-link {
+        flex: 0 0 auto;
+        margin-top: 19.5px;
+        font: 400 12px Inter, sans-serif;
+        color: rgba(1, 80, 158, 1);
+        white-space: pre-wrap;
+      }
+      .red-box-with-price1 {
+        box-sizing: border-box;
+        width: 100%;
+        height: 156px;
+        background: rgba(225, 169, 169, 1);
+      }
+      .pink-box-with-price {
+        box-sizing: border-box;
+        width: 100%;
+        height: 156px;
+        background: rgba(255, 189, 189, 1);
+      }
+      .horizontal-rule-separator {
+        box-sizing: border-box;
+        width: 100%;
+        height: 14px;
+        margin-top: 23px;
+        border-bottom: 0.8px solid #c4cbd1;
+      }
+      .price-card-group {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 68px;
+      }
+      .price-card-container1 {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        width: 305px;
+      }
+      .price-container1 {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+      }
+      .price-container {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        height: 156px;
+        background: rgba(166, 113, 113, 1);
+      }
+      .price-text-display-style {
+        flex: 0 0 auto;
+        margin-top: 8px;
+        font: 700 24px/28px Inter, sans-serif;
+        color: rgba(23, 33, 38, 1);
+        white-space: pre-wrap;
+      }
+      .vertical-card-container {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        margin-top: 51px;
+      }
+      .red-background-box {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        height: 156px;
+        background: rgba(225, 169, 169, 1);
+      }
+      .pink-box {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+        height: 156px;
+        background: rgba(255, 189, 189, 1);
+      }
+      .content-section-with-button {
+        flex: 1 0 auto;
+        padding-top: 99px;
+        margin-left: 32px;
+      }
+      .blue-gradient-container {
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 24px;
+        padding-right: 23px;
+        padding-left: 23px;
+        background: linear-gradient(180deg, rgba(1, 80, 158, 1) 0%, rgba(44, 80, 116, 1) 100%);
+        border-radius: 12px;
+      }
+      .highlighted-text {
+        font: 600 24px/28px Inter, sans-serif;
+        color: rgba(255, 255, 255, 1);
+        white-space: pre-wrap;
+      }
+      .white-space-text-margin-top {
+        margin-top: 31.5px;
+        font: 400 16px Inter, sans-serif;
+        color: rgba(255, 255, 255, 1);
+        white-space: pre-wrap;
+      }
+      .gradient-button {
+        box-sizing: border-box;
+        display: block;
+        width: 202px;
+        min-width: 202px;
+        height: 48px;
+        margin-top: 30.5px;
+        font: 600 16px Inter, sans-serif;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 8px;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div style="display: inline-block; width: 1519px" data-ignore="used only for top most containter width">
+      <div class="vehicle-oil-prices-container">
+        <div class="motor-oil-prices-section">
+          <p class="motor-oil-heading">Моторные масла для легковых автомобилей</p>
+          <div class="price-card-container">
+            <div class="price-block">
+              <div class="price-card-list">
+                <div class="price-card">
+                  <div class="price-block">
+                    <div class="red-box-with-price"></div>
+                    <p class="price-text-display-style1">0 000 ₽</p>
+                  </div>
+                  <div class="vertical-center-column">
+                    <p class="detailed-info-card">...</p>
+                    <p class="detail-link">Подробнее</p>
+                  </div>
+                </div>
+                <div class="price-card">
+                  <div class="price-block">
+                    <div class="red-box-with-price1"></div>
+                    <p class="price-text-display-style1">0 000 ₽</p>
+                  </div>
+                  <div class="vertical-center-column">
+                    <p class="detailed-info-card">...</p>
+                    <p class="detail-link">Подробнее</p>
+                  </div>
+                </div>
+                <div class="price-card">
+                  <div class="price-block">
+                    <div class="pink-box-with-price"></div>
+                    <p class="price-text-display-style1">0 000 ₽</p>
+                  </div>
+                  <div class="vertical-center-column">
+                    <p class="detailed-info-card">...</p>
+                    <p class="detail-link">Подробнее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="horizontal-rule-separator"></div>
+            </div>
+            <div class="price-card-group">
+              <div class="price-card-container1">
+                <div class="price-container1">
+                  <div class="price-container"></div>
+                  <p class="price-text-display-style">0 000 ₽</p>
+                </div>
+                <div class="vertical-card-container">
+                  <p class="detailed-info-card">...</p>
+                  <p class="detail-link">Подробнее</p>
+                </div>
+              </div>
+              <div class="price-card-container1">
+                <div class="price-container1">
+                  <div class="red-background-box"></div>
+                  <p class="price-text-display-style">0 000 ₽</p>
+                </div>
+                <div class="vertical-card-container">
+                  <p class="detailed-info-card">...</p>
+                  <p class="detail-link">Подробнее</p>
+                </div>
+              </div>
+              <div class="price-card-container1">
+                <div class="price-container1">
+                  <div class="pink-box"></div>
+                  <p class="price-text-display-style">0 000 ₽</p>
+                </div>
+                <div class="vertical-card-container">
+                  <p class="detailed-info-card">...</p>
+                  <p class="detail-link">Подробнее</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-section-with-button">
+          <div class="blue-gradient-container">
+            <div class="price-block">
+              <p class="highlighted-text">...</p>
+              <p class="white-space-text-margin-top">....</p>
+            </div>
+            <!-- PLACEHOLDER - Button Component detected here. Go to "React Code" via right click menu to see code generated -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
