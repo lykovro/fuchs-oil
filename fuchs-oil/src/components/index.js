@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect  } from 'react';
 import '../css/index.css'; // Импорт CSS стилей для HomePage
 import metalurgia from '../assetsImage/assets/metalurgiya-glavnaya.jpg'
 import motor_maslo from '../assetsImage/assets/img_5_741_5cc53a.png'
@@ -12,6 +12,23 @@ import HeaderIndex from './header_index';
 
 
 const Index = () => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.charset = 'utf-8';
+    script.async = true;
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&width=1058&height=444&lang=ru_RU&scroll=true';
+
+    const container = document.getElementById('map-container');
+    container.appendChild(script);
+
+    return () => {
+      if (container.contains(script)) {
+        container.removeChild(script);
+    }
+    };
+}, []);
 
     return (  
         <main className="container-main">
@@ -164,9 +181,7 @@ const Index = () => {
                 <p className="company-description-text">Наша компания является официальным дистрибьютором моторных масел и смазок Fuchs - мы предлагаем широкий ассортимент товаров по самым выгодным ценам!</p>
               </div>
             </div>
-            <div className="vertical-spacer">
-              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&amp;width=1058&amp;height=444&amp;lang=ru_RU&amp;scroll=true"></script>            
-            </div>
+            <div id="map-container" className="vertical-spacer" />
       </main>
     );
 }

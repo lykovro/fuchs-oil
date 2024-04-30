@@ -8,6 +8,7 @@ import mainImage3 from '../assetsImage/assets/new.jpg'; // Импортируй�
 import mainImage4 from '../assetsImage/assets/new (1).jpg';
 import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg'; // Импортируйте изображения
 import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
+import { Link } from 'react-router-dom';
 
 
 const HeaderIndex = () => {
@@ -48,7 +49,7 @@ const HeaderIndex = () => {
                     <p className="company-info-styles"><a href="">Новости</a></p>
                     <p className="company-info-styles"><a href="">Партнерам</a></p>
                     <p className="company-info-styles"><a href="">Корпоративные политики</a></p>
-                    <p className="company-info-styles"><a href="">Контакты</a></p>
+                    <p className="company-info-styles"><a href=""><Link to="/contacts">Контакты</Link></a></p>
                   </div>
                   <div className="logo_button_input">
                     <div className="logo_button">

@@ -5,6 +5,7 @@ import Footer from './components/footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import mainImage from './assetsImage/assets/metalurgiya-glavnaya.jpg'; // Импортируйте изображения
 import mainImage2 from './assetsImage/assets/chemical.jpg';
+import Contacts from './components/contacts'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <HeaderIndex />
         <Routes>
             <Route exact path="/" element={<Index />} />
+            <Route exact path="/contacts" element={<Contacts />} />
         </Routes>
     <Footer />
     </Router>
