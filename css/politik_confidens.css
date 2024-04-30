@@ -564,7 +564,25 @@ html {
   }
   
   .info-politic-bez {
-    
+    display: flex;
+    flex-direction: column;
+    font: 400 20px Inter, sans-serif;
+
+  }
+
+  .info-politic-bez div {
+    color: #586066;
+    margin-top: 2%;
+  }
+
+  .info-politic-bez h3, .info-politic-bez div {
+    width: 100%;
+    line-height: 1.8;
+  }
+
+  .info-politic-bez div p a {
+    text-decoration: none;
+    color: #01509E;
   }
 
   .info-box p a {
