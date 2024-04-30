@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import HeaderIndex from './components/header_index';
+import Index from './components/index';
+import Footer from './components/footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import mainImage from './assetsImage/assets/metalurgiya-glavnaya.jpg'; // Импортируйте изображения
+import mainImage2 from './assetsImage/assets/chemical.jpg';
 
-function App() {
+
+const App = () => {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <HeaderIndex />
+        <Routes>
+            <Route exact path="/" element={<Index />} />
+        </Routes>
+    <Footer />
+    </Router>
   );
-}
+};
 
 export default App;
