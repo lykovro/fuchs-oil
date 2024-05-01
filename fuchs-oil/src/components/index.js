@@ -9,6 +9,8 @@ import mainImage4 from '../assetsImage/assets/new (1).jpg';
 import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg'; // Импортируйте изображения
 import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
 import HeaderIndex from './header_index';
+import { Link } from 'react-router-dom';
+
 
 
 const Index = () => {
@@ -37,11 +39,13 @@ const Index = () => {
             <h2 className="product-title">Продукты</h2>
             <div className="all_products">
               <form action="">
-                <button >
-                  <p>
-                      Все продукты
-                  </p>
-                </button>
+              <Link to="/catalog">
+                    <button>
+                       <p>
+                           Все продукты
+                       </p>
+                    </button>
+                  </Link>
               </form>
             </div>
           </div>
@@ -133,11 +137,13 @@ const Index = () => {
             <h2 className="news-heading">Новости</h2>
             <div className="all_products">
               <form action="">
-                <button >
-                  <p>
-                      Все новости
-                  </p>
-                </button>
+                <Link to="/news">
+                  <button >
+                    <p>
+                        Все новости
+                    </p>
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

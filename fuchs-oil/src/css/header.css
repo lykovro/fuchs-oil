@@ -4,6 +4,10 @@
     src: url('../../public/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); /* Путь к файлу шрифта TTF */
   }
 
+  #root {
+    width: 100%;
+  }
+
 html {
     min-width: 1510px;;
   }
@@ -254,7 +258,7 @@ html {
     top: 0;
     border: none;
     cursor: pointer;
-    background-image: url(assets/search-svgrepo-com.svg);
+    background-image: url(../assetsImage/assets/search-svgrepo-com.svg);
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;

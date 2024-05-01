@@ -1,7 +1,25 @@
-import React from 'react';
-import './Header.css'; // Импорт CSS стилей
+import React, {useState} from 'react';
+import '../css/header.css'; // Импорт CSS стилей
+import banner from '../assetsImage/assets/img_2_728_d81a07.png';
+import search from '../assetsImage/assets/search-svgrepo-com.svg';
+import { Link } from 'react-router-dom';
+
+
 
 const Header = () => {
+
+    const [placeholder, setPlaceholder] = useState('Введите название продукта');
+
+    const handleFocus = () => {
+        setPlaceholder('');
+    };
+  
+    const handleBlur = (e) => {
+        if (!e.target.value) {
+            setPlaceholder('Введите название продукта');
+        }
+    };
+
     return (
         <header className="corporate-info-container1">
             <div className="corporate-section">
@@ -12,27 +30,30 @@ const Header = () => {
                                 <div className="company-info-logo">
                                     <div className="company-news-section">
                                         <p className="company-info-styles"><a href="">О компании</a></p>
-                                        <p className="company-info-styles"><a href="">Новости</a></p>
-                                        <p className="company-info-styles"><a href="">Партнерам</a></p>
-                                        <p className="company-info-styles"><a href="">Корпоративные политики</a></p>
-                                        <p className="company-info-styles"><a href="">Контакты</a></p>
+                                        <p className="company-info-styles"><a href=""><Link to="/news">Новости</Link></a></p>
+                                        <p className="company-info-styles"><a href=""><Link to="/partners">Партнерам</Link></a></p>
+                                        <p className="company-info-styles"><a href=""><Link to="/corpolitic">Корпоративные политики</Link></a></p>
+                                        <p className="company-info-styles"><a href=""><Link to="/contacts">Контакты</Link></a></p>
                                     </div>
                                     <div className="logo_button_input">
                                         <div className="logo_button">
-                                            <a href=""><img src={require('./assets/img_2_728_d81a07.png')} className="banner-image" alt="" /></a>
+                                        <a href=""><Link to="/index"><img src={banner} className="banner-image" /></Link></a>
                                             <div className="button_product">
                                                 <form action="">
+                                                <Link to="/catalog">
                                                     <button>
-                                                        <p>Продукты</p>
+                                                    <p>
+                                                        Продукты
+                                                    </p>
                                                     </button>
+                                                </Link>
                                                 </form>
                                             </div>
                                         </div>
                                         <div className="product-input-container_search">
                                             <form className="search" action="#0">
-                                                <input id="searchInput" className="field" name="search" type="text" placeholder="Введите название продукта" required />
-                                                <button type="submit" className="search_button"><img src={require('./assets_contacts/search-svgrepo-com.svg')} alt="" /></button>
-                                                {/* Ваш скрипт из contacts.js не нужно вставлять здесь */}
+                                                <input id="searchInput" className="field" name="search" type="text" placeholder={placeholder} onFocus={handleFocus} onBlur={handleBlur} />
+                                                <button type="submit" className="search_button"><img src={search} alt="" /></button>
                                             </form>
                                         </div>
                                     </div>

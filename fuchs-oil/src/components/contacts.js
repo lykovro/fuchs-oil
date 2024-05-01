@@ -1,14 +1,56 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import '../css/contacts.css'; // Импорт CSS стилей
+import vk from '../assetsImage/assets/icons8-вконтакте.svg'
+import tg from '../assetsImage/assets/icons8-телеграмма-app.svg'
+import SvgHome from '../assetsImage/assets/house.svg'
+import { Link } from 'react-router-dom';
+
+
 
 
 
 const Contacts = () => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.charset = 'utf-8';
+    script.async = true;
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&width=1058&height=444&lang=ru_RU&scroll=true';
+
+    const container = document.getElementById('map-container');
+    container.appendChild(script);
+
+    return () => {
+      if (container.contains(script)) {
+        container.removeChild(script);
+    }
+    };
+}, []);
+
+  const [fio, setFio] = useState('');
+  const [email, setEmail] = useState('');
+  const [text, setText] = useState('');
+  const [searchInput, setSearchInput] = useState('');
+
+  const handleFocus = (setState, placeholder) => () => {
+      setState('');
+      setSearchInput(placeholder);
+  };
+
+  const handleBlur = (setState, placeholder) => (e) => {
+      if (!e.target.value) {
+          setState(placeholder);
+          setSearchInput('Введите название продукта');
+      }
+  }; 
+
     return (
-        <main className="contact-section">
+        <main className="">
         <div className="contact-info-section2">
           <div className="contact-section-with-products">
             <div className="svg-container">
-              <a href=""><img src="assets/house.svg" alt=""/></a>
+            <a href=""><Link to="/"><img src={SvgHome} alt=""/></Link></a>
             </div>
             <div className="svg-container1">
               <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,8 +75,8 @@ const Contacts = () => {
             <div className="contact-info-container-vk-tele">
                 <h2 className="contact-info-heading1">Наши контакты</h2>
               <div className="contact-info-display-style1">
-                <a href=""><img src="assets/icons8-вконтакте.svg" /></a>
-                <a href=""><img src="assets/icons8-телеграмма-app.svg" /></a>
+                <a href=""><img src={vk} /></a>
+                <a href=""><img src={tg} /></a>
               </div>
             </div>
             <div className="address-info-section">
@@ -46,20 +88,42 @@ const Contacts = () => {
               </div>
             </div>
           </div>
-          <div className="vertical-spacer">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&amp;width=1058&amp;height=444&amp;lang=ru_RU&amp;scroll=true"></script>            
-          </div>
+          <div id="map-container" className="vertical-spacer" />
           <div className="container">
             <h2>Связаться c нами</h2>
             <form action="#">
               <div className="form-group">
-                <input type="text" id="fio" name="fio" className="form-control" placeholder="ФИО*" required/>
+                <input className="form-control" 
+                                id="fio"
+                                type="text"
+                                value={fio}
+                                placeholder="ФИО*"
+                                onFocus={handleFocus(setFio, 'ФИО*')}
+                                onBlur={handleBlur(setFio, 'ФИО*')}
+                                onChange={(e) => setFio(e.target.value)}
+                                />
               </div>
               <div className="form-group">
-                <input type="email" id="email" name="email" className="form-control" placeholder="E-mail*" required/>
+                <input className="form-control"
+                                id="email"
+                                type="email"
+                                value={email}
+                                placeholder="E-mail*"
+                                onFocus={handleFocus(setEmail, 'E-mail*')}
+                                onBlur={handleBlur(setEmail, 'E-mail*')}
+                                onChange={(e) => setEmail(e.target.value)}
+                                />
               </div>
               <div className="form-group">
-                <textarea id="text" name="text" className="form-control" placeholder="Текст"></textarea>
+                <textarea className="form-control"  
+                id="text"
+                type="text"
+                value={text}
+                placeholder="Текст"
+                onFocus={handleFocus(setText, 'Текст')}
+                onBlur={handleBlur(setText, 'Текст')}
+                onChange={(e) => setText(e.target.value)}
+                ></textarea>
               </div>
               <div className="button_text_submit">
                 <div className="form-confirmation-section">
@@ -67,7 +131,6 @@ const Contacts = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Отправить</button>
               </div>
-              <script src="js/contacts.js" defer></script>
             </form>
           </div>            
       </main>

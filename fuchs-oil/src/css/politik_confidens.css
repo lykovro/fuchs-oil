@@ -224,7 +224,7 @@ html {
     top: 0;
     border: none;
     cursor: pointer;
-    background-image: url(assets/search-svgrepo-com.svg);
+    background-image: url(../assetsImage/assets/search-svgrepo-com.svg);
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,13 +472,13 @@ html {
     margin-left: 15px;
   }
 
-  .address-info-section {
+  .address-info-section-politic {
     width: 100%;
     background: rgba(242, 246, 247, 1);
     border-radius: 12px;
     margin-top: 47px;
   }
-  .info-box {
+  .info-box-politic {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -522,7 +522,7 @@ html {
     transition-duration: 0.7s;
   }
 
-  .title-heading {
+  .title-heading-politic {
     font: 400 20px Inter, sans-serif;
     color: rgba(66, 75, 79, 1);
     text-align: left;
@@ -538,26 +538,28 @@ html {
     width: 100%;
   }
 
-  .title-heading li {
+  .title-heading-politic li {
     text-decoration: none;
     height: 50%;
     margin-left: 0;
     margin-right: 0;
   }
 
-  .title-heading li:nth-child(n+2) {
+  .title-heading-politic li:nth-child(n+2) {
     margin-top: 2%;
   }
 
-  .title-heading li a {
+  .title-heading-politic li a {
     text-decoration: none;
     color: #415057;
     margin-left: 0;
-    font-style: italic;
+    font-size: 20px; /* Увеличить размер шрифта */
+    font-family: Inter, sans-serif; /* Использовать другой тип шрифта */
+    font-weight: normal; /* Сделать текст не жирным */
     transition-duration: 0.3s;
   }
 
-  .title-heading li a:hover {
+  .title-heading-politic li a:hover {
     text-decoration: underline;
     color: black;
 
@@ -585,18 +587,18 @@ html {
     color: #01509E;
   }
 
-  .info-box p a {
+  .info-box-politic p a {
     text-decoration: none;
     color: rgba(66, 75, 79, 1);
     transition-duration: 0.7s;
     position: relative;
   }
 
-  .info-box p a:hover {
+  .info-box-politic p a:hover {
     color: black;
   }
 
-  .info-box p a::after {
+  .info-box-politic p a::after {
     content: ''; 
     position: absolute; 
     width: 100%; 
@@ -609,7 +611,7 @@ html {
     transition: transform 0.3s ease; 
 }
 
-.info-box p a:hover::after {
+.info-box-politic p a:hover::after {
     transform: scaleX(1); 
 }
 

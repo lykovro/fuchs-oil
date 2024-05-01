@@ -46,21 +46,23 @@ const HeaderIndex = () => {
                 <div className="company-info-logo">
                   <div className="company-news-section">
                     <p className="company-info-styles"><a href="">О компании</a></p>
-                    <p className="company-info-styles"><a href="">Новости</a></p>
-                    <p className="company-info-styles"><a href="">Партнерам</a></p>
-                    <p className="company-info-styles"><a href="">Корпоративные политики</a></p>
+                    <p className="company-info-styles"><a href=""><Link to="/news">Новости</Link></a></p>
+                    <p className="company-info-styles"><a href=""><Link to="/partners">Партнерам</Link></a></p>
+                    <p className="company-info-styles"><a href=""><Link to="/corpolitic">Корпоративные политики</Link></a></p>
                     <p className="company-info-styles"><a href=""><Link to="/contacts">Контакты</Link></a></p>
                   </div>
                   <div className="logo_button_input">
                     <div className="logo_button">
-                      <a href=""><img src={banner} className="banner-image" /></a>
+                      <a href=""><Link to="/index"><img src={banner} className="banner-image" /></Link></a>
                       <div className="button_product">
                         <form action="">
-                          <button>
-                            <p>
-                              Продукты
-                            </p>
-                          </button>
+                          <Link to="/catalog">
+                            <button>
+                              <p>
+                                Продукты
+                              </p>
+                            </button>
+                          </Link>
                         </form>
                       </div>
                     </div>
