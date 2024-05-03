@@ -45,7 +45,7 @@ const HeaderIndex = () => {
               <div className="vertical-section-with-products">
                 <div className="company-info-logo">
                   <div className="company-news-section">
-                    <p className="company-info-styles"><a href="">О компании</a></p>
+                    <p className="company-info-styles"><a href=""><Link to="/about">О компании</Link></a></p>
                     <p className="company-info-styles"><a href=""><Link to="/news">Новости</Link></a></p>
                     <p className="company-info-styles"><a href=""><Link to="/partners">Партнерам</Link></a></p>
                     <p className="company-info-styles"><a href=""><Link to="/corpolitic">Корпоративные политики</Link></a></p>

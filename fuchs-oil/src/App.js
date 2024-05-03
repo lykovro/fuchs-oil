@@ -10,6 +10,7 @@ import News from './components/news'
 import Partners from './components/partners'
 import KorpPolitic from './components/politik_confidens'
 import TransportVnedorojnaya from './components/transport_vnedorojnaya'
+import About from './components/about'
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
                     path="/index"
                     element={
                         <>
-                            <HeaderIndex /> {/* Шапка для Index */}
+                            <HeaderIndex /> 
                             <Index />
                         </>
                     }
@@ -30,7 +31,7 @@ const App = () => {
                     path="/contacts"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header />
                             <Contacts />
                         </>
                     }
@@ -39,7 +40,7 @@ const App = () => {
                     path="/catalog"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header />
                             <Catalog />
                         </>
                     }
@@ -48,7 +49,7 @@ const App = () => {
                     path="/catalog/transport_vnedorojnaya"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header /> 
                             <TransportVnedorojnaya />
                         </>
                     }
@@ -59,7 +60,7 @@ const App = () => {
                     path="/news"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header />
                             <News />
                         </>
                     }
@@ -68,7 +69,7 @@ const App = () => {
                     path="/partners"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header /> 
                             <Partners />
                         </>
                     }
@@ -77,8 +78,17 @@ const App = () => {
                     path="/corpolitic"
                     element={
                         <>
-                            <Header /> {/* Шапка для Contacts и других страниц */}
+                            <Header />
                             <KorpPolitic />
+                        </>
+                    }
+                />
+                   <Route
+                    path="/about"
+                    element={
+                        <>
+                            <Header />
+                            <About />
                         </>
                     }
                 />

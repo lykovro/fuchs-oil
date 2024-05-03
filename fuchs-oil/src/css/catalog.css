@@ -42,8 +42,6 @@
   }
   .product-title-text-style {
     flex: 0 0 auto;
-    padding-top: 4px;
-    padding-bottom: 3.25px;
     font: 400 14.5px Inter, sans-serif;
     color: rgba(144, 151, 156, 1);
     white-space: pre-wrap;
