@@ -7,15 +7,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  .product-section-with-images {
-    margin-top: 3%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    justify-content: flex-start;
-  }
+
   .svg-container {
     display: flex;
     flex: 0 0 auto;
@@ -40,15 +32,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  .product-title-text-style {
-    flex: 0 0 auto;
-    font: 400 14.5px Inter, sans-serif;
-    color: rgba(144, 151, 156, 1);
-    white-space: pre-wrap;
-    margin-left: 0;
-    margin-right: 0;
 
-  }
 
   .product-title-text-style a {
     text-decoration: none;
@@ -195,13 +179,14 @@
     justify-content: center;
     margin-left: 4%;
     margin-right: 0;
+    width: 60%;
   }
   .transport-heading-style-transport_vnedorojnaya {
     flex: 0 0 auto;
     font: 600 24px/24px Inter, sans-serif;
     color: rgba(23, 33, 38, 1);
     white-space: pre-wrap;
-    margin-right: 3%;
+    width: 100%;
   }
   .transport-details-button-text-transport_vnedorojnaya {
     margin-top: 34px;

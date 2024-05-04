@@ -43,7 +43,6 @@ const Footer = () => {
                         <div className="product-title-info">
                             <p className="contact-info-style"><a href="">О компании</a></p>
                             <p className="contact-info-style"><a href="">История компании</a></p>
-                            <p className="contact-info-style"><a href="">Направления работы</a></p>
                             <p className="contact-info-style"><a href="">Новости</a></p>
                             <p className="contact-info-style"><a href="">Контакты</a></p>
                             <p className="contact-info-style"><a href="">Предложить помещение в аренду</a></p>
@@ -54,7 +53,6 @@ const Footer = () => {
                         <div className="product-title-info">
                             <p className="contact-info-style"><a href="">Список</a></p>
                             <p className="contact-info-style"><a href="">Для СМИ</a></p>
-                            <p className="contact-info-style"><a href="">Политика обработки ПД</a></p>
                             <p className="contact-info-style"><a href="">Гарантии</a></p>
                         </div>
                     </div>
@@ -74,7 +72,7 @@ const Footer = () => {
                                 <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /></Link></a>
                                 <p className="copyright-text-display-style">2024 © ООО «FUCHS-OIL»</p>
                             </div>
-                            <p className="personal-data-policy-text-style"><a href="">Политика обработки персональных данных</a></p>
+                            {/*<p className="personal-data-policy-text-style"><a href="">Политика обработки персональных данных</a></p>*/}
                         </div>
                     </div>
                 </div>

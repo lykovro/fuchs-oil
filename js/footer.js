@@ -35,7 +35,6 @@ const Footer = () => {
                         <div className="product-title-info">
                             <p className="contact-info-style"><a href="">О компании</a></p>
                             <p className="contact-info-style"><a href="">История компании</a></p>
-                            <p className="contact-info-style"><a href="">Направления работы</a></p>
                             <p className="contact-info-style"><a href="">Новости</a></p>
                             <p className="contact-info-style"><a href="">Контакты</a></p>
                             <p className="contact-info-style"><a href="">Предложить помещение в аренду</a></p>

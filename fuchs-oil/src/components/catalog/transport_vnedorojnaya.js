@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import '../css/transport_vnedorojnaya.css'; // Импорт CSS стилей
-import SvgHome from '../assetsImage/assets/house.svg';
-import vk from '../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../../css/transport_vnedorojnaya.css'; // Импорт CSS стилей
+import SvgHome from '../../assetsImage/assets/house.svg';
+import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import MotorMasla from '../assetsImage/assets_transport_vnedorojnaya/моторные_масла.png'
-import Jidkosti from '../assetsImage/assets_transport_vnedorojnaya/титан.png'
-import CompMc from '../assetsImage/assets_news/COMP_MC.png'
-import Kaluga from '../assetsImage/assets_news/Конференция_в_Калуге.jpg'
+import MotorMasla from '../../assetsImage/assets_transport_vnedorojnaya/моторные_масла.png'
+import Jidkosti from '../../assetsImage/assets_transport_vnedorojnaya/титан.png'
+import CompMc from '../../assetsImage/assets_news/COMP_MC.png'
+import Kaluga from '../../assetsImage/assets_news/Конференция_в_Калуге.jpg'
 
 
 
@@ -62,15 +62,17 @@ const TransportVnedorojnaya = () => {
               <div className="product-card-list-transport_vnedorojnaya">
                 <div className="fullwidth-container-transport_vnedorojnaya">
                   <a href="">
-                    <div className="vehicle-info-card">
-                      <div className="transport-card-transport_vnedorojnaya">
-                        <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
-                        <div className="transport-info-card-transport_vnedorojnaya">
-                          <p className="transport-heading-style-transport_vnedorojnaya">Моторные масла</p>
-                          <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                    <Link to="/catalog/transport_vnedorojnaya/motor_masla">
+                      <div className="vehicle-info-card">
+                        <div className="transport-card-transport_vnedorojnaya">
+                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
+                          <div className="transport-info-card-transport_vnedorojnaya">
+                            <p className="transport-heading-style-transport_vnedorojnaya">Моторные масла</p>
+                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   </a>
                   <div className="transport-section"></div>
                 </div>

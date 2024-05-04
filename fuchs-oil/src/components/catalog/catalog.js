@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import '../css/catalog.css'; // Импорт CSS стилей
-import SvgHome from '../assetsImage/assets/house.svg';
-import Transport from '../assetsImage/assets_catalog/img_41_23_4d9954.jpeg';
-import Industrial from "../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg";
-import vk from '../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../../css/catalog.css'; // Импорт CSS стилей
+import SvgHome from '../../assetsImage/assets/house.svg';
+import Transport from '../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg';
+import Industrial from "../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg";
+import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
 
 
@@ -34,14 +34,14 @@ const Catalog = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to="/catalog">Продукты</Link></a></p>
+          <p className="product-title-text-style"><Link to="/catalog">Продукты</Link></p>
         </div>
         <div className="catalog-container">
           <h2 className="catalog-title">Каталог</h2>
           <div className="product-card-list">
-            <Link to="/catalog/transport_vnedorojnaya">
               <div className="fullwidth-container">
-                <a href="">
+                <a href="transport_vnedorojnaya">
+                <Link to="transport_vnedorojnaya">
                   <div className="vehicle-info-card">
                     <div className="transport-card">
                       <div className="vehicle-image-container"><img src={Transport} className="" /></div>
@@ -51,24 +51,26 @@ const Catalog = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </a>
                 <div className="transport-section"></div>
               </div>
-            </Link>
-            <div className="fullwidth-container">
-              <a href="">
-                <div className="vehicle-info-card">
-                  <div className="transport-card">
-                    <div className="vehicle-image-container"><img src={Industrial} className="" /></div>
-                    <div className="transport-info-card">
-                      <p className="transport-heading-style">Индустриальные смазочные материалы</p>
-                      <p className="transport-details-button-text">Подробнее</p>
+              <div className="fullwidth-container">
+                <a href="">
+                <Link to="industrial_smasochnie_materials">
+                  <div className="vehicle-info-card">
+                    <div className="transport-card">
+                      <div className="vehicle-image-container"><img src={Industrial} className="" /></div>
+                      <div className="transport-info-card">
+                        <p className="transport-heading-style">Индустриальные смазочные материалы</p>
+                        <p className="transport-details-button-text">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-              <div className="transport-section"></div>
-            </div>
+                  </Link>
+                </a>
+                <div className="transport-section"></div>
+              </div>
           </div>
         </div>
       <div className="contact-section1">

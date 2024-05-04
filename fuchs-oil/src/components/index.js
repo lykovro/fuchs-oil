@@ -1,19 +1,33 @@
 import React, { useEffect  } from 'react';
 import '../css/index.css'; // Импорт CSS стилей для HomePage
-import metalurgia from '../assetsImage/assets/metalurgiya-glavnaya.jpg'
 import motor_maslo from '../assetsImage/assets/img_5_741_5cc53a.png'
-import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; // Импортируйте изображения
-import mainImage2 from '../assetsImage/assets/chemical.jpg';
-import mainImage3 from '../assetsImage/assets/new.jpg'; // Импортируйте изображения
-import mainImage4 from '../assetsImage/assets/new (1).jpg';
-import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg'; // Импортируйте изображения
-import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
-import HeaderIndex from './header_index';
 import { Link } from 'react-router-dom';
+import Simposium from '../assetsImage/assets_news/Bezymyannyy.png'
+import RenolitDTA from '../assetsImage/assets_news/08.04.png'
+import CompMc from '../assetsImage/assets_news/COMP_MC.png'
+import Kaluga from '../assetsImage/assets_news/Конференция_в_Калуге.jpg'
+import Forum from '../assetsImage/assets_news/img_333_74_ff025f.jpeg'
+
 
 
 
 const Index = () => {
+
+  const backgroundImages = [
+    `url(${Simposium})`,
+    `url(${Kaluga})`,
+    `url(${CompMc})`,
+    `url(${Forum})`,
+    "url('assets_news/COMP MC.png')",
+];
+
+useEffect(() => {
+    const cards = document.querySelectorAll(".blue-gradient-box");
+
+    cards.forEach((card, index) => {
+        card.style.backgroundImage = backgroundImages[index];
+    });
+}, []);
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -150,33 +164,46 @@ const Index = () => {
           <div className="news-section-container1">
             <div className="news_1_news_2">
               <div className="blue-gradient-box">
-                <a href="">
-                  <p className="announcement-text-css">Анонс производства синтетических компрессорных масел серии RENOLIN UNISYN OL</p>
-                  <p className="announcement-text">на производственной площадке концерна FUCHS в Калуге стало доступно производство синтетических компрессорных масел</p>
-                </a>
+                  <div className='blue-gradient-box-text'>
+                    <p className="announcement-text-css">Симпозиум в Ульяновске</p>
+                    <p className="announcement-text">Уважаемые господа, 24 и 25 апреля состоится технологический симпозиум компании ДМТ в Ульяновске. Наша компания выступает в рамках технологического партнера на данном мероприятии.</p>
+                  </div>
               </div>
-              <div className="tech-forum-container">
-                <a href="">
-                  <p className="forum-title-text-style">Форум Стекло и современные технологии</p>
-                  <p className="modern-tech-forum-description">14 и 15 декабря состоялся ежегодный международный форум</p>
-                </a>
+              <div className="blue-gradient-box">
+              <div className='blue-gradient-box-text'>
+                    <p className="announcement-text-css">Конференция в Калуге</p>
+                    <p className="announcement-text">В конце апреля в г. Калуга состоится III-я Международная Конференция «Смазочные и технологические материалы для металлургической и метизной промышленности».</p>
+                  </div>
               </div>
             </div>
             <div className="news-section-container2">
-              <div className="news-card">
-                <p className="news-article-card">Новость</p>
-              </div>
+                <div className='blue-gradient-box-text'>
+                    <p className="announcement-text-css">Анонс производства RENOLIN DTA</p>
+                    <p className="announcement-text">Уважаемые коллеги,
+                      Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
+                      производство масел RENOLIN DTA широкого диапазона вязкостей (вязкости 5 и 7 – по запросу), которые,
+                      наряду с имевшимся ранее RENOLIN DTA 10 и 46, составляют линейку высококачественных циркуляционных масел.
+                    </p>
+                  </div>
             </div>
-            <div className="news_4_news_5">
-              <div className="product-input-container">
-                <div className="news-container">
-                  <p className="news-heading-style">Новость</p>
-                  <p className="news-article-style">Новость</p>
-                </div>
+            <div className="news_1_news_2">
+              <div className="blue-gradient-box">
+                  <div className='blue-gradient-box-text'>
+                    <p className="announcement-text-css">Анонс производства компрессорных масел COMP MC</p>
+                    <p className="announcement-text">
+                      Уважаемые партнеры,
+                      Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
+                      производство RENOLIN COMP 46 MC, которое дополнило линейку высококачественных масел для винтовых и поршневых компрессоров серии RENOLIN COMP MC 68, 100 и 150 вязкости.
+                    </p>
+                  </div>
               </div>
-              <div className="gradient-news-container">
-                <p className="news-heading-text-style">Новость</p>
-                <p className="news-article-snippet">Новость</p>
+              <div className="blue-gradient-box">
+                 <div className='blue-gradient-box-text'>
+                    <p className="announcement-text-css">Форум Стекло и современные технологии</p>
+                    <p className="announcement-text">
+                      14 и 15 декабря состоялся ежегодный международный форум «Стекло и Современные Технологии – XXI». Компания ФУКС ОЙЛ уже на протяжении нескольких лет участвует в данном мероприятии.
+                    </p>
+                  </div>
               </div>
             </div>
           </div>
