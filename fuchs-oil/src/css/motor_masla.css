@@ -179,6 +179,7 @@
     color: rgba(23, 33, 38, 1);
     white-space: pre-wrap;
     width: 100%;
+    line-height: 1.2;
   }
 
   .transport-heading-style-motor-masla:nth-child(n+2) {

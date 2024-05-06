@@ -13,13 +13,22 @@ import Partners from './components/partners'
 import KorpPolitic from './components/politik_confidens'
 import TransportVnedorojnaya from './components/catalog/transport_vnedorojnaya'
 import About from './components/about'
-import MotorMasla from './components/catalog/motor_masla'
-import IndustrialMaterial from './components/catalog/industrialnye_smazochnie_materials'
+import MotorMasla from './components/catalog/transport_vnedorojnaya/motor_masla'
+import IndustrialMaterial from './components/catalog/industrialnie_smazochnie/industrialnye_smazochnie_materials'
 import News2 from './components/news/news_2'
 import News3 from './components/news/news_3'
 import News4 from './components/news/news_4'
 import News5 from './components/news/news_5'
 import News6 from './components/news/news_6'
+import TransMasla from './components/catalog/transport_vnedorojnaya/transmissionnie_masla'
+import JidkostiGur from './components/catalog/transport_vnedorojnaya/jidkosti_gur'
+import TraktMasla from './components/catalog/transport_vnedorojnaya/universal_traktor_masla'
+import MotorMaslaLegkovie from './components/catalog/transport_vnedorojnaya/motor_masla_legkovie'
+import JidkostiAkpp from './components/catalog/transport_vnedorojnaya/jidkosti_akpp'
+import AvtoPlastichnieSmazki from './components/catalog/transport_vnedorojnaya/avto_plastichnie_smazki'
+import Antifriz from './components/catalog/transport_vnedorojnaya/antifriz'
+import ObsheIndustrial from './components/catalog/industrialnie_smazochnie/obsheindustrialnie_product'
+import SmazochnoOhlajdaushie from './components/catalog/industrialnie_smazochnie/smazochno_ohlajdaushie'
 
 
 
@@ -76,15 +85,6 @@ const App = () => {
                         </>
                     }
                 />
-                                     <Route
-                    path="/catalog/industrial_smasochnie_materials"
-                    element={
-                        <>
-                            <Header /> 
-                            <IndustrialMaterial />
-                        </>
-                    }
-                />
                     <Route
                     path="/catalog/transport_vnedorojnaya/motor_masla"
                     element={
@@ -94,6 +94,104 @@ const App = () => {
                         </>
                     }
                 />
+                    <Route
+                    path="/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto"
+                    element={
+                        <>
+                            <Header /> 
+                            <MotorMaslaLegkovie />
+                        </>
+                    }
+                />
+                    <Route
+                    path="/catalog/transport_vnedorojnaya/transmissionie_masla"
+                    element={
+                        <>
+                            <Header /> 
+                            <TransMasla />
+                        </>
+                    }
+                    
+                />
+                     <Route
+                    path="/catalog/transport_vnedorojnaya/universal_traktor_masla"
+                    element={
+                        <>
+                            <Header /> 
+                            <TraktMasla />
+                        </>
+                    }
+                    
+                />
+                  <Route
+                    path="/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem"
+                    element={
+                        <>
+                            <Header /> 
+                            <JidkostiGur />
+                        </>
+                    }
+                    
+                />
+                <Route
+                    path="/catalog/transport_vnedorojnaya/jidkosti_akpp"
+                    element={
+                        <>
+                            <Header /> 
+                            <JidkostiAkpp />
+                        </>
+                    }
+                    
+                />
+                <Route
+                    path="/catalog/transport_vnedorojnaya/auto_plastichnie_smaski"
+                    element={
+                        <>
+                            <Header /> 
+                            <AvtoPlastichnieSmazki />
+                        </>
+                    }
+                    
+                />
+                  <Route
+                    path="/catalog/transport_vnedorojnaya/antifriz"
+                    element={
+                        <>
+                            <Header /> 
+                            <Antifriz />
+                        </>
+                    }
+                    
+                />
+
+                  <Route
+                    path="/catalog/industrial_smasochnie_materials"
+                    element={
+                        <>
+                            <Header /> 
+                            <IndustrialMaterial />
+                        </>
+                    }
+                />
+                    <Route
+                    path="/catalog/industrial_smasochnie_materials/obsheindustrial_product"
+                    element={
+                        <>
+                            <Header /> 
+                            <ObsheIndustrial />
+                        </>
+                    }
+                />
+                   <Route
+                    path="/catalog/industrial_smasochnie_materials/smazochno_ohlajdaushie"
+                    element={
+                        <>
+                            <Header /> 
+                            <SmazochnoOhlajdaushie />
+                        </>
+                    }
+                />
+
           <Route
             path="/news"
             element={

@@ -163,48 +163,57 @@ useEffect(() => {
           </div>
           <div className="news-section-container1">
             <div className="news_1_news_2">
-              <div className="blue-gradient-box">
+              <Link to="/news/news_1">
+                <div className="blue-gradient-box">
+                    <div className='blue-gradient-box-text'>
+                      <p className="announcement-text-css">Симпозиум в Ульяновске</p>
+                      <p className="announcement-text">Уважаемые господа, 24 и 25 апреля состоится технологический симпозиум компании ДМТ в Ульяновске. Наша компания выступает в рамках технологического партнера на данном мероприятии.</p>
+                    </div>
+                </div>
+              </Link>
+              <Link to="/news/news_4">
+                <div className="blue-gradient-box">
+                    <div className='blue-gradient-box-text'>
+                      <p className="announcement-text-css">Конференция в Калуге</p>
+                      <p className="announcement-text">В конце апреля в г. Калуга состоится III-я Международная Конференция «Смазочные и технологические материалы для металлургической и метизной промышленности».</p>
+                    </div>
+                </div>
+              </Link>
+            </div>
+            <Link to="/news/news_2">
+              <div className="news-section-container2">
                   <div className='blue-gradient-box-text'>
-                    <p className="announcement-text-css">Симпозиум в Ульяновске</p>
-                    <p className="announcement-text">Уважаемые господа, 24 и 25 апреля состоится технологический симпозиум компании ДМТ в Ульяновске. Наша компания выступает в рамках технологического партнера на данном мероприятии.</p>
-                  </div>
+                      <p className="announcement-text-css">Анонс производства компрессорных масел COMP MC</p>
+                      <p className="announcement-text">                        Уважаемые партнеры,
+                        Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
+                        производство RENOLIN COMP 46 MC, которое дополнило линейку высококачественных масел для винтовых и поршневых компрессоров серии RENOLIN COMP MC 68, 100 и 150 вязкости.
+                      </p>
+                    </div>
               </div>
-              <div className="blue-gradient-box">
-              <div className='blue-gradient-box-text'>
-                    <p className="announcement-text-css">Конференция в Калуге</p>
-                    <p className="announcement-text">В конце апреля в г. Калуга состоится III-я Международная Конференция «Смазочные и технологические материалы для металлургической и метизной промышленности».</p>
-                  </div>
-              </div>
-            </div>
-            <div className="news-section-container2">
-                <div className='blue-gradient-box-text'>
-                    <p className="announcement-text-css">Анонс производства RENOLIN DTA</p>
-                    <p className="announcement-text">Уважаемые коллеги,
-                      Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
-                      производство масел RENOLIN DTA широкого диапазона вязкостей (вязкости 5 и 7 – по запросу), которые,
-                      наряду с имевшимся ранее RENOLIN DTA 10 и 46, составляют линейку высококачественных циркуляционных масел.
-                    </p>
-                  </div>
-            </div>
+            </Link>
             <div className="news_1_news_2">
-              <div className="blue-gradient-box">
-                  <div className='blue-gradient-box-text'>
-                    <p className="announcement-text-css">Анонс производства компрессорных масел COMP MC</p>
-                    <p className="announcement-text">
-                      Уважаемые партнеры,
-                      Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
-                      производство RENOLIN COMP 46 MC, которое дополнило линейку высококачественных масел для винтовых и поршневых компрессоров серии RENOLIN COMP MC 68, 100 и 150 вязкости.
-                    </p>
-                  </div>
-              </div>
-              <div className="blue-gradient-box">
-                 <div className='blue-gradient-box-text'>
-                    <p className="announcement-text-css">Форум Стекло и современные технологии</p>
-                    <p className="announcement-text">
-                      14 и 15 декабря состоялся ежегодный международный форум «Стекло и Современные Технологии – XXI». Компания ФУКС ОЙЛ уже на протяжении нескольких лет участвует в данном мероприятии.
-                    </p>
-                  </div>
-              </div>
+              <Link to="news/news_3">
+                <div className="blue-gradient-box">
+                    <div className='blue-gradient-box-text'>
+                      <p className="announcement-text-css">Анонс производства RENOLIN DTA</p>
+                      <p className="announcement-text">
+                      Уважаемые коллеги,
+                        Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно
+                        производство масел RENOLIN DTA широкого диапазона вязкостей (вязкости 5 и 7 – по запросу).                      
+                        </p>
+                    </div>
+                </div>
+              </Link>
+              <Link to="/news/news_5">
+                <div className="blue-gradient-box">
+                   <div className='blue-gradient-box-text'>
+                      <p className="announcement-text-css">Форум Стекло и современные технологии</p>
+                      <p className="announcement-text">
+                        14 и 15 декабря состоялся ежегодный международный форум «Стекло и Современные Технологии – XXI». Компания ФУКС ОЙЛ уже на протяжении нескольких лет участвует в данном мероприятии.
+                      </p>
+                    </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

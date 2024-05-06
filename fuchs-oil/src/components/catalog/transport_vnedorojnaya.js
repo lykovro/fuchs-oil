@@ -78,15 +78,17 @@ const TransportVnedorojnaya = () => {
                 </div>
                 <div className="fullwidth-container-transport_vnedorojnaya">
                   <a href="">
-                    <div className="vehicle-info-card">
-                      <div className="transport-card-transport_vnedorojnaya">
-                        <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
-                        <div className="transport-info-card-transport_vnedorojnaya">
-                          <p className="transport-heading-style-transport_vnedorojnaya">Трансмиссионные масла</p>
-                          <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                    <Link to="/catalog/transport_vnedorojnaya/transmissionie_masla">
+                      <div className="vehicle-info-card">
+                        <div className="transport-card-transport_vnedorojnaya">
+                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
+                          <div className="transport-info-card-transport_vnedorojnaya">
+                            <p className="transport-heading-style-transport_vnedorojnaya">Трансмиссионные масла</p>
+                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   </a>
                   <div className="transport-section"></div>
                 </div>
@@ -94,59 +96,33 @@ const TransportVnedorojnaya = () => {
               <div className="product-card-list-transport_vnedorojnaya">
                   <div className="fullwidth-container-transport_vnedorojnaya">
                     <a href="">
-                      <div className="vehicle-info-card">
-                        <div className="transport-card-transport_vnedorojnaya">
-                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
-                          <div className="transport-info-card-transport_vnedorojnaya">
-                            <p className="transport-heading-style-transport_vnedorojnaya">Универсальные тракторные масла</p>
-                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                      <Link to="/catalog/transport_vnedorojnaya/universal_traktor_masla">
+                        <div className="vehicle-info-card">
+                          <div className="transport-card-transport_vnedorojnaya">
+                            <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
+                            <div className="transport-info-card-transport_vnedorojnaya">
+                              <p className="transport-heading-style-transport_vnedorojnaya">Универсальные тракторные масла</p>
+                              <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </a>
                     <div className="transport-section"></div>
                   </div>
                   <div className="fullwidth-container-transport_vnedorojnaya">
                     <a href="">
-                      <div className="vehicle-info-card">
-                        <div className="transport-card-transport_vnedorojnaya">
-                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={Jidkosti} className="" /></div>
-                          <div className="transport-info-card-transport_vnedorojnaya">
-                            <p className="transport-heading-style-transport_vnedorojnaya">Жидкости для АКПП</p>
-                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                      <Link to="/catalog/transport_vnedorojnaya/jidkosti_akpp">
+                        <div className="vehicle-info-card">
+                          <div className="transport-card-transport_vnedorojnaya">
+                            <div className="vehicle-image-container-transport_vnedorojnaya"><img src={Jidkosti} className="" /></div>
+                            <div className="transport-info-card-transport_vnedorojnaya">
+                              <p className="transport-heading-style-transport_vnedorojnaya">Жидкости для АКПП</p>
+                              <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </a>
-                    <div className="transport-section"></div>
-                  </div>
-                </div>
-                <div className="product-card-list-transport_vnedorojnaya">
-                  <div className="fullwidth-container-transport_vnedorojnaya">
-                    <a href="">
-                      <div className="vehicle-info-card">
-                        <div className="transport-card-transport_vnedorojnaya">
-                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
-                          <div className="transport-info-card-transport_vnedorojnaya">
-                            <p className="transport-heading-style-transport_vnedorojnaya">Жидкости для ГУР и гидросистем</p>
-                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    <div className="transport-section"></div>
-                  </div>
-                  <div className="fullwidth-container-transport_vnedorojnaya">
-                    <a href="">
-                      <div className="vehicle-info-card">
-                        <div className="transport-card-transport_vnedorojnaya">
-                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={Jidkosti} className="" /></div>
-                          <div className="transport-info-card-transport_vnedorojnaya">
-                            <p className="transport-heading-style-transport_vnedorojnaya">Автомобильные пластичные смазки и пасты</p>
-                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
-                          </div>
-                        </div>
-                      </div>
+                      </Link>
                     </a>
                     <div className="transport-section"></div>
                   </div>
@@ -154,15 +130,51 @@ const TransportVnedorojnaya = () => {
                 <div className="product-card-list-transport_vnedorojnaya">
                   <div className="fullwidth-container-transport_vnedorojnaya">
                     <a href="">
-                      <div className="vehicle-info-card">
-                        <div className="transport-card-transport_vnedorojnaya">
-                          <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
-                          <div className="transport-info-card-transport_vnedorojnaya">
-                            <p className="transport-heading-style-transport_vnedorojnaya">Антифризы</p>
-                            <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                      <Link to="/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem">
+                        <div className="vehicle-info-card">
+                          <div className="transport-card-transport_vnedorojnaya">
+                            <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
+                            <div className="transport-info-card-transport_vnedorojnaya">
+                              <p className="transport-heading-style-transport_vnedorojnaya">Жидкости для ГУР и гидросистем</p>
+                              <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
+                    </a>
+                    <div className="transport-section"></div>
+                  </div>
+                  <div className="fullwidth-container-transport_vnedorojnaya">
+                    <a href="">
+                      <Link to="/catalog/transport_vnedorojnaya/auto_plastichnie_smaski">
+                        <div className="vehicle-info-card">
+                          <div className="transport-card-transport_vnedorojnaya">
+                            <div className="vehicle-image-container-transport_vnedorojnaya"><img src={Jidkosti} className="" /></div>
+                            <div className="transport-info-card-transport_vnedorojnaya">
+                              <p className="transport-heading-style-transport_vnedorojnaya">Автомобильные пластичные смазки и пасты</p>
+                              <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                            </div>
+                          </div>
+                        </div>
+                      </Link>
+                    </a>
+                    <div className="transport-section"></div>
+                  </div>
+                </div>
+                <div className="product-card-list-transport_vnedorojnaya">
+                  <div className="fullwidth-container-transport_vnedorojnaya">
+                    <a href="">
+                      <Link to="/catalog/transport_vnedorojnaya/antifriz">
+                        <div className="vehicle-info-card">
+                          <div className="transport-card-transport_vnedorojnaya">
+                            <div className="vehicle-image-container-transport_vnedorojnaya"><img src={MotorMasla} className="" /></div>
+                            <div className="transport-info-card-transport_vnedorojnaya">
+                              <p className="transport-heading-style-transport_vnedorojnaya">Антифризы</p>
+                              <p className="transport-details-button-text-transport_vnedorojnaya">Подробнее</p>
+                            </div>
+                          </div>
+                        </div>
+                      </Link>
                     </a>
                     <div className="transport-section"></div>
                   </div>
