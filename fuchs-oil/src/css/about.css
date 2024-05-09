@@ -1,0 +1,252 @@
+
+.distributor-info-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.mega-heading {
+    box-sizing: border-box;
+    flex: 0 1 710px;
+    max-width: 710px;
+    font: 700 47px / 52px Inter, sans-serif;
+    color: rgba(23, 33, 38, 1);
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.distributor-info-section {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 579px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 579px;
+    margin-left: 26px;
+}
+
+.company-description-text {
+    flex: 0 0 auto;
+    align-self: stretch;
+    font: 400 14.5px / 20px Inter, sans-serif;
+    color: rgba(88, 96, 102, 1);
+    text-align: right;
+    white-space: pre-wrap;
+}
+
+.about_header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 300px;
+  background-color: red;
+  background-image: url(../assetsImage/assets/about_head.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 50% 62%;
+  border-radius: 12px;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.about_header_head {
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+
+}
+
+.about_header_head h2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: bold;
+  color:white;
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+
+}
+
+.about_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 49, 94, 0.7); /* Начальный цвет затемнения */
+  border-radius: 12px;
+  opacity: 1; /* Устанавливаем прозрачность на 1 */
+  transition: background-color 0.3s ease;
+}
+
+
+
+.about_header:hover::after {
+  
+  background-color: rgba(105, 107, 108, 0.7); /* Цвет затемнения при наведении */
+  
+}
+
+.about_header:hover .about_header_head h2 {
+  color: black; 
+  transition: opacity 0.4s ease;
+
+}
+
+.super-brief-statement {
+  font-weight: none;
+  font: 46px/46px Inter, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.cosmic-highlight {
+  font: 700 46px/46px Inter, sans-serif;
+  color: #025BAC;
+  text-align: center;
+}
+.about_text {
+  width: 80%;
+}
+
+.about_blocks {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about_title h2 {
+  font-size: 40px;
+    width: 100%;
+    margin-bottom: 5%;
+    color: rgba(1, 80, 158, 1);
+}
+
+.about_block {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+
+}
+
+.about_block_pic {
+  width: 100%; /* Заполнить родительский блок полностью */
+  transition: transform 0.3s ease; /* Плавное изменение масштаба */
+}
+
+.about_block:hover .about_block_pic {
+  transform: scale(1.1); /* Увеличить размер изображения при наведении */
+}
+
+.about_block_pic {
+  height: 60%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.about_block_text {
+  width: 80%;
+  margin-top: 3%;
+  transition: margin-top 0.3s ease; /* Анимация изменения верхнего отступа текста */
+
+}
+.about_block_text p {
+  font-size: 22px;
+  font-family: Inter;
+  text-align: center;
+  
+}
+
+.about_block:hover .about_block_text {
+  margin-top: 8%; /* При наведении на контейнер сдвигаем текст вниз */
+}
+
+.about_chronical {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 500px; /* Добавлено для контроля высоты блока */
+}
+
+.about_chronical_block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Inter;
+  
+}
+
+.about_chronical_block:nth-child(n+2) {
+  margin-left: 5%;
+}
+
+.about_chronical_block_pic {
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.about_chronical h2 {
+  font-size: 40px;
+  width: 100%;
+  margin-bottom: 5%;
+  color: rgba(1, 80, 158, 1);
+}
+
+.about_chronical_block_text h3 {
+  margin-top: 5%;
+  color: #025BAC;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.about_chronical_block_text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 50%;
+}
+
+.about_chronical_block_text p {
+  margin-top: 0%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+  white-space:initial;
+}
+
+.about_chronical_blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  overflow-x: auto; /* Разрешить горизонтальную прокрутку только внутри контейнера */
+  width: 100%; /* Ограничить ширину контейнера */
+  height: 400px;
+  white-space: nowrap;
+  overflow-y: hidden; /* Скрыть вертикальную полосу прокрутки */
+  scrollbar-width: none; /* Скрываем полосу прокрутки в Firefox */
+  -ms-overflow-style: none;
+}
+
+.about_chronical_blocks::-webkit-scrollbar {
+  display: none; /* Скрываем полосу прокрутки в Chrome и Safari */
+}
