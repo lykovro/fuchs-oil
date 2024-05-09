@@ -29,7 +29,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Routes>
-      <Route path="/" element={<Navigate to="/index" />} />
+      <Route path="/" element={<Navigate to="/index" replace />} />
         {routes.map((route, index) => (
           <Route
             key={index}
