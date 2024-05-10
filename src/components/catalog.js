@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import '../../css/catalog.css'; // Импорт CSS стилей
-import SvgHome from '../../assetsImage/assets/house.svg';
-import Transport from '../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg';
-import Industrial from "../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg";
-import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../css/catalog.css'; // Импорт CSS стилей
+import SvgHome 
+from '../assetsImage/assets/house.svg';
+import Transport from '../assetsImage/assets_catalog/img_41_23_4d9954.jpeg';
+import Industrial from "../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg";
+import vk from '../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
 
 
