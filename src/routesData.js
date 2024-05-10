@@ -51,7 +51,7 @@ import Energetik from './components/solutions/energetika'
 
 const routesData = [
    
-    { path: '/', component: Index, header: HeaderIndex },
+    { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
     { path: '/catalog', component: Catalog, header: Header },
