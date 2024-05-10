@@ -52,7 +52,7 @@ const News1 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_1'>Симпозиум в Ульяновске</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                     Симпозиум в Ульяновске
                 </h2>

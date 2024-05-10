@@ -53,7 +53,7 @@ const News3 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_3'>Анонс производства компрессорных масел COMP MC</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                     Анонс производства компрессорных масел COMP MC
                 </h2>

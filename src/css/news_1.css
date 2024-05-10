@@ -1,3 +1,22 @@
+.news_blocks_page {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    width: 100%;
+}
+
+.news_blocks_page h2 {
+    font-size: 40px;
+    width: 100%;
+    color: rgba(1, 80, 158, 1);
+}
+
+.news_blocks_page p {
+    width: 100%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
 .news_blocks {
     display: flex;
     flex-direction: column;

@@ -54,7 +54,7 @@ const News5 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_5'>Форум Стекло и современные технологии</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                      Форум Стекло и современные технологии
                 </h2>

@@ -54,7 +54,7 @@ const News6 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_5'>Анонс производства синтетических компрессорных масел серии RENOLIN UNISYN OL</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                    Анонс производства синтетических компрессорных масел серии RENOLIN UNISYN OL
                 </h2>

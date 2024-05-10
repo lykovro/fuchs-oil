@@ -54,7 +54,7 @@ const News4 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_4'>Конференция в Калуге</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                      Конференция в Калуге
                 </h2>

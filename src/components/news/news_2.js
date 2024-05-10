@@ -53,7 +53,7 @@ const News2 = () => {
                 </div>
                 <p className="product-title-text-style"><a href=""><Link to='/news/news_2'>Анонс производства RENOLIN DTA</Link></a></p>
             </div>
-            <div className='news_blocks'>
+            <div className='news_blocks_page'>
                 <h2>
                       Анонс производства RENOLIN DTA
                 </h2>
