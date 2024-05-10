@@ -25,11 +25,17 @@ const App = () => {
     config: { duration: 1000 },
   });
 
+  useEffect(() => {
+    const currentPath = window.location.pathname;
+    if (currentPath === '/') {
+      window.location.href = '/index';
+    }
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
       <Routes>
-      <Route path="/" element={<Navigate to="/index" />} />
         {routes.map((route, index) => (
           <Route
             key={index}
