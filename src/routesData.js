@@ -24,8 +24,16 @@ import MotorMaslaLegkovie from './components/catalog/transport_vnedorojnaya/moto
 import JidkostiAkpp from './components/catalog/transport_vnedorojnaya/jidkosti_akpp/jidkosti_akpp'
 import AvtoPlastichnieSmazki from './components/catalog/transport_vnedorojnaya/auto_plastichnie_smazki/avto_plastichnie_smazki'
 import Antifriz from './components/catalog/transport_vnedorojnaya/antifriz/antifriz'
-import ObsheIndustrial from './components/catalog/industrialnie_smazochnie/obsheindustrialnie_product'
-import SmazochnoOhlajdaushie from './components/catalog/industrialnie_smazochnie/smazochno_ohlajdaushie'
+import ObsheIndustrial from './components/catalog/industrialnie_smazochnie/obsheindustrialnie_product/obsheindustrialnie_product'
+import SmazochnoOhlajdaushie from './components/catalog/industrialnie_smazochnie/smazochno_ohlajdaushie/smazochno_ohlajdaushie'
+import StekolProm from './components/catalog/industrialnie_smazochnie/product_stekol_prom/product_stekol_prom'
+import ObrabotkaMetallov from './components/catalog/industrialnie_smazochnie/dlya_obrabotki_metallov/dlya_obrabotki_metallov'
+import ZashitaKorozii from './components/catalog/industrialnie_smazochnie/product_zachita_koroziya/product_zachita_koroziya'
+import OchistkaPoverh from './components/catalog/industrialnie_smazochnie/dlya_ochistki_poverhnosti/dlya_ochistki_poverhnosti'
+
+
+
+
 import HeaderIndex from './components/header_index';
 import Header from './components/header'
 import Solution from './components/solutions/solutions'
@@ -67,6 +75,15 @@ const routesData = [
     { path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header  },
     { path: '/catalog/industrial_smasochnie_materials/obsheindustrial_product', component: ObsheIndustrial, header: Header  },
     { path: '/catalog/industrial_smasochnie_materials/smazochno_ohlajdaushie', component: SmazochnoOhlajdaushie, header: Header  },
+    { path: '/catalog/industrial_smasochnie_materials/produkty_dlya_stekolnoy_promyshlennosti', component: StekolProm, header: Header  },
+    { path: '/catalog/industrial_smasochnie_materials/produkty_dlya_obrabotki_metallov_davleniem', component: ObrabotkaMetallov, header: Header  },
+    { path: '/catalog/industrial_smasochnie_materials/produkty_dlya_zashiti_ot_korozii', component: ZashitaKorozii, header: Header  },
+    { path: '/catalog/industrial_smasochnie_materials/ochistiteli_i_antikorrozionnye_sostavy_ochistiteli_vodosmeshivaemye', component: OchistkaPoverh, header: Header  },
+
+
+
+
+
     { path: '/news', component: News, header: Header  },
     { path: '/news/news_1', component: News1, header: Header  },
     { path: '/news/news_2', component: News2, header: Header  },

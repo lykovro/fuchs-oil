@@ -1,12 +1,12 @@
 import React, {useEffect, useState, useRef } from 'react';
-import '../../../css/motor_masla_legkovie.css'; // Импорт CSS стилей
-import SvgHome from '../../../assetsImage/assets/house.svg';
-import vk from '../../../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../../../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../../../../css/motor_masla_legkovie.css'; // Импорт CSS стилей
+import SvgHome from '../../../../assetsImage/assets/house.svg';
+import vk from '../../../../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../../../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import Legkovie from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
-import Gruzovie from '../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
-import Gazoobraznoe from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Legkovie from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Gruzovie from '../../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
+import Gazoobraznoe from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
 
 
 
