@@ -89,7 +89,7 @@ const MotorMaslaLegkovie = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/motor_masla">Моторные масла для легковых автомобилей</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto">Моторные масла для легковых автомобилей</Link></a></p>
         </div>
         <div className="catalog-container">
           <h2 className="catalog-title">Моторные масла для легковых автомобилей</h2>

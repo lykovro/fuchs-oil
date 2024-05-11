@@ -164,29 +164,33 @@ const IndustrialMaterial = () => {
                 <div className="product-card-list-industrial">
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <div className="vehicle-info-card-industrial">
-                        <div className="transport-card-industrial">
-                          <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
-                          <div className="transport-info-card-industrial">
-                            <p className="transport-heading-style-industrial">Продукты для термической обработки</p>
-                            <p className="transport-details-button-text-industrial">Подробнее</p>
+                      <Link to="product_dlya_termicheskoy_obrabotki">
+                        <div className="vehicle-info-card-industrial">
+                          <div className="transport-card-industrial">
+                            <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
+                            <div className="transport-info-card-industrial">
+                              <p className="transport-heading-style-industrial">Продукты для термической обработки</p>
+                              <p className="transport-details-button-text-industrial">Подробнее</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </a>
                     <div className="transport-section"></div>
                   </div>
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <div className="vehicle-info-card-industrial">
-                        <div className="transport-card-industrial">
-                          <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
-                          <div className="transport-info-card-industrial">
-                            <p className="transport-heading-style-industrial">Разделительные составы для бетона и газобетона</p>
-                            <p className="transport-details-button-text-industrial">Подробнее</p>
+                      <Link to="razdelitelnye_sostavy_dlya_betona_i_gazobetona">
+                        <div className="vehicle-info-card-industrial">
+                          <div className="transport-card-industrial">
+                            <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
+                            <div className="transport-info-card-industrial">
+                              <p className="transport-heading-style-industrial">Разделительные составы для бетона и газобетона</p>
+                              <p className="transport-details-button-text-industrial">Подробнее</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </a>
                     <div className="transport-section"></div>
                   </div>

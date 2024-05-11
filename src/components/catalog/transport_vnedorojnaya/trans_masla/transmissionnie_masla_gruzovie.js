@@ -12,7 +12,7 @@ import Photo from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
 
 
 
-const MotorMaslaGazoobraznoe = () => {
+const TransMaslaGruzovie = () => {
 
 
 
@@ -72,7 +72,7 @@ const MotorMaslaGazoobraznoe = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya/motor_masla'>Моторные масла</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya/transmissionie_masla'>Трансмиссионные масла</Link></a></p>
           <div className="svg-container1">
               <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -89,10 +89,10 @@ const MotorMaslaGazoobraznoe = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto">Моторные масла для двигателей работающих на газообразном топливе</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/transmissionie_masla/dlya_gruzovykh_avtomobiley">Трансмиссионные масла для грузовых автомобилей</Link></a></p>
         </div>
         <div className="catalog-container">
-          <h2 className="catalog-title">Моторные масла для двигателей, работающих на газообразном топливе</h2>
+          <h2 className="catalog-title">Трансмиссионные масла для грузовых автомобилей</h2>
           <div className="product-card-list">
             <div className="fullwidth-container-upp">
                 <div className="fullwidth-container-legkovie">
@@ -233,4 +233,4 @@ const MotorMaslaGazoobraznoe = () => {
     )
 }
 
-export default MotorMaslaGazoobraznoe;
+export default TransMaslaGruzovie;

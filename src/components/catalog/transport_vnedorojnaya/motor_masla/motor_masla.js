@@ -77,8 +77,7 @@ const MotorMasla = () => {
           <h2 className="catalog-title">Моторные масла</h2>
           <div className="product-card-list-motor-masla">
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <Link to="/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto">
+                <Link to="legkovie_avto">
                   <div className="vehicle-info-card-motor-masla">
                     <div className="transport-card-motor-masla">
                       <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
@@ -89,36 +88,35 @@ const MotorMasla = () => {
                     </div>
                   </div>
                 </Link>
-              </a>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Для грузовых автомобилей</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="gruzovie_avto">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Для грузовых автомобилей</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Для двигателей</p>
-                      <p className="transport-heading-style-motor-masla">Работающих на газообразном топливе</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="dlya_dvigateley_rabotayushchikh_na_gazoobraznom_toplive">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Для двигателей</p>
+                        <p className="transport-heading-style-motor-masla">Работающих на газообразном топливе</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
           </div>

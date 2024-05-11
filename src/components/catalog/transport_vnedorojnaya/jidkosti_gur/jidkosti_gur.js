@@ -76,31 +76,31 @@ const JidkostiGur = () => {
           <h2 className="catalog-title">Жидкости для ГУР и гидросистем</h2>
           <div className="product-card-list-motor-masla">
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для редукторов горных самосвалов</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="masla_dlya_reduktorov_gornykh_samosvalov">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для редукторов горных самосвалов</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для редукторов нефтесервисного оборудования (СВП, приводы)</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="masla_dlya_reduktorov_nefteservisnogo_oborudovaniya_svp_privody">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для редукторов нефтесервисного оборудования (СВП, приводы)</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
           </div>
