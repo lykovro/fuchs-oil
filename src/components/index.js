@@ -72,7 +72,9 @@ useEffect(() => {
                       <div className="product_text">
                         <p className="motor-oil-heading">Моторные масла</p>
                         <span>
-                          <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                          <Link to="/catalog/transport_vnedorojnaya/motor_masla">
+                            <p className="motor-oil-details-button-text">Подробнее</p>
+                          </Link>
                         </span>
                       </div>
                     </div>
@@ -81,7 +83,9 @@ useEffect(() => {
                       <div className="product_text">
                         <p className="motor-oil-heading">Универсальные тракторные масла</p>
                         <span>
-                          <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                          <Link to="/catalog/transport_vnedorojnaya/universal_traktor_masla">
+                            <p className="motor-oil-details-button-text">Подробнее</p>
+                          </Link>
                         </span>
                       </div>
                     </div>
@@ -90,7 +94,9 @@ useEffect(() => {
                         <div className="product_text">
                           <p className="motor-oil-heading">Общеиндустриальные продукты</p>
                           <span>
-                            <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                            <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product">
+                              <p className="motor-oil-details-button-text">Подробнее</p>
+                            </Link>
                           </span>
                         </div>
                     </div>
@@ -99,7 +105,9 @@ useEffect(() => {
                         <div className="product_text">
                           <p className="motor-oil-heading">Пластичные смазки</p>
                           <span>
-                            <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                            <Link to="/catalog/transport_vnedorojnaya/auto_plastichnie_smaski">
+                              <p className="motor-oil-details-button-text">Подробнее</p>
+                            </Link>
                           </span>
                         </div>
                     </div>
@@ -110,7 +118,9 @@ useEffect(() => {
                         <div className="product_text">
                           <p className="motor-oil-heading">Трансмиссионные масла</p>
                           <span>
-                            <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                            <Link to="/catalog/transport_vnedorojnaya/transmissionie_masla">
+                              <p className="motor-oil-details-button-text">Подробнее</p>
+                            </Link>
                           </span>
                         </div>
                       </div>
@@ -119,7 +129,9 @@ useEffect(() => {
                           <div className="product_text">
                             <p className="motor-oil-heading">Антифризы</p>
                             <span>
-                              <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                              <Link to="/catalog/transport_vnedorojnaya/antifriz">
+                                <p className="motor-oil-details-button-text">Подробнее</p>
+                              </Link>
                             </span>
                           </div>
                         </div>
@@ -128,7 +140,9 @@ useEffect(() => {
                       <div className="product_text">
                         <p className="motor-oil-heading">Продукты для защиты от коррозии</p>
                         <span>
-                          <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                          <Link to="/catalog/industrial_smasochnie_materials/produkty_dlya_zashiti_ot_korozii">
+                            <p className="motor-oil-details-button-text">Подробнее</p>
+                          </Link>
                         </span>
                       </div>
                     </div>
@@ -137,7 +151,9 @@ useEffect(() => {
                         <div className="product_text">
                           <p className="motor-oil-heading">Продукты для термической обработки</p>
                           <span>
-                            <p className="motor-oil-details-button-text"><a href="">Подробнее</a></p>
+                            <Link to="/catalog/industrial_smasochnie_materials/product_dlya_termicheskoy_obrabotki">
+                              <p className="motor-oil-details-button-text">Подробнее</p>
+                            </Link>
                           </span>
                         </div>
                       </div>
