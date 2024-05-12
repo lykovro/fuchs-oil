@@ -99,7 +99,7 @@ const HeaderIndex = () => {
                     <div className="product-input-container_search">
                       <form className="search" action="#0">
                         <input id="searchInput" className="field" name="search" type="text" placeholder={placeholder} onFocus={handleFocus} onBlur={handleBlur} />
-                        <button type="submit" className="search_button"><img src={search} alt="" /></button>
+                        <button type="submit" className="search_button"></button>
                       </form>
                     </div>
                   </div>
