@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.a92c84d5.css",
-    "main.js": "/fuchs-oil/static/js/main.e2f90e96.js",
+    "main.css": "/fuchs-oil/static/css/main.4fbec93a.css",
+    "main.js": "/fuchs-oil/static/js/main.dc380761.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
     "static/media/img_5_741_5cc53a.png": "/fuchs-oil/static/media/img_5_741_5cc53a.8e8bf5edda754b20f630.png",
     "static/media/моторные_масла.png": "/fuchs-oil/static/media/моторные_масла.8e8bf5edda754b20f630.png",
     "static/media/metalurgiya-glavnaya.jpg": "/fuchs-oil/static/media/metalurgiya-glavnaya.817293f8eeda0d53898e.jpg",
+    "static/media/RoP_Processing_Whistleblower_Reports_Final_ru.docx": "/fuchs-oil/static/media/RoP_Processing_Whistleblower_Reports_Final_ru.e3d8037475a2c389b87a.docx",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/fuchs-oil/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/Rectangle_2.png": "/fuchs-oil/static/media/Rectangle_2.0bcccefc93f44a143d4e.png",
     "static/media/new (1).jpg": "/fuchs-oil/static/media/new (1).e1baa5a5c5ee020a281e.jpg",
     "static/media/about_head.png": "/fuchs-oil/static/media/about_head.a9f1bda36ec1e12e5acd.png",
     "static/media/lubricants.png": "/fuchs-oil/static/media/lubricants.bb6030a2989ddbceca68.png",
+    "static/media/Code_of_Conduct_EN_ru.pdf": "/fuchs-oil/static/media/Code_of_Conduct_EN_ru.0d32012c58cdc06f9882.pdf",
+    "static/media/FPSE_Policy2022_Антимонопольная политика_ru.pdf": "/fuchs-oil/static/media/FPSE_Policy2022_Антимонопольная политика_ru.4447e43e6caa4844612b.pdf",
+    "static/media/FPSE_Policy2022_Anticorruption_EN_ru.pdf": "/fuchs-oil/static/media/FPSE_Policy2022_Anticorruption_EN_ru.f7045a2802787fbeaba0.pdf",
     "static/media/Rectangle.png": "/fuchs-oil/static/media/Rectangle.623dfca9f8face549e21.png",
+    "static/media/Health_and_Safety_Guideline.pdf": "/fuchs-oil/static/media/Health_and_Safety_Guideline.b16ed67b5207021d6ddb.pdf",
     "static/media/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg": "/fuchs-oil/static/media/white_sedan_driving_on_the_highway_accross_the_forest_01.4e4d58c0187848d6db86.jpg",
     "static/media/Bezymyannyy.png": "/fuchs-oil/static/media/Bezymyannyy.3aa35930f5669a5bee67.png",
     "static/media/img_18_2_f4d569.png": "/fuchs-oil/static/media/img_18_2_f4d569.56b5a37fcbd0bdb52a19.png",
@@ -21,7 +26,10 @@
     "static/media/stroitelnaya_p2.jpg": "/fuchs-oil/static/media/stroitelnaya_p2.22e71d5fc9c9b84dce65.jpg",
     "static/media/a_grey_metallic_jeep_with_blue_stripe_on_it.jpg": "/fuchs-oil/static/media/a_grey_metallic_jeep_with_blue_stripe_on_it.5d73c8a057891eded5a0.jpg",
     "static/media/metallurgiya-podrobno.jpg": "/fuchs-oil/static/media/metallurgiya-podrobno.f613a497709bb43d4686.jpg",
+    "static/media/Политика.pdf": "/fuchs-oil/static/media/Политика.9f4f225483fb116e51ef.pdf",
+    "static/media/Global_Diversity_Guideline.pdf": "/fuchs-oil/static/media/Global_Diversity_Guideline.0fcb23922e44f98fa217.pdf",
     "static/media/COMP_MC.png": "/fuchs-oil/static/media/COMP_MC.e965719580601a1a8956.png",
+    "static/media/FUCHS_CSR_E_020713_safe.pdf": "/fuchs-oil/static/media/FUCHS_CSR_E_020713_safe.7dd8239f01d005409382.pdf",
     "static/media/Anons-RENOLIN-UNISYN-OL.jpg": "/fuchs-oil/static/media/Anons-RENOLIN-UNISYN-OL.3c720447d19d3e4f3e1d.jpg",
     "static/media/stroyka-podrobno.jpg": "/fuchs-oil/static/media/stroyka-podrobno.b4c090a1af3a556b97be.jpg",
     "static/media/08.04.png": "/fuchs-oil/static/media/08.04.46133698b0a0a40a9197.png",
@@ -65,12 +73,12 @@
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.a92c84d5.css.map": "/fuchs-oil/static/css/main.a92c84d5.css.map",
-    "main.e2f90e96.js.map": "/fuchs-oil/static/js/main.e2f90e96.js.map",
+    "main.4fbec93a.css.map": "/fuchs-oil/static/css/main.4fbec93a.css.map",
+    "main.dc380761.js.map": "/fuchs-oil/static/js/main.dc380761.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a92c84d5.css",
-    "static/js/main.e2f90e96.js"
+    "static/css/main.4fbec93a.css",
+    "static/js/main.dc380761.js"
   ]
 }
