@@ -714,6 +714,10 @@
     margin: 0;
   }
 
+  .product_text span a {
+    text-decoration: none;
+  }
+
 
   .motor-oil-image {
     box-sizing: border-box;
