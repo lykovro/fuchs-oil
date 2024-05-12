@@ -1,17 +1,16 @@
 import React, {useEffect, useState, useRef } from 'react';
-import '../../../css/motor_masla.css'; // Импорт CSS стилей
-import SvgHome from '../../../assetsImage/assets/house.svg';
-import vk from '../../../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../../../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../../../../css/motor_masla.css'; // Импорт CSS стилей
+import SvgHome from '../../../../assetsImage/assets/house.svg';
+import vk from '../../../../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../../../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import Legkovie from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
-import Gruzovie from '../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
-import Gazoobraznoe from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Legkovie from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Gruzovie from '../../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
 
 
 
 
-const JidkostiGur = () => {
+const TransMasla = () => {
 
 
 
@@ -71,37 +70,37 @@ const JidkostiGur = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem'>Жидкости для ГУР и гидросистем</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya/transmissionie_masla'>Трансмиссионные масла</Link></a></p>
         </div>
         <div className="catalog-container">
-          <h2 className="catalog-title">Жидкости для ГУР и гидросистем</h2>
+          <h2 className="catalog-title">Трансмиссионные масла</h2>
           <div className="product-card-list-motor-masla">
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для редукторов горных самосвалов</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="dlya_gruzovykh_avtomobiley">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Трансмиссионные масла для грузовых автомобилей</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для редукторов нефтесервисного оборудования (СВП, приводы)</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="dlya_legkovykh_avtomobiley">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Трансмиссионные масла для легковых автомобилей</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
           </div>
@@ -124,4 +123,4 @@ const JidkostiGur = () => {
     )
 }
 
-export default JidkostiGur;
+export default TransMasla;

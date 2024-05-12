@@ -1,18 +1,18 @@
 import React, {useEffect, useState, useRef } from 'react';
-import '../../../css/motor_masla.css'; // Импорт CSS стилей
-import SvgHome from '../../../assetsImage/assets/house.svg';
-import vk from '../../../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../../../assetsImage/assets/icons8-телеграмма-app.svg';
+import '../../../../css/motor_masla.css'; // Импорт CSS стилей
+import SvgHome from '../../../../assetsImage/assets/house.svg';
+import vk from '../../../../assetsImage/assets/icons8-вконтакте.svg';
+import tg from '../../../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import Legkovie from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
-import Gruzovie from '../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
-import Gazoobraznoe from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
-import Photo from '../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Legkovie from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Gruzovie from '../../../../assetsImage/assets_catalog/img_41_461_3eb88c.jpeg'
+import Gazoobraznoe from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
+import Photo from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
 
 
 
 
-const AvtoPlastichnieSmazki = () => {
+const StekolProm = () => {
 
 
 
@@ -55,7 +55,7 @@ const AvtoPlastichnieSmazki = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya'>Транспорт и внедорожная техника</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/industrial_smasochnie_materials'>Индустриальные смазочные материалы</Link></a></p>
           <div className="svg-container1">
               <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -72,10 +72,10 @@ const AvtoPlastichnieSmazki = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/auto_plastichnie_smaski">Автомобильные пластичные смазки и пасты</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to="/catalog/industrial_smasochnie_materials/produkty_dlya_stekolnoy_promyshlennosti">Продукты для стекольной промышленности</Link></a></p>
         </div>
         <div className="catalog-container">
-          <h2 className="catalog-title">Автомобильные пластичные смазки и пасты</h2>
+          <h2 className="catalog-title">Продукты для стекольной промышленности</h2>
           <div className="product-card-list">
             <div className="fullwidth-container-upp">
                 <div className="fullwidth-container-legkovie">
@@ -216,4 +216,4 @@ const AvtoPlastichnieSmazki = () => {
     )
 }
 
-export default AvtoPlastichnieSmazki;
+export default StekolProm;
