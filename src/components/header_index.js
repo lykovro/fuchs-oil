@@ -83,7 +83,7 @@ const HeaderIndex = () => {
                   </div>
                   <div className="logo_button_input">
                     <div className="logo_button">
-                      <a href=""><Link to="/index"><img src={banner} className="banner-image" /></Link></a>
+                      <a href=""><Link to="/fuchs-oil"><img src={banner} className="banner-image" /></Link></a>
                       <div className="button_product">
                         <form action="">
                           <Link to="/catalog">
