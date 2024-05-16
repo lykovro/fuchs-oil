@@ -67,10 +67,10 @@ const About = () => {
     ];
 
     useEffect(() => {
-        // Получаем все элементы с классом product-card-list-line-entity-card
+        
         const cards = document.querySelectorAll(".about_chronical_block_pic");
 
-        // Проходим по каждому элементу и устанавливаем задний фон
+        
         cards.forEach((card, index) => {
             card.style.backgroundImage = backgroundImages[index];
         });
@@ -104,7 +104,7 @@ const About = () => {
         <main>
             <div className="product-section-with-images">
                 <div className="svg-container">
-                <a href=""><Link to="/index"><img src={SvgHome} alt=""/></Link></a>
+                <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
                 </div>
                 <div className="svg-container1">
                     <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
