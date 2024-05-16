@@ -2,11 +2,8 @@ import React, { useState, useEffect   } from 'react';
 import { useSpring, animated } from 'react-spring';
 import Footer from './components/footer'
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate   } from 'react-router-dom';
-
+import ScrollToTopButton from './components/ScrollToTopButton'; 
 import routesData from './routesData'
-
-
-
 
 
 const ScrollToTop = () => {
@@ -44,6 +41,7 @@ const App = () => {
           />
         ))}
       </Routes>
+      <ScrollToTopButton />
       <Footer />
     </Router>
   );

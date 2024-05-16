@@ -11,6 +11,7 @@ import Forum from '../assetsImage/assets_news/img_333_74_ff025f.jpeg'
 
 
 
+
 const Index = () => {
 
   const backgroundImages = [
@@ -240,6 +241,7 @@ useEffect(() => {
               </div>
             </div>
             <div id="map-container" className="vertical-spacer" />
+            
       </main>
     );
 }
