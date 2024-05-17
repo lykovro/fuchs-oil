@@ -12,7 +12,7 @@ import Photo from '../../../../assetsImage/assets_catalog/img_41_23_4d9954.jpeg'
 
 
 
-const JidkostiGurGornihSamosvalov = () => {
+const GidraMasla = () => {
 
 
 
@@ -55,7 +55,7 @@ const JidkostiGurGornihSamosvalov = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya'>Транспорт и внедорожная техника</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/industrial_smasochnie_materials'>Индустриальные смазочные материалы</Link></a></p>
           <div className="svg-container1">
               <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -72,7 +72,7 @@ const JidkostiGurGornihSamosvalov = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem'>Жидкости для ГУР и гидросистем</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/industrial_smasochnie_materials/obsheindustrial_product'>Общеиндустриальные продукты</Link></a></p>
           <div className="svg-container1">
               <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
@@ -89,10 +89,10 @@ const JidkostiGurGornihSamosvalov = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to="/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem/masla_dlya_reduktorov_gornykh_samosvalov">Масла для редукторов горных самосвалов</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/gidravlicheskie_zhidkosti">Гидравлические масла</Link></a></p>
         </div>
         <div className="catalog-container">
-          <h2 className="catalog-title">Масла для редукторов горных самосвалов</h2>
+          <h2 className="catalog-title">Гидравлические масла</h2>
           <div className="product-card-list">
             <div className="fullwidth-container-upp">
                 <div className="fullwidth-container-legkovie">
@@ -233,4 +233,4 @@ const JidkostiGurGornihSamosvalov = () => {
     )
 }
 
-export default JidkostiGurGornihSamosvalov;
+export default GidraMasla;
