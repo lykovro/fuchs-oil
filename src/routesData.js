@@ -85,7 +85,7 @@ const routesData = [
     
     { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
     { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
-    { path: '/catalog/:category/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
+    { path: '/catalog/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
 
 
     { path: '/catalog/transport_vnedorojnaya', component: TransportVnedorojnaya, header: Header },
@@ -119,11 +119,7 @@ const routesData = [
     { path: '/catalog/industrial_smasochnie_materials/obsheindustrial_product', component: ObsheIndustrial, header: Header  },
 
 
-    { path: '/catalog/industrial_smasochnie_materials/produkty_dlya_obrabotki_metallov_davleniem', component: ObrabotkaMetallov, header: Header  },
-    { path: '/catalog/industrial_smasochnie_materials/produkty_dlya_zashiti_ot_korozii', component: ZashitaKorozii, header: Header  },
-    { path: '/catalog/industrial_smasochnie_materials/ochistiteli_i_antikorrozionnye_sostavy_ochistiteli_vodosmeshivaemye', component: OchistkaPoverh, header: Header  },
-    { path: '/catalog/industrial_smasochnie_materials/product_dlya_termicheskoy_obrabotki', component: TermaObrabotka, header: Header  },
-    { path: '/catalog/industrial_smasochnie_materials/razdelitelnye_sostavy_dlya_betona_i_gazobetona', component: BetonGazobeton, header: Header  },
+
 
 
 

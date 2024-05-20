@@ -1,8 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import '../../css/motor_masla.css'; // Импорт CSS стилей
 import SvgHome from '../../assetsImage/assets/house.svg';
-import { Link } from 'react-router-dom';
 
 // Утилитная функция для разбивки массива на подмассивы по 4 элемента
 const chunkArray = (array, chunkSize) => {
@@ -15,6 +14,7 @@ const chunkArray = (array, chunkSize) => {
 
 const ProductPage = ({ products }) => {
   const { productId } = useParams();
+  const navigate = useNavigate();
   const product = products.find(p => p.id === productId);
 
   if (!product) {
@@ -23,6 +23,11 @@ const ProductPage = ({ products }) => {
 
   // Разбиваем массив продуктов на подмассивы по 4 элемента
   const productChunks = chunkArray(product.items, 4);
+
+  const handleClick = () => {
+    // Используем navigate с текущим путем для перезагрузки страницы
+    navigate(0);
+  };
 
   return (
     <main>
@@ -61,8 +66,7 @@ const ProductPage = ({ products }) => {
             </g>
           </svg>
         </div>
-        <p className="product-title-text-style"><Link to={`/catalog/${product.category}/${product.CategoryCatalogNameUrl}/${product.id}`}>{product.idName}</Link></p>
-
+        <p className="product-title-text-style"><Link onClick={handleClick}>{product.idName}</Link></p>
       </div>
       <div className="catalog-container">
         <h2 className="catalog-title">{product.title}</h2>
@@ -91,6 +95,6 @@ const ProductPage = ({ products }) => {
       </div>
     </main>
   );
-};
+}
 
 export default ProductPage;

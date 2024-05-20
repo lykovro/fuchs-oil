@@ -1,4 +1,4 @@
-import Photo from '../../assetsImage/assets/162264253_1-_2_.jpg'
+import Photo from '../../assetsImage/assets/lubricants.png'
 
 
 const productsData = [
@@ -274,6 +274,190 @@ const productsData = [
         CategoryCatalogName: 'Общеиндустриальные продукты',
         categoryName: 'Индустриальные смазочные материалы',
         title: 'Циркуляционные масла',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      {
+        id: 'vodosmeshivaemye',
+        idName: 'Водосмешиваемые СОТС ECOCOOL',
+        category: './',
+        CategoryCatalogNameUrl: '../smazochno_ohlajdaushie',
+        CategoryCatalogName: 'Смазочно-охлаждающие технологические составы',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Водосмешиваемые СОТС ECOCOOL',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      {
+        id: 'nevodosmeshivaemye',
+        idName: 'Неводосмешиваемые СОТС ECOCUT',
+        category: './',
+        CategoryCatalogNameUrl: '../smazochno_ohlajdaushie',
+        CategoryCatalogName: 'Смазочно-охлаждающие технологические составы',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Неводосмешиваемые СОТС ECOCUT',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      {
+        id: 'zhidkosti_dlya_elektroerozionnoy_obrabotki',
+        idName: 'Жидкости для электроэрозионной обработки',
+        category: './',
+        CategoryCatalogNameUrl: '../smazochno_ohlajdaushie',
+        CategoryCatalogName: 'Смазочно-охлаждающие технологические составы',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Жидкости для электроэрозионной обработки',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+
+      {
+        id: 'smazochnye_materialy_dlya_goryachey_i_teploy_obrabotki_davleniem_lubrodal',
+        idName: 'Смазочные материалы для горячей и теплой обработки давлением LUBRODAL',
+        category: './',
+        CategoryCatalogNameUrl: '../dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye',
+        CategoryCatalogName: 'Продукты для обработки металлов давлением',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Смазочные материалы для горячей и теплой обработки давлением LUBRODAL',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      
+      {
+        id: 'smazochnye_materialy_dlya_kholodnoy_obrabotki_davleniem_renoform',
+        idName: 'Смазочные материалы для холодной обработки давлением RENOFORM',
+        category: './',
+        CategoryCatalogNameUrl: '../dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye',
+        CategoryCatalogName: 'Продукты для обработки металлов давлением',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Смазочные материалы для холодной обработки давлением RENOFORM',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      
+      {
+        id: 'bystroisparyaemye_sostavy_dlya_shtampovki',
+        idName: 'Быстроиспаряемые составы для штамповки',
+        category: './',
+        CategoryCatalogNameUrl: '../dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye',
+        CategoryCatalogName: 'Продукты для обработки металлов давлением',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Быстроиспаряемые составы для штамповки',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      
+      {
+        id: 'razdelitelnye_sostavy_dlya_nepreryvnogo_litya',
+        idName: 'Разделительные составы для непрерывного литья',
+        category: './',
+        CategoryCatalogNameUrl: '../dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye',
+        CategoryCatalogName: 'Продукты для обработки металлов давлением',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Разделительные составы для непрерывного литья',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      {
+        id: 'zakalochnye_masla_thermisol',
+        idName: 'Закалочные масла THERMISOL',
+        category: './',
+        CategoryCatalogNameUrl: '../product_dlya_termicheskoy_obrabotki',
+        CategoryCatalogName: 'Продукты для термической обработки',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Закалочные масла THERMISOL',
+        items: [
+          { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '3', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '4', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '5', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '6', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '7', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          { id: '8', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
+          // Добавьте больше продуктов по необходимости
+        ]
+      },
+      {
+        id: 'vodosmeshivaemye_polimernye_zakalochnye_zhidkosti_thermisol',
+        idName: 'Водосмешиваемые полимерные закалочные жидкости THERMISOL',
+        category: './',
+        CategoryCatalogNameUrl: '../product_dlya_termicheskoy_obrabotki',
+        CategoryCatalogName: 'Продукты для обработки металлов давлением',
+        categoryName: 'Индустриальные смазочные материалы',
+        title: 'Водосмешиваемые полимерные закалочные жидкости THERMISOL',
         items: [
           { id: '1', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },
           { id: '2', name: 'TITAN FORMULA 10W-40', price: '0 000Р', image: Photo },

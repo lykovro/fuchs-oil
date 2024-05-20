@@ -91,7 +91,7 @@ const IndustrialMaterial = () => {
               </div>
               <div className="product-card-list-industrial">
                   <div className="fullwidth-container-industrial">
-                     <Link to="/catalog/industrial_smasochnie_materials/smazochno_ohlajdaushie"> 
+                     <Link to="/catalog/smazochno_ohlajdaushie"> 
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
@@ -106,7 +106,7 @@ const IndustrialMaterial = () => {
                   </div>
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <Link to="produkty_dlya_obrabotki_metallov_davleniem">
+                      <Link to="/catalog/dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye">
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={Jidkosti} className="" /></div>
@@ -124,7 +124,7 @@ const IndustrialMaterial = () => {
                 <div className="product-card-list-industrial">
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <Link to="produkty_dlya_zashiti_ot_korozii">
+                      <Link to="/catalog/industrial_smasochnie_materials/produkty_dlya_zashiti_ot_korozii">
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
@@ -140,7 +140,7 @@ const IndustrialMaterial = () => {
                   </div>
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <Link to="ochistiteli_i_antikorrozionnye_sostavy_ochistiteli_vodosmeshivaemye">
+                      <Link to="/catalog/industrial_smasochnie_materials/ochistiteli_i_antikorrozionnye_sostavy_ochistiteli_vodosmeshivaemye">
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={Jidkosti} className="" /></div>
@@ -158,7 +158,7 @@ const IndustrialMaterial = () => {
                 <div className="product-card-list-industrial">
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <Link to="product_dlya_termicheskoy_obrabotki">
+                      <Link to="/catalog/product_dlya_termicheskoy_obrabotki">
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
@@ -174,7 +174,7 @@ const IndustrialMaterial = () => {
                   </div>
                   <div className="fullwidth-container-industrial">
                     <a href="">
-                      <Link to="razdelitelnye_sostavy_dlya_betona_i_gazobetona">
+                      <Link to="/catalog/industrial_smasochnie_materials/razdelitelnye_sostavy_dlya_betona_i_gazobetona">
                         <div className="vehicle-info-card-industrial">
                           <div className="transport-card-industrial">
                             <div className="vehicle-image-container-industrial"><img src={MotorMasla} className="" /></div>
