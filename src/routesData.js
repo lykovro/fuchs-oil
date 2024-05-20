@@ -69,11 +69,13 @@ import Energetik from './components/solutions/energetika'
 import productsData from './components/catalog/productData_industrial';
 import productsDataNotGroup from './components/catalog/productData_industrial_notInGroup'
 import productsDataGroup from './components/catalog/productData_group'
+import KartochkaTovaraData from './components/catalog/kartochkaTovara_Data'
+
 
 import ProductPage from './components/catalog/ProductPage';
 import ProductPageNotGroup from './components/catalog/ProductPage_notInGroup'
 import ProductsPage from './components/catalog/ProductsPage'
-
+import KartochkaTovara from './components/catalog/kartochaktovara'
 
 const routesData = [
    
@@ -86,6 +88,8 @@ const routesData = [
     { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
     { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
     { path: '/catalog/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
+    { path: '/:tovarId', component: () => <KartochkaTovara tovarData={KartochkaTovaraData} />, header: Header },
+
 
 
     { path: '/catalog/transport_vnedorojnaya', component: TransportVnedorojnaya, header: Header },

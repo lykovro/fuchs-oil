@@ -75,7 +75,7 @@ const ProductPage = ({ products }) => {
             <div className="product-row" key={chunkIndex}>
               {chunk.map(item => (
                 <div className="fullwidth-container-legkovie" key={item.id}>
-                  <Link to={`/catalog/${product.category}/${item.id}`}>
+                  <Link to={`/${item.idName}`}>
                     <div className="vehicle-info-card-legkovie">
                       <div className="vehicle-image-container-legkovie"><img src={item.image} alt="" /></div>
                     </div>
