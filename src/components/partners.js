@@ -38,6 +38,10 @@ const News = () => {
         });
     }, []);
 
+    const [fio, setFio] = useState('');
+    const [email, setEmail] = useState('');
+    const [text, setText] = useState('');
+
 
     return (
         <main>
@@ -87,21 +91,38 @@ const News = () => {
             <h3>Свяжитесь с нами и обсудим - как мы можем быть полезными друг другу!</h3>
             <form action="#">
               <div className="form-group">
-                <input type="text" id="fio" name="fio" className="form-control" placeholder="ФИО*" required/>
+                <input className="form-control" 
+                                id="fio"
+                                type="text"
+                                value={fio}
+                                placeholder="ФИО*"
+                                onChange={(e) => setFio(e.target.value)}
+                                />
               </div>
               <div className="form-group">
-                <input type="email" id="email" name="email" className="form-control" placeholder="E-mail*" required/>
+                <input className="form-control"
+                                id="email"
+                                type="email"
+                                value={email}
+                                placeholder="E-mail*"
+                                onChange={(e) => setEmail(e.target.value)}
+                                />
               </div>
               <div className="form-group">
-                <textarea id="text" name="text" className="form-control" placeholder="Текст"></textarea>
+                <textarea className="form-control"  
+                id="text"
+                type="text"
+                value={text}
+                placeholder="Текст"
+                onChange={(e) => setText(e.target.value)}
+                ></textarea>
               </div>
               <div className="button_text_submit">
                 <div className="form-confirmation-section">
-                <p className="user-consent-message-container">Нажимая на кнопку «Отправить», я подтверждаю ознакомление с <a href={Document1} download className="user-consent-text-markup">Пользовательским соглашением</a>и даю согласие на обработку <a href={Document2} className="user-consent-text-markup">Персональных данных</a>.</p>
+                  <p className="user-consent-message-container">Нажимая на кнопку «Отправить», я подтверждаю ознакомление с <a href={Document1} download className="user-consent-text-markup">Пользовательским соглашением</a>и даю согласие на обработку <a href={Document2} className="user-consent-text-markup">Персональных данных</a>.</p>
                 </div>
                 <button type="submit" className="btn btn-primary">Отправить</button>
               </div>
-              <script src="js/contacts.js" defer></script>
             </form>
           </div> 
           <div className="address-info-section-adress">

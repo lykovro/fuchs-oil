@@ -36,17 +36,15 @@ const Contacts = () => {
   const [text, setText] = useState('');
   const [searchInput, setSearchInput] = useState('');
 
-  const handleFocus = (setState, placeholder) => () => {
-      setState('');
-      setSearchInput(placeholder);
-  };
+  const handleFocus = (setter) => (e) => {
+    setter('');
+};
 
-  const handleBlur = (setState, placeholder) => (e) => {
-      if (!e.target.value) {
-          setState(placeholder);
-          setSearchInput('Введите название продукта');
-      }
-  }; 
+const handleBlur = (setter, placeholder) => (e) => {
+    if (e.target.value === '') {
+        setter(placeholder);
+    }
+};
 
   const handleDownload = () => {
     // Данные для файлов
@@ -135,8 +133,6 @@ const Contacts = () => {
                                 type="text"
                                 value={fio}
                                 placeholder="ФИО*"
-                                onFocus={handleFocus(setFio, 'ФИО*')}
-                                onBlur={handleBlur(setFio, 'ФИО*')}
                                 onChange={(e) => setFio(e.target.value)}
                                 />
               </div>
@@ -146,8 +142,6 @@ const Contacts = () => {
                                 type="email"
                                 value={email}
                                 placeholder="E-mail*"
-                                onFocus={handleFocus(setEmail, 'E-mail*')}
-                                onBlur={handleBlur(setEmail, 'E-mail*')}
                                 onChange={(e) => setEmail(e.target.value)}
                                 />
               </div>
@@ -157,8 +151,6 @@ const Contacts = () => {
                 type="text"
                 value={text}
                 placeholder="Текст"
-                onFocus={handleFocus(setText, 'Текст')}
-                onBlur={handleBlur(setText, 'Текст')}
                 onChange={(e) => setText(e.target.value)}
                 ></textarea>
               </div>

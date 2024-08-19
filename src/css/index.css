@@ -358,7 +358,50 @@
     color: rgba(1, 80, 158, 1);
     white-space: pre-wrap;
   }
+
   .blue-gradient-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 76, 148, 1);
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* Добавлено для предотвращения выхода текста за границы */
+}
+
+.blue-gradient-box-text {
+    width: 100%;
+    padding: 10% 0; /* Изначально текст сжимаем по высоте */
+    height: 100%; /* Задаем высоту */
+    transition: padding 0.3s ease, opacity 0.3s ease; /* Плавный переход */
+}
+
+.blue-gradient-box:hover .blue-gradient-box-text {
+    padding: 15% 0; /* При наведении текст раздвигается */
+}
+
+.announcement-text-css,
+.announcement-text {
+    margin: 0;
+    color: white;
+    
+}
+
+.blue-gradient-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 76, 148, 1); 
+  border-radius: 12px;
+  
+  transition: opacity 0.3s ease;
+}
+
+ /* .blue-gradient-box {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -414,7 +457,7 @@
     width: 100%;
     padding-top: 10%;
 
-  }
+  }*/
   .announcement-text-css {
     font: 600 22px/28px Inter, sans-serif;
     color: rgba(255, 255, 255, 1);
@@ -467,22 +510,19 @@
     width: 100%;
     height: 100%;
     background-color: rgba(4, 76, 148, 1);
-    background-image: url(../assetsImage/assets_news/08.04.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
     margin-left: 2%;
     margin-right: 2%;
+   
   }
 
   .news-section-container2 a {
     width: 100%;
     height: 100%;
+    text-decoration: none;
   }
 
   .news-section-container2::after {
@@ -495,11 +535,7 @@
     background-color: rgba(4, 76, 148, 1); 
     border-radius: 12px;
     
-    transition: opacity 0.3s ease;
-}
-
-.news-section-container2:hover::after {
-  opacity: 0; 
+   
 }
 
 .announcement-text-css,
@@ -507,12 +543,13 @@
     position: relative;
     z-index: 1;
     color: white; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .news-section-container2:hover .announcement-text,
 .news-section-container2:hover .announcement-text-css {
-    opacity: 0; 
-    transition: opacity 0.3s ease;
+  padding: 5% 0; /* При наведении текст раздвигается */
+  transition: padding 0.3s ease, opacity 0.3s ease; /* Плавный переход */
 }
 
 
@@ -523,8 +560,8 @@
 }
 
 .news-section-container2:hover .news-article-card {
-    opacity: 0; 
-    transition: opacity 0.3s ease;
+    
+    transition: opacity 0.3s ease; /* Плавное исчезновение при наведении */
 }
 
   .circular-button-style {
