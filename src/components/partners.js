@@ -16,7 +16,7 @@ import Document2 from '../documents/Политика_конфиденциаль�
 
 
 
-const News = () => {
+const Partners = () => {
 
     const backgroundImages = [
         `url(${Simposium})`,
@@ -79,7 +79,7 @@ const News = () => {
               <div className="info-box">
                 <p className="title-heading">Компания ООО "FUCHS-OIL" рада приветствовать своих партнеров и приглашает к сотрудничеству новых, расширяя свой бизнес в России, тем самым предлагая взаимовыгодное партнерство всем заинтересованным компаниям, занятых в сфере сбыта смазочных и сопутствующих материалов и/или смежных сегментах рынка.</p>
                 <div className="info-box-blocks">
-                    <div className="info-box-block"><button>Статус партнера</button></div>
+                    <div className="info-box-block"><Link to="/partners/status_partner"><button>Статус партнера</button></Link></div>
                     <div className="info-box-block"><button>Политика сотрудничества</button></div>
                     <div className="info-box-block"><button>Сертификаты</button></div>
                 </div>
@@ -138,4 +138,4 @@ const News = () => {
     )
 }
 
-export default News;
+export default Partners;

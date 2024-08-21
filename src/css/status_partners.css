@@ -1,0 +1,44 @@
+.content-status-section h3 {
+    width: 100%;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 2%;
+    text-align:justify;
+}
+
+.requirements-status-list {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+.requirements-status-list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1.5%;
+    background-color: rgba(242, 246, 247, 1);
+    border-radius: 12px;
+    border: solid 0px #025BAC;
+    transition: border-width 0.05s linear, 
+    text-align 0.05s ease-in-out,
+    font-weight 0.05s ease-in-out,
+    transform 0.3s ease-in-out;
+    
+}
+
+.requirements-status-list li:hover {
+    border-width: 2px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    transform: translatey(10%);
+}
+
+.requirements-status-list li:nth-child(n+2) {
+    margin-top: 10px;
+}
+
+.content-status:nth-child(n+2) {
+    margin-top: 3%;
+}

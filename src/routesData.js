@@ -10,6 +10,7 @@ import Catalog from './components/catalog'
 import News from './components/news/news'
 import News1 from './components/news/news_1'
 import Partners from './components/partners'
+import StatusPartners from './components/status_partners'
 import KorpPolitic from './components/politik_confidens'
 import TransportVnedorojnaya from './components/catalog/transport_vnedorojnaya'
 import About from './components/about'
@@ -137,6 +138,7 @@ const routesData = [
     { path: '/news/news_5', component: News5, header: Header  },
     { path: '/news/news_6', component: News6, header: Header  },
     { path: '/partners', component: Partners, header: Header  },
+    { path: '/partners/status_partner', component: StatusPartners, header: Header  },
     { path: '/corpolitic', component: KorpPolitic, header: Header  },
     { path: '/about', component: About, header: Header  },
     { path: '/solution', component: Solution, header: Header  },
