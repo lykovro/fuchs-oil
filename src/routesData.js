@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate  } from 'react-router-
 import Photo from './assetsImage/assets/Rectangle.png'
 
 import Contacts from './components/contacts'
-import Catalog from './components/catalog'
+import Catalog from './components/pages/ProductsPage'
 import News from './components/news/news'
 import News1 from './components/news/news_1'
 import Partners from './components/partners'
@@ -84,12 +84,17 @@ const routesData = [
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
     { path: '/catalog', component: Catalog, header: Header },
+    { path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header },
 
     
-    { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
+   /* { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
     { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
     { path: '/catalog/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
-    { path: '/:tovarId', component: () => <KartochkaTovara tovarData={KartochkaTovaraData} />, header: Header },
+    { path: '/:tovarId', component: () => <KartochkaTovara tovarData={KartochkaTovaraData} />, header: Header },*/
+
+    { path: '/catalog/:categoryId', component: () => <ProductPage products={productsData} />, header: Header },
+    { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
+    { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
 
 
 
