@@ -78,13 +78,16 @@ import ProductPageNotGroup from './components/catalog/ProductPage_notInGroup'
 import ProductsPage from './components/catalog/ProductsPage'
 import KartochkaTovara from './components/catalog/kartochaktovara'
 
+import CategoryDetailPage from './components/products/ProductList'
+import ProductDetailPage from './components/products/ProductDetail'
+
 const routesData = [
    
     { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
     { path: '/catalog', component: Catalog, header: Header },
-    { path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header },
+    /*{ path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header },*/
 
     
    /* { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
@@ -92,9 +95,12 @@ const routesData = [
     { path: '/catalog/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
     { path: '/:tovarId', component: () => <KartochkaTovara tovarData={KartochkaTovaraData} />, header: Header },*/
 
-    { path: '/catalog/:categoryId', component: () => <ProductPage products={productsData} />, header: Header },
-    { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
-    { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
+    { path: '/catalog/:productsId', component: () => <CategoryDetailPage products={CategoryDetailPage} />, header: Header },
+    { path: '/catalog/:productsId/:productId', component: () => <ProductDetailPage productDetails={ProductDetailPage} />, header: Header },
+
+
+/*{ path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
+    { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },*/
 
 
 

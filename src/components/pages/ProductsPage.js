@@ -35,19 +35,22 @@ function CategoryPage() {
                   {pair.map(category => (
                     <div key={category.id} className="fullwidth-container-industrial">
                       <div className="product-card-list-industrial">
-                        <Link to={`/catalog/${category.id}`}>
-                          <div className="vehicle-info-card-industrial">
-                            <div className="transport-card-industrial">
-                              <div className="vehicle-image-container-industrial">
-                                <img src={category.image} alt={category.name} />
-                              </div>
-                              <div className="transport-info-card-industrial">
-                                <p className="transport-heading-style-industrial">{category.name}</p>
-                                <p className="transport-details-button-text-industrial">Подробнее</p>
-                              </div>
-                            </div>
+                        <div className="vehicle-info-card-industrial">
+                          <div className="fullwidth-container-transport_vnedorojnaya">
+                              <Link to={`/catalog/${category.id}`}>
+                                <div className="transport-card-industrial">
+                                  <div className="vehicle-image-container-industrial">
+                                    <img src={category.image} alt={category.name} />
+                                  </div>
+                                  <div className="transport-info-card-industrial">
+                                    <p className="transport-heading-style-industrial">{category.name}</p>
+                                    <p className="transport-details-button-text-industrial">Подробнее</p>
+                                  </div>
+                                </div>
+                                </Link>
+                            <div className="transport-section"></div>
                           </div>
-                        </Link>
+                          </div>
                       </div>
                     </div>
                   ))}

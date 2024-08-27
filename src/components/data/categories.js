@@ -5,7 +5,7 @@ import Kaluga from '../../assetsImage/assets_news/Конференция_в_Ка
 
 const categories = [
     { id: 'motor_masla', name: 'Моторные масла', image: MotorMasla },
-    { id: 'produkty_dlya_stekolnoy_promyshlennosti', name: 'Категория', image: Jidkosti },
+    { id: 'transmission_oils', name: 'Трансмиссионные масла', image: Jidkosti },
     { id: 'smazochno_ohlajdaushie', name: 'Категория', image: MotorMasla },
     { id: 'dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye', name: 'Категория', image: Jidkosti },
     { id: 'produkty_dlya_zashiti_ot_korozii', name: 'Категория', image: MotorMasla },
