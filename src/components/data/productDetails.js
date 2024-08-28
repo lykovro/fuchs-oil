@@ -15,6 +15,13 @@ const productDetails =
           price: '1200 Р',
           specs: 'Спецификации масла X2...',
         },
+        '123': {
+          name: 'Моторное масло X3',
+          description: 'Улучшенное моторное масло X2.',
+          image: 'path/to/detailed/image2.png',
+          price: '1200 Р',
+          specs: 'Спецификации масла X2...',
+        },
       },
       transmission_oils: {
         'tshirt': {

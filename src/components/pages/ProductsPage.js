@@ -7,14 +7,13 @@ import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 
 function CategoryPage() {
-    // Разбиваем категории по парам
     const categoryPairs = [];
     for (let i = 0; i < categories.length; i += 2) {
       categoryPairs.push(categories.slice(i, i + 2));
     }
     return (
         <main>
-          <div className="product-section-with-images">
+          <div className="product-section-with-images-navigation">
             <div className="svg-container">
               <Link to="/"><img src={SvgHome} alt="Home" /></Link>
             </div>
@@ -23,7 +22,7 @@ function CategoryPage() {
                 <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round" />
               </svg>
             </div>
-            <p className="product-title-text-style">
+            <p className="product-title-text-style-navigation">
               <Link to="/catalog">Продукты</Link>
             </p>
           </div>

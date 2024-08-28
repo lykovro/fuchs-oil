@@ -20,7 +20,7 @@ function CategoryDetailPage() {
 
   return (
     <main>
-      <div className="product-section-with-images">
+      <div className="product-section-with-images-navigation">
         <div className="svg-container">
           <Link to="/fuchs-oil"><img src={SvgHome} alt="Home"/></Link>
         </div>
@@ -29,13 +29,13 @@ function CategoryDetailPage() {
             <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
           </svg>            
         </div>
-        <p className="product-title-text-style"><Link to="/catalog">Продукты</Link></p>
+        <p className="product-title-text-style-navigation"><Link to="/catalog">Продукты</Link></p>
         <div className="svg-container1">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
           </svg>            
         </div>
-        <p className="product-title-text-style"><Link to={`/catalog/transport_vnedorojnaya/motor_masla/${productsId}`}>{categoryName}</Link></p>
+        <p className="product-title-text-style-navigation"><Link to={`/catalog/${productsId}`}>{categoryName}</Link></p>
       </div>
 
       <div className="catalog-container">

@@ -24,28 +24,17 @@ import News6 from './components/news/news_6'
 import TransMasla from './components/catalog/transport_vnedorojnaya/trans_masla/transmissionnie_masla'
 import TransMaslaGruzovie from './components/catalog/transport_vnedorojnaya/trans_masla/transmissionnie_masla_gruzovie'
 import TransMaslaLegkovie from './components/catalog/transport_vnedorojnaya/trans_masla/transmissionnie_masla_legkovie'
-
-
-
 import JidkostiGur from './components/catalog/transport_vnedorojnaya/jidkosti_gur/jidkosti_gur'
 import JidkostiGurGornihSamosvalov from './components/catalog/transport_vnedorojnaya/jidkosti_gur/masla_dlya_reduktorov_gornih_samosvalov'
 import JidkostiGurNefteservisnogo from './components/catalog/transport_vnedorojnaya/jidkosti_gur/masla_dlya_reduktorov_nefteservicnogo_obor'
-
-
-
 import TraktMasla from './components/catalog/transport_vnedorojnaya/universal_traktor/universal_traktor_masla'
 import MotorMaslaLegkovie from './components/catalog/transport_vnedorojnaya/motor_masla/motor_masla_legkovie'
 import MotorMaslaGruzovie from './components/catalog/transport_vnedorojnaya/motor_masla/motor_masla_gruzovie'
 import MotorMaslaGazoobraznoe from './components/catalog/transport_vnedorojnaya/motor_masla/motor_masla_gazoobraznoe'
-
-
 import JidkostiAkpp from './components/catalog/transport_vnedorojnaya/jidkosti_akpp/jidkosti_akpp'
 import AvtoPlastichnieSmazki from './components/catalog/transport_vnedorojnaya/auto_plastichnie_smazki/avto_plastichnie_smazki'
 import Antifriz from './components/catalog/transport_vnedorojnaya/antifriz/antifriz'
-
 import ObsheIndustrial from './components/catalog/industrialnie_smazochnie/obsheindustrialnie_product/obsheindustrialnie_product'
-
-
 import ObrabotkaMetallov from './components/catalog/industrialnie_smazochnie/dlya_obrabotki_metallov/dlya_obrabotki_metallov'
 import ZashitaKorozii from './components/catalog/industrialnie_smazochnie/product_zachita_koroziya/product_zachita_koroziya'
 import OchistkaPoverh from './components/catalog/industrialnie_smazochnie/dlya_ochistki_poverhnosti/dlya_ochistki_poverhnosti'
@@ -86,60 +75,10 @@ const routesData = [
     { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
+
     { path: '/catalog', component: Catalog, header: Header },
-    /*{ path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header },*/
-
-    
-   /* { path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
-    { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },
-    { path: '/catalog/:CategoryId', component: () => <ProductsPage productsGroup={productsDataGroup} />, header: Header },
-    { path: '/:tovarId', component: () => <KartochkaTovara tovarData={KartochkaTovaraData} />, header: Header },*/
-
     { path: '/catalog/:productsId', component: () => <CategoryDetailPage products={CategoryDetailPage} />, header: Header },
-    { path: '/catalog/:productsId/:productId', component: () => <ProductDetailPage productDetails={ProductDetailPage} />, header: Header },
-
-
-/*{ path: '/catalog/:category/:CategoryCatalogNameUrl/:productId', component: () => <ProductPage products={productsData} />, header: Header },
-    { path: '/catalog/:category/:productId', component: () => <ProductPageNotGroup productsNoGroup={productsDataNotGroup} />, header: Header },*/
-
-
-
-    { path: '/catalog/transport_vnedorojnaya', component: TransportVnedorojnaya, header: Header },
-    { path: '/catalog/transport_vnedorojnaya/motor_masla', component: MotorMasla, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto', component: MotorMaslaLegkovie, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/motor_masla/gruzovie_avto', component: MotorMaslaGruzovie, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/motor_masla/dlya_dvigateley_rabotayushchikh_na_gazoobraznom_toplive', component: MotorMaslaGazoobraznoe, header: Header  },
-
-
-    { path: '/catalog/transport_vnedorojnaya/transmissionie_masla', component: TransMasla, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/transmissionie_masla/dlya_gruzovykh_avtomobiley', component: TransMaslaGruzovie, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/transmissionie_masla/dlya_legkovykh_avtomobiley', component: TransMaslaLegkovie, header: Header  },
-
-
-    { path: '/catalog/transport_vnedorojnaya/universal_traktor_masla', component: TraktMasla, header: Header  },
-
-    { path: '/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem', component: JidkostiGur, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem/masla_dlya_reduktorov_gornykh_samosvalov', component: JidkostiGurGornihSamosvalov, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/jidkosti_gur_gidrosistem/masla_dlya_reduktorov_nefteservisnogo_oborudovaniya_svp_privody', component: JidkostiGurNefteservisnogo, header: Header  },
-
-
-
-    { path: '/catalog/transport_vnedorojnaya/jidkosti_akpp', component: JidkostiAkpp, header: Header  },
-    { path: '/catalog/transport_vnedorojnaya/auto_plastichnie_smaski', component: AvtoPlastichnieSmazki, header: Header },
-    { path: '/catalog/transport_vnedorojnaya/antifriz', component: Antifriz, header: Header  },
-
-
-
-    { path: '/catalog/industrial_smasochnie_materials', component: IndustrialMaterial, header: Header  },
-
-    { path: '/catalog/industrial_smasochnie_materials/obsheindustrial_product', component: ObsheIndustrial, header: Header  },
-
-
-
-
-
-
-
+    { path: '/catalog/:categoryId/:productId', component: () => <ProductDetailPage productDetails={ProductDetailPage} />, header: Header },
 
     { path: '/news', component: News, header: Header  },
     { path: '/news/news_1', component: News1, header: Header  },
@@ -148,10 +87,13 @@ const routesData = [
     { path: '/news/news_4', component: News4, header: Header },
     { path: '/news/news_5', component: News5, header: Header  },
     { path: '/news/news_6', component: News6, header: Header  },
+
     { path: '/partners', component: Partners, header: Header  },
     { path: '/partners/status_partner', component: StatusPartners, header: Header  },
+
     { path: '/corpolitic', component: KorpPolitic, header: Header  },
     { path: '/about', component: About, header: Header  },
+    
     { path: '/solution', component: Solution, header: Header  },
     { path: '/solution/mattalurgia_machine', component: MettalurgiaMachine, header: Header  },
     { path: '/solution/khimicheskaya_promyshlennost', component: HimGornodobivaushaya, header: Header  },

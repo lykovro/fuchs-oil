@@ -1358,4 +1358,32 @@
     width: 74px;
   }
 
+  .product-title-text-style-navigation {
+    align-items: center;
+    color: #90979c;
+    display: flex;
+    flex: 0 0 auto;
+    font: 400 14.5px Inter, sans-serif;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+
+  .product-title-text-style-navigation a {
+    color: #90979c;
+    text-decoration: none;
+  }
+  
+  .product-section-with-images-navigation {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-top: 3%;
+    width: 100%;
+  }
+
  

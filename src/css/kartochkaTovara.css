@@ -41,10 +41,10 @@ main {
   }
   
   .product-image-container {
-    width: 320px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 12px;
-    margin-left: 1%;
+    margin-left: 0%;
     margin-right: 5%;
   }
 
@@ -56,6 +56,7 @@ main {
   }
 
   .products_catalog_tovar {
+    width: 100% ;
     display: flex;
     flex-direction: row;
   }
@@ -67,6 +68,10 @@ main {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 5%;
+  }
+
+  .product-info {
+    width: 100%;
   }
   
 
