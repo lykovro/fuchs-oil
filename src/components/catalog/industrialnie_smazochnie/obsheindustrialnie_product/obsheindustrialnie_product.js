@@ -71,14 +71,13 @@ const ObsheIndustrial = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><a href=""><Link to='/catalog/industrial_smasochnie_materials/obsheindustrial_product'>Общеиндустриальные продукты</Link></a></p>
+          <p className="product-title-text-style"><a href=""><Link to='/catalog/industrial_smasochnie_materials/obsheindustrial_product/gidravlicheskie_zhidkosti'>Общеиндустриальные продукты</Link></a></p>
         </div>
         <div className="catalog-container">
           <h2 className="catalog-title">Общеиндустриальные продукты</h2>
           <div className="product-card-list-motor-masla">
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <Link to="/catalog/transport_vnedorojnaya/motor_masla/legkovie_avto">
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/gidravlicheskie_zhidkosti">
                   <div className="vehicle-info-card-motor-masla">
                     <div className="transport-card-motor-masla">
                       <div className="vehicle-image-container-motor-masla"><img src={Legkovie} className="" /></div>
@@ -89,161 +88,160 @@ const ObsheIndustrial = () => {
                     </div>
                   </div>
                 </Link>
-              </a>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Минеральные редукторные масла</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/masla_na_mineralnoy_osnove">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gruzovie} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Минеральные редукторные масла</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Синтетические редукторные масла</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/reduktornye_masla_na_sinteticheskoy_osnove">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Синтетические редукторные масла</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Компрессорные масла</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/kompressornye_masla">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Компрессорные масла</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для направляющих скольжения</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/masla_dlya_napravlyayushchikh_tsepey_i_pnevmoinstrumenta">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для направляющих скольжения</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Огнестойкие гидравлические жидкости</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/ognestoykie_gidravlicheskie_zhidkosti">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Огнестойкие гидравлические жидкости</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для бумагоделательных машин</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/masla_dlya_bumagodelatelnykh_mashin">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для бумагоделательных машин</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для пневмооборудования</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/masla_dlya_pnevmooborudovaniya">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для пневмооборудования</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Масла для цепей</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/masla_dlya_tsepey">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Масла для цепей</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Теплоносители</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/teplonositeli">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Теплоносители</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Цилиндровые масла</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/tsilindrovye_masla">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Цилиндровые масла</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
             <div className="fullwidth-container-motor-masla">
-              <a href="">
-                <div className="vehicle-info-card-motor-masla">
-                  <div className="transport-card-motor-masla">
-                    <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
-                    <div className="transport-info-card-motor-masla">
-                      <p className="transport-heading-style-motor-masla">Циркуляционные масла</p>
-                      <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                <Link to="/catalog/industrial_smasochnie_materials/obsheindustrial_product/tsirkulyatsionnye_masla">
+                  <div className="vehicle-info-card-motor-masla">
+                    <div className="transport-card-motor-masla">
+                      <div className="vehicle-image-container-motor-masla"><img src={Gazoobraznoe} className="" /></div>
+                      <div className="transport-info-card-motor-masla">
+                        <p className="transport-heading-style-motor-masla">Циркуляционные масла</p>
+                        <p className="transport-details-button-text-motor-masla">Подробнее</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </Link>
               <div className="transport-section"></div>
             </div>
           </div>

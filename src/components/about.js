@@ -102,7 +102,7 @@ const About = () => {
 
     return (
         <main>
-            <div className="product-section-with-images">
+            <div className="product-section-with-images-navigation">
                 <div className="svg-container">
                 <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
                 </div>
@@ -122,7 +122,7 @@ const About = () => {
                         </g>
                         </svg>            
                 </div>
-                    <p className="product-title-text-style"><a href=""><Link to="/about">О компании</Link></a></p>
+                    <p className="product-title-text-style-navigation"><a href=""><Link to="/about">О компании</Link></a></p>
             </div> 
             <div className="about_header">            
                 <div className="about_header_head">  

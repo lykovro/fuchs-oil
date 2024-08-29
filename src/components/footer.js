@@ -60,19 +60,18 @@ const Footer = () => {
                 <div className="footer_under_group">
                     <div className="main-content-container">
                         <div className="main-content-container-left">
-                            <div className="flex-container-with-padding">
-                                <a href=""><img src={vk} alt="" /></a>
-                                <a href=""><img src={tg} alt="" /></a>
-                                <a href=""><img src={youtube} alt="" /></a>
+                            <div className='main-content-container-left-logo'>
+                                <div className="flex-container-with-padding">
+                                    <a href=""><img src={vk} alt="" /></a>
+                                    <a href=""><img src={tg} alt="" /></a>
+                                    <a href=""><img src={youtube} alt="" /></a>
+                                </div>
+                                <div className="company-copyright-section">
+                                    <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /></Link></a>
+                                    <p className="copyright-text-display-style">2024 © ООО «FUCHS-OIL»</p>
+                                </div>
                             </div>
                             <p className="informational-text-style">Все цены, указанные на сайте приведены как справочная информация и не являются<br />публичной офертой, определяемой положениями статьи 437 Гражданского кодекса<br />Российской Федерации и могут быть изменены в любое время без предупреждения.</p>
-                        </div>
-                        <div className="main-content-container-right">
-                            <div className="company-copyright-section">
-                                <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /></Link></a>
-                                <p className="copyright-text-display-style">2024 © ООО «FUCHS-OIL»</p>
-                            </div>
-                            {/*<p className="personal-data-policy-text-style"><a href="">Политика обработки персональных данных</a></p>*/}
                         </div>
                     </div>
                 </div>
