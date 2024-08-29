@@ -20,19 +20,21 @@ const Header = () => {
     const handleSearch = (e) => {
         const query = e.target.value.toLowerCase();
         setSearchQuery(query);
-
+    
         if (query.length > 0) {
             const results = [];
-
+    
             Object.keys(products).forEach((categoryKey) => {
                 const category = products[categoryKey];
                 const matchedItems = category.items.filter(item => 
                     item.name.toLowerCase().includes(query)
                 );
-
-                results.push(...matchedItems);
+    
+                matchedItems.forEach(item => {
+                    results.push({ ...item, category: categoryKey });
+                });
             });
-
+    
             setSearchResults(results);
         } else {
             setSearchResults([]);
@@ -106,7 +108,7 @@ const Header = () => {
                                                     <ul>
                                                         {searchResults.map((item, index) => (
                                                             <li key={index}>
-                                                                <Link to={`/catalog/${item.id}`}>{item.name}</Link>
+                                                                <Link to={`/catalog/${item.category}/${item.id}`}>{item.name}</Link>
                                                             </li>
                                                         ))}
                                                     </ul>
