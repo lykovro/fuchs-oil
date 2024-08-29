@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.703e3435.css",
-    "main.js": "/fuchs-oil/static/js/main.5dbcc739.js",
+    "main.css": "/fuchs-oil/static/css/main.a8ed0e97.css",
+    "main.js": "/fuchs-oil/static/js/main.e6c80b16.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
     "static/media/img_5_741_5cc53a.png": "/fuchs-oil/static/media/img_5_741_5cc53a.8e8bf5edda754b20f630.png",
@@ -52,6 +52,7 @@
     "static/media/титан.png": "/fuchs-oil/static/media/титан.c4adb6d5a4c2c1c7f05c.png",
     "static/media/19.jpg": "/fuchs-oil/static/media/19.76f7aa083fda6be88eee.jpg",
     "static/media/3.jpg": "/fuchs-oil/static/media/3.95f013135cf0b62b1be5.jpg",
+    "static/media/TITAN-ATF_DII_1L_1080x1080.png": "/fuchs-oil/static/media/TITAN-ATF_DII_1L_1080x1080.c8595ba0f4ffdda16f50.png",
     "static/media/4.jpg": "/fuchs-oil/static/media/4.3cb53a3415fd8b1a9309.jpg",
     "static/media/7.jpg": "/fuchs-oil/static/media/7.6556fc4ee0d8603fdd73.jpg",
     "static/media/11.jpg": "/fuchs-oil/static/media/11.85554cc36ddd87f7a93f.jpg",
@@ -73,12 +74,12 @@
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.703e3435.css.map": "/fuchs-oil/static/css/main.703e3435.css.map",
-    "main.5dbcc739.js.map": "/fuchs-oil/static/js/main.5dbcc739.js.map",
+    "main.a8ed0e97.css.map": "/fuchs-oil/static/css/main.a8ed0e97.css.map",
+    "main.e6c80b16.js.map": "/fuchs-oil/static/js/main.e6c80b16.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.703e3435.css",
-    "static/js/main.5dbcc739.js"
+    "static/css/main.a8ed0e97.css",
+    "static/js/main.e6c80b16.js"
   ]
 }
