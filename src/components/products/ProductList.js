@@ -41,7 +41,7 @@ function CategoryDetailPage() {
       <div className="catalog-container">
         <h2 className="catalog-title">{categoryName}</h2>
         {groupedProducts.map((group, index) => (
-          <div key={index} className="fullwidth-container-upp">
+          <><div key={index} className="fullwidth-container-upp">
             {group.map(product => (
               <div key={product.id} className="fullwidth-container-legkovie">
                 <Link to={`/catalog/${productsId}/${product.id}`}>
@@ -60,8 +60,8 @@ function CategoryDetailPage() {
                 </Link>
               </div>
             ))}
-          </div>
-        ))}
+          </div><div className='transport-section'></div></>
+          ))}
       </div>
 
       <div className="contact-section1">

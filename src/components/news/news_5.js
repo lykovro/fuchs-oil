@@ -15,7 +15,7 @@ const News5 = () => {
 
     return (
         <main>
-            <div className="product-section-with-images">
+            <div className="product-section-with-images-navigation">
                 <div className="svg-container">
                 <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
                 </div>
@@ -35,7 +35,7 @@ const News5 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to="/news">Новости</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to="/news">Новости</Link></a></p>
                 <div className="svg-container1">
                     <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -52,7 +52,7 @@ const News5 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to='/news/news_5'>Форум Стекло и современные технологии</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_5'>Форум Стекло и современные технологии</Link></a></p>
             </div>
             <div className='news_blocks_page'>
                 <h2>

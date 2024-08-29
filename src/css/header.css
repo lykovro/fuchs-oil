@@ -329,3 +329,38 @@ html {
   flex-direction: column;
   gap: 16px;
   }
+
+  .search-results-dropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    top: 13%; /* Расположить прямо под поисковым полем */
+    left: 35.3%;
+    width: 30%; /* Сделать ширину выпадающего окна такой же, как у input */
+    max-height: 200px; /* Ограничение по высоте */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-y: auto; /* Добавить прокрутку, если много элементов */
+  }
+  
+  .search-results-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-results-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-results-dropdown li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .search-results-dropdown li:hover {
+    background-color: #f5f5f5;
+  }

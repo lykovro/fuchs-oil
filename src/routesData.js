@@ -70,6 +70,8 @@ import KartochkaTovara from './components/catalog/kartochaktovara'
 import CategoryDetailPage from './components/products/ProductList'
 import ProductDetailPage from './components/products/ProductDetail'
 
+import SearchResultsPage  from './components/SearchResultPage'
+
 const routesData = [
    
     { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
@@ -79,6 +81,9 @@ const routesData = [
     { path: '/catalog', component: Catalog, header: Header },
     { path: '/catalog/:productsId', component: () => <CategoryDetailPage products={CategoryDetailPage} />, header: Header },
     { path: '/catalog/:categoryId/:productId', component: () => <ProductDetailPage productDetails={ProductDetailPage} />, header: Header },
+
+    { path: "/search", component: SearchResultsPage, header: Header},
+
 
     { path: '/news', component: News, header: Header  },
     { path: '/news/news_1', component: News1, header: Header  },
