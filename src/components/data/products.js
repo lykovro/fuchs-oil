@@ -5,12 +5,12 @@ const products = {
     motor_masla: {
       name: 'Моторные масла',
       items: [
-        { id: '1', 
-          name: 'Моторноое масло топssssssssssssssssssssssssssssssssssssssss', 
+        { id: 'TITAN_UNIMAX_CH_5W-40_MC', 
+          name: 'TITAN UNIMAX CH 5W-40 MC', 
           image: MotorMasla,
-          price: '11111₽',
-          description: 'топ товар всем советую топ товар всем советую топ товар всем советую топ товар всем советую топ товар всем советую топ товар всем советую топ товар всем советуютоп товар всем советую',
-          specifications:  'Спецификация топ',
+          price: '11111 ₽',
+          description: 'Всесезонное моторное масло на базе МС-технологии для дизельных двигателей тяжелой техники',
+          specifications:  'API CH-4',
           approvals:  'Одобрения топчик',
           recommendations: 'Рекомендации топпп'
         },

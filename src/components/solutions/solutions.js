@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../../css/catalog.css'; // Импорт CSS стилей
+import '../../css/solution.css';
 import SvgHome from '../../assetsImage/assets/house.svg';
 import TitlePhoto1 from '../../assetsImage/assets_solutions/metallurgiya-podrobno.jpg';
 import TitlePhoto2 from "../../assetsImage/assets_solutions/header.jpg";
@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 const Solution = () => {
     return (
         <main>
-        <div className="product-section-with-images">
+        <div className="product-section-with-images-navigation">
           <div className="svg-container">
                 <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
           </div>
@@ -40,145 +40,121 @@ const Solution = () => {
                   </g>
                 </svg>            
           </div>
-          <p className="product-title-text-style"><Link to="/solution">Решения по отраслям</Link></p>
+          <p className="product-title-text-style-navigation"><Link to="/solution">Решения по отраслям</Link></p>
         </div>
-        <div className="catalog-container">
+        <div className="catalog-container-solution">
           <h2 className="catalog-title">Решения по отраслям</h2>
-          <div className="product-card-list">
-              <div className="fullwidth-container">
-                <a href="transport_vnedorojnaya">
+          <div className="product-card-list-solution">
+              <div className="fullwidth-container-solution">
                 <Link to="mattalurgia_machine">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto1} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Металлургия и Машиностроение</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Металлургия и Машиностроение</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="khimicheskaya_promyshlennost">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto2} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Химическая и горнодобывающая промышленность</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Химическая и горнодобывающая промышленность</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="selskoe_khozyaystvo">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto3} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Сельское хозяйство</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Сельское хозяйство</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="kommercheskiy_transport">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto4} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Коммерческий транспорт</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Коммерческий транспорт</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="legkovoy_avtotransport">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto5} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Легковой автотранспорт</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Легковой автотранспорт</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="promyshlennost_stroitelnykh_materialov">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto6} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Строительная промышленность</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Строительная промышленность</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="derevoobrabatyvayushchaya_promyshlennost">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto7} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Деревообрабатывающая промышленность</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Деревообрабатывающая промышленность</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
-              <div className="fullwidth-container">
-                <a href="">
+              <div className="fullwidth-container-solution">
                 <Link to="energetika">
-                  <div className="vehicle-info-card">
-                    <div className="transport-card">
+                  <div className="vehicle-info-card-solution">
+                    <div className="transport-card-solution">
                       <div className="vehicle-image-container"><img src={TitlePhoto8} className="" /></div>
-                      <div className="transport-info-card">
-                        <p className="transport-heading-style">Энергетика</p>
-                        <p className="transport-details-button-text">Подробнее</p>
+                      <div className="transport-info-card-solution">
+                        <p className="transport-heading-style-industrial">Энергетика</p>
+                        <p className="transport-details-button-text-industrial">Подробнее</p>
                       </div>
                     </div>
                   </div>
                   </Link>
-                </a>
-                <div className="transport-section"></div>
               </div>
           </div>
         </div>
       <div className="contact-section1">
         <div className="contact-section">
           <div className="contacts">
-              <div className="contact-info-section-svyaz">
+              <div className="contact-info-section-news">
                 <h2 className="contact-message">Есть вопросы?</h2>
                 <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
               </div>
