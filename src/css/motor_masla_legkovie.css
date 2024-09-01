@@ -160,7 +160,8 @@
   .trandsport-text {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
+    font-weight: 10;
     color: rgba(1, 80, 158, 1);
     word-wrap: break-word;
   }
@@ -187,7 +188,7 @@
   }
   .transport-details-button-text-legkovie {
     font: 400 20px/16px Inter, sans-serif;
-    color: rgba(1, 80, 158, 1);
+    color: rgb(175, 215, 255);
     white-space: pre-wrap;
     margin-left: 0;
     transition-duration: 0.1s;
@@ -205,8 +206,8 @@
   }
 
   .vehicle-image-container-legkovie img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 50%;
     border-radius: 12px;
 
   }

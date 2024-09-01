@@ -89,6 +89,10 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .catalog-container_nothing{
+    margin-top: 5%;
+  }
   .catalog-title {
     font: 700 40px/36px Inter, sans-serif;
     color: rgba(1, 80, 158, 1);

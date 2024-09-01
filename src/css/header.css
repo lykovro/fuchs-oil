@@ -30,7 +30,7 @@ html {
     width: 1314px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 60px;
     flex: 1 0 auto;
   }
 

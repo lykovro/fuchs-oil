@@ -13,7 +13,7 @@ const Energetik = () => {
 
     return (
         <main>
-            <div className="product-section-with-images">
+            <div className="product-section-with-images-navigation">
                 <div className="svg-container">
                 <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
                 </div>
@@ -33,7 +33,7 @@ const Energetik = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to="/solution">Решения по отраслям</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to="/solution">Решения по отраслям</Link></a></p>
                 <div className="svg-container1">
                     <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -50,7 +50,7 @@ const Energetik = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to={route.path}>Энергетика</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to={route.path}>Энергетика</Link></a></p>
             </div>
             <div className='news_blocks'>
                 <h2>

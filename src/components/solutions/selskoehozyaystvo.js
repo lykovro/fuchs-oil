@@ -31,7 +31,7 @@ const SelskoeHozyaistvo = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to="/solution">Решения по отраслям</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to="/solution">Решения по отраслям</Link></a></p>
                 <div className="svg-container1">
                     <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -48,7 +48,7 @@ const SelskoeHozyaistvo = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style"><a href=""><Link to='/solution/selskoe_khozyaystvo'>Сельское хозяйство</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/solution/selskoe_khozyaystvo'>Сельское хозяйство</Link></a></p>
             </div>
             <div className='news_blocks'>
                 <h2>
