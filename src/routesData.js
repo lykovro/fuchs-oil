@@ -70,6 +70,9 @@ import KartochkaTovara from './components/catalog/kartochaktovara'
 import CategoryDetailPage from './components/products/ProductList'
 import ProductDetailPage from './components/products/ProductDetail'
 
+import PolitikSotrudnichestva from './components/politik_sotrudnnich'
+import Certificats from './components/certificats'
+
 import SearchResultsPage  from './components/SearchResultPage'
 
 const routesData = [
@@ -95,6 +98,8 @@ const routesData = [
 
     { path: '/partners', component: Partners, header: Header  },
     { path: '/partners/status_partner', component: StatusPartners, header: Header  },
+    { path: '/partners/politika_sotrudnichestva', component: PolitikSotrudnichestva, header: Header  },
+    { path: '/partners/cetificats', component: Certificats, header: Header  },
 
     { path: '/corpolitic', component: KorpPolitic, header: Header  },
     { path: '/about', component: About, header: Header  },

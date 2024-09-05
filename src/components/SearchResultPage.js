@@ -66,7 +66,6 @@ const SearchResultsPage = () => {
                           <p className="transport-heading-style-legkovie">{product.price || '0 000Р'}</p>
                           <div className="text_details">
                             <p className="trandsport-text">{product.name}</p>
-                            <p className="transport-details-button-text-legkovie">Подробнее</p>
                           </div>
                         </div>
                       </Link>
