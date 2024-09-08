@@ -6,12 +6,12 @@ import Kaluga from '../../assetsImage/assets_news/Конференция_в_Ка
 const categories = [
     { id: 'motor_masla', name: 'Моторные масла', image: MotorMasla },
     { id: 'transmission_oils', name: 'Трансмиссионные масла', image: Jidkosti },
-    { id: 'smazochno_ohlajdaushie', name: 'Категория', image: MotorMasla },
-    { id: 'dlya_obrabotki_metallov_davleniem_nevodosmeshivaemye', name: 'Категория', image: Jidkosti },
-    { id: 'produkty_dlya_zashiti_ot_korozii', name: 'Категория', image: MotorMasla },
-    { id: 'ochistiteli_i_antikorrozionnye_sostavy_ochistiteli_vodosmeshivaemye', name: 'Категория', image: Jidkosti },
-    { id: 'product_dlya_termicheskoy_obrabotki', name: 'Категория', image: MotorMasla },
-    { id: 'razdelitelnye_sostavy_dlya_betona_i_gazobetona', name: 'Категория', image: MotorMasla },
+    { id: 'anticorrosion_compounds', name: 'Антикоррозионные составы', image: MotorMasla },
+    { id: 'cooling_lubricants', name: 'Смазочно-охлаждающие жидкости (СОЖ)', image: Jidkosti },
+    { id: 'fire_resistant_hydraulic_oils', name: 'Огнестойкие и гидравлические масла', image: MotorMasla },
+    { id: 'cleaners_flush_compounds', name: 'Очистители и промывочные составы', image: Jidkosti },
+    { id: 'metalworking_oils', name: 'Масла для обработки металлов', image: MotorMasla },
+    { id: 'pressure_casting_compounds', name: 'Составы для обработки давлением и литья', image: MotorMasla },
   ];
   
   export default categories;

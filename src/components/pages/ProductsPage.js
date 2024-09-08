@@ -15,7 +15,7 @@ function CategoryPage() {
         <main>
           <div className="product-section-with-images-navigation">
             <div className="svg-container">
-              <Link to="/"><img src={SvgHome} alt="Home" /></Link>
+              <Link to="/fuchs-oil"><img src={SvgHome} alt="Home" /></Link>
             </div>
             <div className="svg-container1">
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
