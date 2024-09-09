@@ -73,6 +73,10 @@
     width: 100%;
 }
 
+.requirements-status-list-certificats a:nth-child(n+2) {
+    margin-left: 2%;
+}
+
 .requirements-status-list-certificats a li {
     height: 100%;
     color: black;
@@ -87,9 +91,6 @@
     background-color: #025BAC;
 }
 
-.requirements-status-list-certificats li:nth-child(n+2) {
-    margin-left: 2%;
-}
 
 .requirements-status-list-certificats li p {
     font-weight: 100;
@@ -116,7 +117,7 @@
 
 .requirements-status-list-certificats li:hover p {
     opacity: 1;
-    transform: translate(-110%, -20%);
+    transform: translate(-120%, -20%);
 }
 
 .requirements-status-list-certificats li:hover p {

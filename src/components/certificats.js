@@ -3,10 +3,10 @@ import '../css/politik_sotrudnnich.css'; // Импорт CSS стилей
 import { Link } from 'react-router-dom';
 import SvgHome from '../assetsImage/assets/house.svg';
 
-import Document1 from '../documents/Code_of_Conduct_EN_ru.pdf'
-import Document2 from '../documents/FPSE_Policy2022_Антимонопольная политика_ru.pdf';
-import Document3 from '../documents/FPSE_Policy2022_Anticorruption_EN_ru.pdf';
-import Document4 from '../documents/FUCHS_CSR_E_020713_safe.pdf'
+import Document1 from '../documents/ISO 9001.pdf'
+import Document2 from '../documents/ISO_14001_RU.pdf';
+import Document3 from '../documents/ISO_45001_RU.pdf';
+import Document4 from '../documents/Информационное письмо о пройденном аудите IATF 16949.pdf'
 
 
 const Certificats = () => {
@@ -70,12 +70,18 @@ const Certificats = () => {
                                     <li><h4>Системы менеджмента качества</h4> <p>ISO 9001:2015</p>
                                         </li>
                                 </a>
-                                <li><h4>Менеджмент окружающей среды</h4> <p>ISO 14001:2015</p>
-                                    </li>
-                                <li><h4>Системы менеджмента безопасности труда и охраны здоровья</h4> <p>ISO 45001:2018</p>
-                                    </li>
-                                <li><h4>Менеджмента качества в автомобильной промышленности</h4> <p>IATF 16949:2016</p>
-                                    </li>
+                                <a href={Document2} target="_blank" rel="noopener noreferrer">
+                                    <li><h4>Менеджмент окружающей среды</h4> <p>ISO 14001:2015</p>
+                                        </li>
+                                </a>
+                                <a href={Document3} target="_blank" rel="noopener noreferrer">
+                                    <li><h4>Системы менеджмента безопасности труда и охраны здоровья</h4> <p>ISO 45001:2018</p>
+                                        </li>
+                                </a>
+                                <a href={Document4} target="_blank" rel="noopener noreferrer">
+                                    <li><h4>Менеджмента качества в автомобильной промышленности</h4> <p>IATF 16949:2016</p>
+                                        </li>
+                                </a>
                             </ul>
                         </div>
                     </div>

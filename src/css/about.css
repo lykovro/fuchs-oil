@@ -179,7 +179,7 @@
 .about_chronical_block {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 300px;
   height: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -188,7 +188,7 @@
 }
 
 .about_chronical_block:nth-child(n+2) {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .about_chronical_block_pic {
