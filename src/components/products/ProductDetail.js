@@ -1,6 +1,6 @@
 // src/pages/ProductDetailPage.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import products from '../data/products'; // Импорт данных о продуктах
 import '../../css/kartochkaTovara.css'; 
@@ -11,7 +11,14 @@ import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 function ProductDetailPage() {
     const { categoryId, productId } = useParams(); // Извлекаем параметры из URL
 
-    // Находим категорию и продукт в ней
+    const [specOpen, setSpecOpen] = useState(false);
+    const [approvalOpen, setApprovalOpen] = useState(false);
+    const [recommendationsOpen, setRecommendationsOpen] = useState(false);
+
+    const toggleSpec = () => setSpecOpen(!specOpen);
+    const toggleApproval = () => setApprovalOpen(!approvalOpen);
+    const toggleRecommendations = () => setRecommendationsOpen(!recommendationsOpen);
+    
     const category = products[categoryId];
     const product = category ? category.items.find(item => item.id === productId) : null;
 
@@ -57,49 +64,56 @@ function ProductDetailPage() {
           </div>
           <p className="product-price">{product.price}</p>
           <div className='product_opisanie'>
-            <div className="product-specifications">
-              <h3>Спецификации</h3>
-              <ul>
-                {/* Проверяем, является ли specifications массивом, и отображаем элементы, если так */}
-                {Array.isArray(product.specifications) ? (
-                  product.specifications.map((spec, index) => (
-                    <li key={index}>{spec}</li>
-                  ))
-                ) : (
-                  <li>{product.specifications || 'Спецификации недоступны'}</li>
-                )}
-              </ul>
-            </div>
-            <div className="product-specifications">
-              <h3>Одобрения</h3>
-              <ul>
-                {/* Проверяем, является ли approvals массивом, и отображаем элементы, если так */}
-                {Array.isArray(product.approvals) ? (
-                  product.approvals.map((approval, index) => (
-                    <li key={index}>{approval}</li>
-                  ))
-                ) : (
-                  <li>{product.approvals || 'Одобрения недоступны'}</li>
-                )}
-              </ul>
-            </div>
-            <div className="product-specifications">
-              <h3>Рекомендации Fuchs</h3>
-              <ul>
-                {/* Проверяем, является ли recommendations массивом, и отображаем элементы, если так */}
-                {Array.isArray(product.recommendations) ? (
-                  product.recommendations.map((recommendation, index) => (
-                    <li key={index}>{recommendation}</li>
-                  ))
-                ) : (
-                  <li>{product.recommendations || 'Рекомендации недоступны'}</li>
-                )}
-              </ul>
-            </div>
+          <div className="product-specifications">
+      <h3 onClick={toggleSpec}>Спецификации <span className={`arrow ${specOpen ? 'open' : ''}`}>&#9660;</span> </h3>
+      <div className={`collapsible-content ${specOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.specifications) ? (
+            product.specifications.map((spec, index) => (
+              <li key={index}>{spec}</li>
+            ))
+          ) : (
+            <li>Спецификации недоступны</li>
+          )}
+        </ul>
+      </div>
+    </div>
+
+    <div className="product-specifications">
+      <h3 onClick={toggleApproval}>Одобрения <span className={`arrow ${approvalOpen ? 'open' : ''}`}>&#9660;</span></h3>
+      <div className={`collapsible-content ${approvalOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.approvals) ? (
+            product.approvals.map((approval, index) => (
+              <li key={index}>{approval}</li>
+            ))
+          ) : (
+            <li>Одобрения недоступны</li>
+          )}
+        </ul>
+      </div>
+    </div>
+
+    <div className="product-specifications">
+      <h3 onClick={toggleRecommendations}>
+        Рекомендации Fuchs <span className={`arrow ${recommendationsOpen ? 'open' : ''}`}>&#9660;</span>
+      </h3>
+      <div className={`collapsible-content ${recommendationsOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.recommendations) ? (
+            product.recommendations.map((recommendation, index) => (
+              <li key={index}>{recommendation}</li>
+            ))
+          ) : (
+            <li>{product.recommendations || 'Рекомендации недоступны'}</li>
+          )}
+        </ul>
+      </div>
+    </div>
           </div>
         </div>
       </div>
-      <div className='transport-section'></div>
+      <div className='transport-section-section'></div>
       <div className="product-actions">
         <div className='info-box-block-tovar'><button>Описание продукта</button></div>
         <div className='info-box-block-tovar'><button>Где приобрести?</button></div>

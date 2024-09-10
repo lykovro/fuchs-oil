@@ -1386,4 +1386,143 @@
     width: 100%;
   }
 
+
+  @media (max-width: 768px) {
+    html {
+      min-width: auto;
+    }
+  
+    .container-main {
+      width: 100%;
+      gap: 30px;
+      margin-top: 40px;
+    }
+  
+    .partner-links-container {
+      gap: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  
+    .product-button-style {
+      width: 100%;
+      min-width: auto;
+    }
+  
+    .industrial-product-categories-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .commercial-transport-heading {
+      padding-top: 50px;
+      font-size: 14px;
+    }
+  
+    .column-layout-container {
+      margin: 10px 0;
+    }
+  
+    .logo_button_input {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  
+    .company-info-logo {
+      width: 100%;
+    }
+  
+    .ad-section-container {
+      width: 100%;
+      padding: 60px 20px;
+    }
+  
+    .promo-header {
+      font-size: 40px;
+    }
+  
+    .promotional-container {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  
+    .image-container1, 
+    .image-container-with-margin {
+      width: 100%;
+      height: auto;
+    }
+  
+    .news-section-container1 {
+      flex-direction: column;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .news_1_news_2, 
+    .news_4_news_5 {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .product-input-container1_search {
+      width: 100%;
+    }
+  
+    .product-input-container1 {
+      width: 100%;
+    }
+  
+    .news-heading {
+      font-size: 24px;
+    }
+  
+    .blue-gradient-box-text {
+      padding: 5% 0;
+    }
+
+    .vertical-card-container {
+      padding: 10px;
+      margin-top: 20px;
+    }
+  
+    .product-card-group {
+      flex-direction: column; /* Меняем направление на колонку */
+      gap: 30px; /* Уменьшаем расстояние между элементами */
+      align-items: center; /* Выравниваем по центру */
+    }
+  
+    .motor-oil-container,
+    .tractor-oil-card,
+    .flexible-lubricants-section,
+    .blue-box-with-text,
+    .corrosion-protection-card {
+      padding: 15px; /* Добавляем отступы для удобства на маленьких экранах */
+      border-radius: 12px; /* Более мягкие углы */
+    }
+  
+    .motor-oil-image {
+      width: 80px; /* Уменьшаем размер изображений */
+      height: 80px;
+    }
+  
+    .industrial-product-details-container,
+    .transmission-oil-details-container {
+      max-width: 100%; /* Контейнер занимает всю ширину экрана */
+      padding: 10px;
+    }
+  
+    .product-details-container {
+      min-width: 100%; /* Карточки растягиваются на всю ширину */
+      padding: 10px;
+    }
+  
+    .hero-image-container {
+      width: 100%;
+      height: auto; /* Адаптируем изображение по ширине */
+    }
+  }
+  
+
  

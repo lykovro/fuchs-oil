@@ -47,7 +47,7 @@ function CategoryPage() {
                                   </div>
                                 </div>
                                 </Link>
-                            <div className="transport-section"></div>
+                            
                           </div>
                           </div>
                       </div>
