@@ -89,10 +89,10 @@ const Contacts = () => {
         </div>
         <div className="address-info-section">
           <div className="info-box">
-            <h3 className="title-heading">г. Пермь</h3>
-            <p>Адрес: <a href="#"> Пермь, ул. Пожарского 67, офис 6</a></p>
-            <p>Телефон:<a href="tel:+78887778855"> +7 888 777-88-55</a></p>
-            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru"> info-klg@fuchs-oil.ru</a></p>
+            <h3 className="title-heading"><b>г. Пермь</b></h3>
+            <p>Адрес: <a href="#">Пожарского 67, офис 6</a></p>
+            <p>Телефон: <a href="tel:+78887778855">+7 888 777-88-55</a></p>
+            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">info-klg@fuchs-oil.ru</a></p>
           </div>
         </div>
       </div>
@@ -132,9 +132,7 @@ const Contacts = () => {
           <div className="button_text_submit">
             <div className="form-confirmation-section">
               <p className="user-consent-message-container">
-                Нажимая на кнопку «Отправить», я подтверждаю ознакомление с 
-                <a href={Document1} download className="user-consent-text-markup">Пользовательским соглашением</a> и даю согласие на обработку 
-                <a href={Document2} download className="user-consent-text-markup">Персональных данных</a>.
+                Нажимая на кнопку «Отправить», я подтверждаю ознакомление с <a href={Document1} download className="user-consent-text-markup">Пользовательским соглашением</a> и даю согласие на обработку <a href={Document2} download className="user-consent-text-markup">Персональных данных</a>.
               </p>
             </div>
             <button type="submit" className="btn btn-primary">Отправить</button>

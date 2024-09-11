@@ -34,26 +34,35 @@ const Footer = () => {
                     <div className="product-info-container1">
                         <h3 className="product-title-style">Продукты</h3>
                         <div className="product-title-info">
-                            <p className="contact-info-style"><a href="">Транспорт и внедорожная техника</a></p>
-                            <p className="contact-info-style"><a href="">Индустриальные смазочные материалы</a></p>
+                            <p className="contact-info-style"><Link to="/catalog/motor_masla">Моторные масла</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/transmission_oils">Трансмиссионные масла</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/anticorrosion_compounds">Антикоррозионные составы</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/cooling_lubricants">Смазочно-охлаждающие жидкости (СОЖ)</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/fire_resistant_hydraulic_oils">Огнестойкие и гидравлические масла</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/cleaners_flush_compounds">Очистители и промывочные составы</Link></p>
                         </div>
                     </div>
                     <div className="product-info-container1">
                         <h3 className="product-title-style">Компания</h3>
                         <div className="product-title-info">
-                            <p className="contact-info-style"><a href="">О компании</a></p>
-                            <p className="contact-info-style"><a href="">История компании</a></p>
-                            <p className="contact-info-style"><a href="">Новости</a></p>
-                            <p className="contact-info-style"><a href="">Контакты</a></p>
-                            <p className="contact-info-style"><a href="">Предложить помещение в аренду</a></p>
+                            <p className="contact-info-style"><Link to="/about">О компании</Link></p>
+                            <p className="contact-info-style"><Link to="/partners">Партнерам</Link></p>
+                            <p className="contact-info-style"><Link to="/news">Новости</Link></p>
+                            <p className="contact-info-style"><Link to="/contacts">Контакты</Link></p>
+                            <p className="contact-info-style"><lINK to="/corpolitic">Корпоративные политики</lINK></p>
                         </div>
                     </div>
                     <div className="product-info-container1">
-                        <p className="product-title-style">Материалы</p>
+                        <p className="product-title-style">Решения по отраслям</p>
                         <div className="product-title-info">
-                            <p className="contact-info-style"><a href="">Список</a></p>
-                            <p className="contact-info-style"><a href="">Для СМИ</a></p>
-                            <p className="contact-info-style"><a href="">Гарантии</a></p>
+                            <p className="contact-info-style"><Link to="/solution/mattalurgia_machine">Металлургия и Машиностроение</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/khimicheskaya_promyshlennost">Химическая и горнодобывающая промышленность</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/selskoe_khozyaystvo">Сельское хозяйство</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/kommercheskiy_transport">Коммерческий транспорт</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/legkovoy_avtotransport">Легковой автотранспорт</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/promyshlennost_stroitelnykh_materialov">Строительная промышленность</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/derevoobrabatyvayushchaya_promyshlennost">Деревообрабатывающая промышленность</Link></p>
+                            <p className="contact-info-style"><Link to="/solution/energetika">Энергетика</Link></p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +81,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <p className="informational-text-style">Все цены, указанные на сайте приведены как справочная информация и не являются<br />публичной офертой, определяемой положениями статьи 437 Гражданского кодекса<br />Российской Федерации и могут быть изменены в любое время без предупреждения.</p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>

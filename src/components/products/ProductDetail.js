@@ -116,7 +116,7 @@ function ProductDetailPage() {
       <div className='transport-section-section'></div>
       <div className="product-actions">
         <div className='info-box-block-tovar'><button>Описание продукта</button></div>
-        <div className='info-box-block-tovar'><button>Где приобрести?</button></div>
+        <div className='info-box-block-tovar'><Link to="/contacts"><button>Где приобрести?</button></Link></div>
         <div className='info-box-block-tovar'><button>Зачем я тут?</button></div>
       </div>
     </div>
