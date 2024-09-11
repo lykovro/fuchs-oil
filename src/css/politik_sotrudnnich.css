@@ -1,0 +1,129 @@
+.requirements-status-list-partners {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+.requirements-status-list-partners:nth-child(n+2) {
+    margin-top: 2%;
+}
+
+.requirements-status-list-partners li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(242, 246, 247, 1);
+    border-radius: 12px;
+    border: solid 0px #025BAC;
+    transition: border-width 0.05s linear, text-align 0.1s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.requirements-status-list-partners li:hover {
+    border-width: 0.5px;
+    text-align: center;
+    transform: translatey(2%);
+    cursor: pointer;
+}
+
+.requirements-status-list-partners li:nth-child(n+2) {
+    margin-left: 2%;
+}
+
+.content-status-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.requirements-status-list-certificats {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    font-weight:lighter;
+    color: black;
+}
+
+.requirements-status-list-certificats a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.requirements-status-list-certificats:nth-child(n+2) {
+    margin-top: 2%;
+}
+
+.requirements-status-list-certificats li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(242, 246, 247, 1);
+    border-radius: 12px;
+    border: solid 0px #025BAC;
+    transition: border-width 0.05s linear, text-align 0.1s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.requirements-status-list-certificats a:nth-child(n+2) {
+    margin-left: 2%;
+}
+
+.requirements-status-list-certificats a li {
+    height: 100%;
+    color: black;
+}
+
+.requirements-status-list-certificats li:hover {
+    border-width: 0.5px;
+    text-align: center;
+    transform: translatey(2%);
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #025BAC;
+}
+
+
+.requirements-status-list-certificats li p {
+    font-weight: 100;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    transition: visibility 0s, 
+                opacity 0.4s ease-in-out, 
+                height 0.4s ease-in-out;
+}
+
+.requirements-status-list-certificats li h4 {
+    margin: 0;
+    font-weight: bold;
+    transform: translate(20%);
+    transition: opacity 0s ease-in-out;
+    width: 10;
+}
+
+.requirements-status-list-certificats li:hover h4 {
+    opacity: 0; 
+}
+
+.requirements-status-list-certificats li:hover p {
+    opacity: 1;
+    transform: translate(-120%, -20%);
+}
+
+.requirements-status-list-certificats li:hover p {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    margin-top: 10px;
+    color: white
+}

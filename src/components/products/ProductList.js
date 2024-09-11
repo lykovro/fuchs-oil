@@ -51,7 +51,7 @@ function CategoryDetailPage() {
                     </div>
                   </div>
                   <div className="transport-info-card-legkovie">
-                    <p className="transport-heading-style-legkovie">{product.price || '0 000Р'}</p>
+                    
                     <div className="text_details">
                       <p className="trandsport-text">{product.name}</p>
                     </div>

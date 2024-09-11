@@ -33,11 +33,28 @@ const StatusPartners = () => {
                 </svg>
                 </div>
                 <p className="contacts-info-heading"><a href=""><Link to="/partners">Партнерам</Link></a></p>
+                <div className="svg-container1">
+                <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                    <clipPath id="clip2_203_98" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" fill="white" transform="translate(-0.29290000000000305, 0)" />
+                    </clipPath>
+                    </defs>
+                    <g id="::before" data-node-id="203:107" xmlns="http://www.w3.org/2000/svg">
+                    <g id="next.svg fill" data-node-id="203:108" clip-path="url(#clip2_203_98)">
+                        <g id="next.svg" data-node-id="203:109">
+                        <path id="Vector_2" data-node-id="203:110" d="M9.7071,7l5,5l-5,5" stroke="#90979C" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+                        </g>
+                    </g>
+                    </g>
+                </svg>
+                </div>
+                <p className="contacts-info-heading"><a href=""><Link to="/partners/status_partner">Статус партнера</Link></a></p>
             </div>
         </div>
         <div className="contacts_info">
             <div className="contact-info-container-vk-tele">
-                <h2 className="contact-info-heading1">Статус Партнера</h2>
+                <h2 className="contact-info-heading1">Статус партнера</h2>
               <div className="contact-info-display-style1">
               </div>
             </div>

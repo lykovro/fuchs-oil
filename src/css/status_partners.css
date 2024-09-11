@@ -32,10 +32,9 @@
 }
 
 .requirements-status-list li:hover {
-    border-width: 2px;
+    border-width: 1px;
     text-align: center;
-    font-weight: bold;
-    transform: translatey(5%);
+    transform: translatey(2%);
     cursor: pointer;
 }
 
@@ -79,7 +78,6 @@
 }
 
 .requirements-status-list_list li:hover {
-    border-width: 0.1px;
     cursor: pointer;
     font-weight: bold;
     background-color: #025BAC;
@@ -100,8 +98,8 @@
     height: 0;
     margin: 0;
     transition: visibility 0s, 
-                opacity 0.05s ease-in-out, 
-                height 0.05s ease-in-out;
+                opacity 0.4s ease-in-out, 
+                height 0.4s ease-in-out;
 }
 
 .requirements-status-list_list li::first-line {

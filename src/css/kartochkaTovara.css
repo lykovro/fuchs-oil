@@ -93,7 +93,7 @@ main {
   .product-details {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-bottom: 20px;
     text-align: left;
     margin-left: 0;
@@ -111,7 +111,7 @@ main {
   .product-specifications {
     display: flex;
     flex-direction: column;
-    width: 27%;
+    width: 30%;
     margin-left: 0;
     margin-right: 0;
 
@@ -121,7 +121,9 @@ main {
     font-weight:600;
     font-size:24px;
     color: #01509E;
-    width: 100%;
+    cursor: pointer;
+    margin-left: 0;
+
   }
   
   .product-specifications ul {
@@ -238,3 +240,38 @@ main {
     margin-right: 5%;
   }
 
+  .transport-section-section {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 2%;
+    border-top: 1px solid #c4cbd1;
+  }
+
+  .product-specifications h3:focus {
+    transition-duration: 0.6s;
+  }
+
+  .collapsible-content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0;
+  }
+  
+  .collapsible-content.active {
+    height: auto;
+    opacity: 1;
+    transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    width: 100%;
+    margin-left: 1%;
+  }
+
+  .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg); /* Поворот стрелки вниз при раскрытии */
+  }
