@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.b29ad54e.css",
-    "main.js": "/fuchs-oil/static/js/main.ba970aa5.js",
+    "main.css": "/fuchs-oil/static/css/main.5e354cbb.css",
+    "main.js": "/fuchs-oil/static/js/main.61b38046.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
+    "static/media/ISO_14001_RU.pdf": "/fuchs-oil/static/media/ISO_14001_RU.7f838b872c24abdc1727.pdf",
+    "static/media/ISO_45001_RU.pdf": "/fuchs-oil/static/media/ISO_45001_RU.7d747fa990003741ac84.pdf",
+    "static/media/ISO 9001.pdf": "/fuchs-oil/static/media/ISO 9001.efdf06cba4c594e3416a.pdf",
     "static/media/img_5_741_5cc53a.png": "/fuchs-oil/static/media/img_5_741_5cc53a.8e8bf5edda754b20f630.png",
     "static/media/моторные_масла.png": "/fuchs-oil/static/media/моторные_масла.8e8bf5edda754b20f630.png",
     "static/media/metalurgiya-glavnaya.jpg": "/fuchs-oil/static/media/metalurgiya-glavnaya.817293f8eeda0d53898e.jpg",
@@ -59,6 +62,7 @@
     "static/media/18.jpg": "/fuchs-oil/static/media/18.f38f993acc27e03691f5.jpg",
     "static/media/5.jpg": "/fuchs-oil/static/media/5.a16251be745cb7d75e9b.jpg",
     "static/media/10.jpg": "/fuchs-oil/static/media/10.9007ed077c9f2e9a922d.jpg",
+    "static/media/Информационное письмо о пройденном аудите IATF 16949.pdf": "/fuchs-oil/static/media/Информационное письмо о пройденном аудите IATF 16949.77cc35d5852947c08383.pdf",
     "static/media/8.jpg": "/fuchs-oil/static/media/8.347d44721cad018b0e1f.jpg",
     "static/media/15.jpg": "/fuchs-oil/static/media/15.bd89a8d497412dcb292a.jpg",
     "static/media/Пользовательское_соглашение_fuchs.docx": "/fuchs-oil/static/media/Пользовательское_соглашение_fuchs.537858fa227b34f78a53.docx",
@@ -74,12 +78,12 @@
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.b29ad54e.css.map": "/fuchs-oil/static/css/main.b29ad54e.css.map",
-    "main.ba970aa5.js.map": "/fuchs-oil/static/js/main.ba970aa5.js.map",
+    "main.5e354cbb.css.map": "/fuchs-oil/static/css/main.5e354cbb.css.map",
+    "main.61b38046.js.map": "/fuchs-oil/static/js/main.61b38046.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b29ad54e.css",
-    "static/js/main.ba970aa5.js"
+    "static/css/main.5e354cbb.css",
+    "static/js/main.61b38046.js"
   ]
 }
