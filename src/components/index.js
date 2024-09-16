@@ -67,6 +67,80 @@ useEffect(() => {
           <div className="products">
             <div className="product-catalog-layout">
               <div className="vertical-card-container">
+
+              <div className="upper_products_mobile">
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+                <div className="upper_products_mobile">
+                <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <span>
+                          <Link to="/catalog/motor_masla">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+
+
+
                 <div className="upper_products">
                     <div className="industrial-product-details-container">
                       <img src={motor_maslo} className="motor-oil-image" />
@@ -165,7 +239,7 @@ useEffect(() => {
         </div>
         <div className="hierarchical-container">
           <div className="priduct-section-title-katalog">
-            <h2 className="news-heading">Новости</h2>
+            <h2 className="product-title">Новости</h2>
             <div className="all_products">
               <form action="">
                 <Link to="/news">

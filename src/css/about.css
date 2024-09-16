@@ -250,3 +250,20 @@
 .about_chronical_blocks::-webkit-scrollbar {
   display: none; /* Скрываем полосу прокрутки в Chrome и Safari */
 }
+
+@media (max-width: 768px) {
+  .mega-heading {
+    font: 700 50px / 44px Inter, sans-serif;
+    margin-left: 0;
+  }
+
+  .company-description-text {
+    font: 500 40px / 15px Inter, sans-serif;
+  }
+
+  .distributor-info-section {
+    max-width: 700px;
+    margin-right: 0;
+    flex: none;
+  }
+}

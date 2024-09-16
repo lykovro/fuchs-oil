@@ -1386,6 +1386,14 @@
     width: 100%;
   }
 
+  .upper_products_mobile {
+    display: none;
+  }
+
+  .upper_products_mobile:nth-child(n+2) {
+    margin-top: 10%;
+  }
+
 
   @media (max-width: 768px) {
     html {
@@ -1454,9 +1462,19 @@
     }
   
     .news-section-container1 {
+      width: 100%;
       flex-direction: column;
       height: auto;
-      margin-top: 20px;
+      margin-top: 5%;
+    }
+    
+
+    .announcement-text-css {
+      font-size: 50px;
+    }
+
+    .announcement-text {
+      font: 34px Inter, sans-serif;
     }
   
     .news_1_news_2, 
@@ -1464,6 +1482,14 @@
       width: 100%;
       height: auto;
       margin-top: 20px;
+    }
+
+    .news_1_news_2:nth-child(n+2) {
+      margin-top: 3%;
+    }
+
+    .mega-heading {
+      font: 34px Inter, sans-serif;
     }
   
     .product-input-container1_search {
@@ -1484,7 +1510,7 @@
 
     .vertical-card-container {
       padding: 10px;
-      margin-top: 20px;
+      margin-top: 5%;
     }
   
     .product-card-group {
@@ -1503,13 +1529,12 @@
     }
   
     .motor-oil-image {
-      width: 80px; /* Уменьшаем размер изображений */
-      height: 80px;
+      width: 300px; /* Уменьшаем размер изображений */
+      height: 300px;
     }
   
     .industrial-product-details-container,
     .transmission-oil-details-container {
-      max-width: 100%; /* Контейнер занимает всю ширину экрана */
       padding: 10px;
     }
   
@@ -1522,6 +1547,117 @@
       width: 100%;
       height: auto; /* Адаптируем изображение по ширине */
     }
+
+    .industrial-product-details-container {
+      max-width: 100%;
+      width: 50%;
+      height: 50%;
+    }
+
+    .product_text p {
+      font-size: 38px;
+      margin-top: 2%;
+
+    }
+
+    .motor-oil-details-button-text {
+      font-size: 30px;
+    }
+
+    .motor-oil-details-button-text {
+      font-size: 36px;
+    }
+
+    .upper_products {
+      display: none;
+    }
+
+    .down_products {
+      display: none;
+    }
+
+    .upper_products_mobile {
+      display: flex;
+      width: 100%;
+      height: 10%;
+      justify-content: space-between;
+    }
+
+    .industrial-product-details-container_mobile {
+      width: 30%;
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    
+
+    .motor-oil-image_mobile {
+      width: 420px;
+      height: 380px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .product_text_mobile {
+      display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    }
+
+    .product_text_mobile span a {
+      text-decoration: none;
+      color: #025BAC;
+    font-weight: bold;
+    }
+
+    .product_text_mobile p {
+      font-size: 38px;
+        margin-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+      
+    }
+
+    .motor-oil-details-button-text_mobile {
+      font-size: 38px;
+        margin-top: 2%;
+        font-weight: none;
+    }
+
+    .product_text_mobile span {
+      margin-left: 0;
+    }
+
+    .motor-oil-heading_mobile {
+      color: rgba(23, 33, 38, 1);
+    white-space: pre-wrap;
+    font: 700 44px Inter, sans-serif;
+        color: rgba(23, 33, 38, 1);
+    white-space: pre-wrap;
+    }
+
+    .priduct-section-title-katalog {
+      margin-top: 3%;
+    }
+
+    .news-section-container2 {
+      display: none;
+    }
+    
+    .hierarchical-container {
+      height: auto;
+    }
+
+
+    
   }
   
 
