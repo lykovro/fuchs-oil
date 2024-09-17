@@ -111,20 +111,22 @@ const toggleMenu = () => {
                     <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
                     <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
                   </div>
-                  <button className="menu-toggle" onClick={toggleMenu}>☰</button>
+                  <button className="menu-toggle-button" onClick={toggleMenu}>
+                    {menuOpen ? '✕' : '☰'}
+                  </button>
                   <Link><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
                   <div className="logo_button_input">
                     <div className="logo_button">
                       <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
-                      <nav className={`menu ${menuOpen ? 'open' : ''}`}>
-                        <div className="company-info">
-                          <p className="company-info-styles"><Link to="/about">О компании</Link></p>
-                          <p className="company-info-styles"><Link to="/news">Новости</Link></p>
-                          <p className="company-info-styles"><Link to="/partners">Партнерам</Link></p>
-                          <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
-                          <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
-                        </div>
-                      </nav>
+                      <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
+                        <nav className="menu-links">
+                          <Link to="/about" className="menu-item" onClick={toggleMenu}>О компании</Link>
+                          <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
+                          <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
+                          <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
+                          <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
+                        </nav>
+                      </div>
                       <div className="button_product">
                         <form action="">
                           <Link to="/catalog">

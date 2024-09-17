@@ -4,6 +4,7 @@ import vk from '../assetsImage/assets/icons8-вконтакте.svg'
 import tg from '../assetsImage/assets/icons8-телеграмма-app.svg'
 import youtube from '../assetsImage/assets/icons8-youtube-play.svg'
 import copyright from '../assetsImage/assets/img_18_2_f4d569.png'
+import copyright_mobile from '../assetsImage/assets/fuchs_mobile.png'
 import { Link } from 'react-router-dom';
 
 
@@ -76,7 +77,7 @@ const Footer = () => {
                                     <a href=""><img src={youtube} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
-                                    <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /></Link></a>
+                                    <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>
                                     <p className="copyright-text-display-style">2024 © ООО «FUCHS-OIL»</p>
                                 </div>
                             </div>
