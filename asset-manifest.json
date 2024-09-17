@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.5e354cbb.css",
-    "main.js": "/fuchs-oil/static/js/main.61b38046.js",
+    "main.css": "/fuchs-oil/static/css/main.b04daf97.css",
+    "main.js": "/fuchs-oil/static/js/main.db260abc.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
     "static/media/ISO_14001_RU.pdf": "/fuchs-oil/static/media/ISO_14001_RU.7f838b872c24abdc1727.pdf",
@@ -53,6 +53,7 @@
     "static/media/20.jpg": "/fuchs-oil/static/media/20.cced04331aa2e3f3972e.jpg",
     "static/media/16.jpg": "/fuchs-oil/static/media/16.fb15cab394769a1a3709.jpg",
     "static/media/титан.png": "/fuchs-oil/static/media/титан.c4adb6d5a4c2c1c7f05c.png",
+    "static/media/TITAN-ATF_DIII_1L_1080x1080.png": "/fuchs-oil/static/media/TITAN-ATF_DIII_1L_1080x1080.a20f272967454ca79abf.png",
     "static/media/19.jpg": "/fuchs-oil/static/media/19.76f7aa083fda6be88eee.jpg",
     "static/media/3.jpg": "/fuchs-oil/static/media/3.95f013135cf0b62b1be5.jpg",
     "static/media/TITAN-ATF_DII_1L_1080x1080.png": "/fuchs-oil/static/media/TITAN-ATF_DII_1L_1080x1080.c8595ba0f4ffdda16f50.png",
@@ -65,25 +66,28 @@
     "static/media/Информационное письмо о пройденном аудите IATF 16949.pdf": "/fuchs-oil/static/media/Информационное письмо о пройденном аудите IATF 16949.77cc35d5852947c08383.pdf",
     "static/media/8.jpg": "/fuchs-oil/static/media/8.347d44721cad018b0e1f.jpg",
     "static/media/15.jpg": "/fuchs-oil/static/media/15.bd89a8d497412dcb292a.jpg",
+    "static/media/Bochka-i-kanistra-04.03.2024.jpg": "/fuchs-oil/static/media/Bochka-i-kanistra-04.03.2024.6f47e452090e39edb169.jpg",
     "static/media/Пользовательское_соглашение_fuchs.docx": "/fuchs-oil/static/media/Пользовательское_соглашение_fuchs.537858fa227b34f78a53.docx",
     "static/media/17.jpg": "/fuchs-oil/static/media/17.3da14760fcffb8ff2895.jpg",
     "static/media/2.jpg": "/fuchs-oil/static/media/2.8160ee7cbe6fe49b667c.jpg",
+    "static/media/Gruppe_mit_IBC.jpg": "/fuchs-oil/static/media/Gruppe_mit_IBC.a0a8f3a3c39a643c8b9a.jpg",
     "static/media/Конференция_в_Калуге.jpg": "/fuchs-oil/static/media/Конференция_в_Калуге.904e26dfd2b1d04d35de.jpg",
     "static/media/6.jpg": "/fuchs-oil/static/media/6.6147e17f3aef6e1922b5.jpg",
     "static/media/Политика_конфиденциальности_для_сайта.docx": "/fuchs-oil/static/media/Политика_конфиденциальности_для_сайта.506b50f23c1a46f0e9ae.docx",
     "static/media/1.jpg": "/fuchs-oil/static/media/1.3d2f36c7a154d91d2404.jpg",
+    "static/media/fuchs_mobile.png": "/fuchs-oil/static/media/fuchs_mobile.742d24043c5fdc498b02.png",
     "static/media/icons8-вконтакте.svg": "/fuchs-oil/static/media/icons8-вконтакте.4d7dd60e56dd66aa7404e75eb57f29a7.svg",
     "static/media/icons8-телеграмма-app.svg": "/fuchs-oil/static/media/icons8-телеграмма-app.b0589b5e724dd92cc132ddb6a0e049d9.svg",
     "static/media/house.svg": "/fuchs-oil/static/media/house.25cf89ba1efa5bc88ab13b97cdad8caa.svg",
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.5e354cbb.css.map": "/fuchs-oil/static/css/main.5e354cbb.css.map",
-    "main.61b38046.js.map": "/fuchs-oil/static/js/main.61b38046.js.map",
+    "main.b04daf97.css.map": "/fuchs-oil/static/css/main.b04daf97.css.map",
+    "main.db260abc.js.map": "/fuchs-oil/static/js/main.db260abc.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e354cbb.css",
-    "static/js/main.61b38046.js"
+    "static/css/main.b04daf97.css",
+    "static/js/main.db260abc.js"
   ]
 }
