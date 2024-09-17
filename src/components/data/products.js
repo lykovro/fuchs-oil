@@ -1,5 +1,13 @@
 import MotorMasla from '../../assetsImage/assets_transport_vnedorojnaya/моторные_масла.png'
 import Jidkosti from '../../assetsImage/assets_transport_vnedorojnaya/титан.png'
+import TITAN_ATF_DII from '../../assetsImage/assets_products_image/TITAN-ATF_DII_1L_1080x1080.png'
+import TITAN_ATF_DIII from '../../assetsImage/assets_products_image/TITAN-ATF_DIII_1L_1080x1080.png'
+import TITAN_THF_10W_30_MC from '../../assetsImage/assets_products_image/Bochka-i-kanistra-04.03.2024.jpg'
+
+import ANTICORIT from '../../assetsImage/assets_products_image/Gruppe_mit_IBC.jpg'
+
+
+
 
 import Anticorrosion from '../../assetsImage/assets_transport_vnedorojnaya/титан.png'
 import CoolingLubricants from '../../assetsImage/assets_transport_vnedorojnaya/титан.png'
@@ -185,7 +193,7 @@ const products = {
       items: [
         { id: 'TITAN_ATF_DII', 
           name: 'TITAN ATF DII', 
-          image: MotorMasla ,
+          image: TITAN_ATF_DII ,
           price: '',
           description: 'Жидкость ATF класса DEXRON II (D) для всех автоматических коробок передач грузовых автомобилей, внедорожной техники и легковых автомобилей, согласно предписаниям производителя.',
           specifications:  '',
@@ -194,7 +202,7 @@ const products = {
         },
         { id: 'TITAN_ATF_DIII', 
           name: 'TITAN ATF DIII', 
-          image: MotorMasla ,
+          image: TITAN_ATF_DIII ,
           price: '',
           description: 'Жидкость для автоматический трансмиссий ультравысокого уровня потребительских свойств спецификации DEXRON III',
           specifications:  '',
@@ -220,7 +228,7 @@ const products = {
           recommendations: ''
         },
         { id: 'TITAN_SUPERGEAR_GL5_SAE_75W-90', 
-          name: 'TITAN SUPERGEAR GL5 SAE 75W-90', 
+          name: 'TITAN SUPERGEAR GL5 SAE 75W-90',
           image: MotorMasla ,
           price: '',
           description: 'Высококачественное трансмиссионное масло с удлиненным интервалом замены',
@@ -331,14 +339,14 @@ const products = {
           name: 'TITAN SUPERGEAR MP-R 75W-90 GL4', 
           image: MotorMasla ,
           price: '',
-          description: 'rВuыс 2ок0оэ2ф2ф ективное универсальное трансмиссионное масло для механических коробок передач и ведущих мостов',
+          description: 'Высокоэффективное универсальное трансмиссионное масло для механических коробок передач и ведущих мостов',
           specifications:  '',
           approvals:  '',
           recommendations: ''
         },
         { id: 'TITAN_THF_10W-30_MC', 
           name: 'TITAN THF 10W-30 MC', 
-          image: MotorMasla ,
+          image: TITAN_THF_10W_30_MC ,
           price: '',
           description: 'Высокоэффективное многофункциональное масло для трансмиссий и гидравлических систем сельскохозяйственной и строительной техники',
           specifications:  '',
@@ -359,66 +367,66 @@ const products = {
     anticorrosion_compounds: {
       name: 'Антикоррозионные составы',
       items: [
-          { id: 'ANTICORIT_DFW_9350', name: 'ANTICORIT DFW 9350', image: Anticorrosion, price: '', description: 'Антикоррозионный водовытесняющий состав', specifications: '', approvals: '', recommendations: '' },
-          { id: 'ANTICORIT_RPC_5050', name: 'ANTICORIT RPC 5050', image: Anticorrosion, price: '', description: 'Водосмешиваемый антикоррозионный состав', specifications: '', approvals: '', recommendations: '' },
-          { id: 'ANTICORIT_RPO_3050', name: 'ANTICORIT RPO 3050', image: Anticorrosion, price: '', description: 'Антикоррозионный состав', specifications: '', approvals: '', recommendations: '' }
+          { id: 'ANTICORIT_DFW_9350', name: 'ANTICORIT DFW 9350', image: ANTICORIT, price: '', description: 'Антикоррозионный водовытесняющий состав', specifications: '', approvals: '', recommendations: '' },
+          { id: 'ANTICORIT_RPC_5050', name: 'ANTICORIT RPC 5050', image: ANTICORIT, price: '', description: 'Водосмешиваемый антикоррозионный состав', specifications: '', approvals: '', recommendations: '' },
+          { id: 'ANTICORIT_RPO_3050', name: 'ANTICORIT RPO 3050', image: ANTICORIT, price: '', description: 'Антикоррозионный состав', specifications: '', approvals: '', recommendations: '' }
       ]
   },
   cooling_lubricants: {
     name: 'Смазочно-охлаждающие жидкости (СОЖ)',
     items: [
-        { id: 'ECOCOOL_68_VR_3', name: 'Ecocool 68 VR 3', image: CoolingLubricants, price: '', description: 'Высокоэффективная смазочно-охлаждающая жидкость,разработанная для обработки широкого спектра материалов', specifications: '', approvals: '', recommendations: '' },
-        { id: 'ECOCOOL_69_VR', name: 'Ecocool 69 VR', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
-        { id: 'ECOCOOL_2510_VR', name: 'Ecocool 2510 VR', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
-        { id: 'ECOCOOL_EC_VR', name: 'Ecocool EC VR', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
-        { id: 'ECOCOOL_SOLUBLE_30_VR', name: 'Ecocool Soluble 30 VR', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
-        { id: 'ECOCOOL_SOLUBLE_ER', name: 'Ecocool Soluble ER', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
-        { id: 'RATAK_VR', name: 'RATAK VR', image: CoolingLubricants, price: '', description: '', specifications: '', approvals: '', recommendations: '' }
+        { id: 'ECOCOOL_68_VR_3', name: 'Ecocool 68 VR 3', image: ANTICORIT, price: '', description: 'Высокоэффективная смазочно-охлаждающая жидкость,разработанная для обработки широкого спектра материалов', specifications: '', approvals: '', recommendations: '' },
+        { id: 'ECOCOOL_69_VR', name: 'Ecocool 69 VR', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
+        { id: 'ECOCOOL_2510_VR', name: 'Ecocool 2510 VR', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
+        { id: 'ECOCOOL_EC_VR', name: 'Ecocool EC VR', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
+        { id: 'ECOCOOL_SOLUBLE_30_VR', name: 'Ecocool Soluble 30 VR', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
+        { id: 'ECOCOOL_SOLUBLE_ER', name: 'Ecocool Soluble ER', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' },
+        { id: 'RATAK_VR', name: 'RATAK VR', image: ANTICORIT, price: '', description: '', specifications: '', approvals: '', recommendations: '' }
     ]
 },
 fire_resistant_hydraulic_oils: {
   name: 'Огнестойкие и гидравлические масла',
   items: [
-      { id: 'ECOCUT_VR_1520', name: 'ECOCUT VR 1520', image: FireResistantOils, price: '', description: 'Низковязкая масляная СОЖ для шлифования и электроэрозионной обработки', specifications: '', approvals: '', recommendations: '' },
-      { id: 'HYDROTHERM_R_46', name: 'HYDROTHERM R 46', image: FireResistantOils, price: '', description: 'Огнестойкая гидравлическая жидкость', specifications: '', approvals: '', recommendations: '' },
-      { id: 'PLANTOFLUX_R', name: 'PLANTOFLUX R', image: FireResistantOils, price: '', description: 'Огнестойкие гидравлические жидкости', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOLIN_AW_32_XLT', name: 'RENOLIN AW 32 XLT', image: FireResistantOils, price: '', description: 'Бесцинковое гидравлическое масло с очень высоким индексом вязкости', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOLIN_AW_HVI', name: 'RENOLIN AW HVI', image: FireResistantOils, price: '', description: 'Серия высокоиндексных гидравлических масел', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOLIN_AW_ZAF_HVI', name: 'RENOLIN AW ZAF HVI', image: FireResistantOils, price: '', description: 'Серия высокоиндексных бесцинковых гидравлических масел', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOLIN_COMP_MC', name: 'RENOLIN COMP', image: FireResistantOils, price: '', description: 'Минеральные масла для винтовых и поршневых компрессоров', specifications: '', approvals: '', recommendations: '' }
+      { id: 'ECOCUT_VR_1520', name: 'ECOCUT VR 1520', image: ANTICORIT, price: '', description: 'Низковязкая масляная СОЖ для шлифования и электроэрозионной обработки', specifications: '', approvals: '', recommendations: '' },
+      { id: 'HYDROTHERM_R_46', name: 'HYDROTHERM R 46', image: ANTICORIT, price: '', description: 'Огнестойкая гидравлическая жидкость', specifications: '', approvals: '', recommendations: '' },
+      { id: 'PLANTOFLUX_R', name: 'PLANTOFLUX R', image: ANTICORIT, price: '', description: 'Огнестойкие гидравлические жидкости', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOLIN_AW_32_XLT', name: 'RENOLIN AW 32 XLT', image: ANTICORIT, price: '', description: 'Бесцинковое гидравлическое масло с очень высоким индексом вязкости', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOLIN_AW_HVI', name: 'RENOLIN AW HVI', image: ANTICORIT, price: '', description: 'Серия высокоиндексных гидравлических масел', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOLIN_AW_ZAF_HVI', name: 'RENOLIN AW ZAF HVI', image: ANTICORIT, price: '', description: 'Серия высокоиндексных бесцинковых гидравлических масел', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOLIN_COMP_MC', name: 'RENOLIN COMP', image: ANTICORIT, price: '', description: 'Минеральные масла для винтовых и поршневых компрессоров', specifications: '', approvals: '', recommendations: '' }
   ]
 },
 cleaners_flush_compounds: {
   name: 'Очистители и промывочные составы',
   items: [
-      { id: 'RENOCLEAN_FTB_3504', name: 'RENOCLEAN FTB 3504', image: Cleaners, price: '', description: 'Водный концентрат промышленного очистителя', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOCLEAN_FTB_4504', name: 'RENOCLEAN FTB 4504', image: Cleaners, price: '', description: 'Очиститель для нанесения распылением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOCLEAN_MTA_3504', name: 'RENOCLEAN MTA 3504', image: Cleaners, price: '', description: 'Очистители для нанесения распылением без поверхностно-активных веществ с защитой от коррозии', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOCLEAN_SMCR', name: 'RENOCLEAN SMCR', image: Cleaners, price: '', description: 'Очиститель для промышленных систем с рабочими жидкостями на водной основе', specifications: '', approvals: '', recommendations: '' }
+      { id: 'RENOCLEAN_FTB_3504', name: 'RENOCLEAN FTB 3504', image: ANTICORIT, price: '', description: 'Водный концентрат промышленного очистителя', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOCLEAN_FTB_4504', name: 'RENOCLEAN FTB 4504', image: ANTICORIT, price: '', description: 'Очиститель для нанесения распылением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOCLEAN_MTA_3504', name: 'RENOCLEAN MTA 3504', image: ANTICORIT, price: '', description: 'Очистители для нанесения распылением без поверхностно-активных веществ с защитой от коррозии', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOCLEAN_SMCR', name: 'RENOCLEAN SMCR', image: ANTICORIT, price: '', description: 'Очиститель для промышленных систем с рабочими жидкостями на водной основе', specifications: '', approvals: '', recommendations: '' }
   ]
 },
 
 metalworking_oils: {
   name: 'Масла для обработки металлов',
   items: [
-      { id: 'RENOFORM_BCO_4513', name: 'RENOFORM BCO 4513', image: MetalworkingOils, price: '', description: 'Состав для операций штамповки и чистовой вырубки', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_BCO_5513', name: 'RENOFORM BCO 5513', image: MetalworkingOils, price: '', description: 'Состав для сложных операций обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_BYV_1531', name: 'RENOFORM BYV 1531', image: MetalworkingOils, price: '', description: 'Не содержащий хлора состав для обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_BYV_2511', name: 'RENOFORM BYV 2511', image: MetalworkingOils, price: '', description: 'Не содержащий хлора состав для обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_DMW_3003R', name: 'RENOFORM DMW 3003R', image: MetalworkingOils, price: '', description: 'Водосмешиваемый смазочный материал для большинства процессов ОМД', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_DMW_5571', name: 'RENOFORM DMW 5571', image: MetalworkingOils, price: '', description: 'Водосмешиваемый состав для операций прокатки, вытяжки, профилирования', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_TYW_4561', name: 'RENOFORM TYW 4561', image: MetalworkingOils, price: '', description: 'Смазочный материал для волочения медной катанки, прутков и ленты', specifications: '', approvals: '', recommendations: '' },
-      { id: 'RENOFORM_TYW_5562', name: 'RENOFORM TYW 5562', image: MetalworkingOils, price: '', description: 'Смазочный материал для волочения проволоки', specifications: '', approvals: '', recommendations: '' }
+      { id: 'RENOFORM_BCO_4513', name: 'RENOFORM BCO 4513', image: ANTICORIT, price: '', description: 'Состав для операций штамповки и чистовой вырубки', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_BCO_5513', name: 'RENOFORM BCO 5513', image: ANTICORIT, price: '', description: 'Состав для сложных операций обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_BYV_1531', name: 'RENOFORM BYV 1531', image: ANTICORIT, price: '', description: 'Не содержащий хлора состав для обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_BYV_2511', name: 'RENOFORM BYV 2511', image: ANTICORIT, price: '', description: 'Не содержащий хлора состав для обработки металлов давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_DMW_3003R', name: 'RENOFORM DMW 3003R', image: ANTICORIT, price: '', description: 'Водосмешиваемый смазочный материал для большинства процессов ОМД', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_DMW_5571', name: 'RENOFORM DMW 5571', image: ANTICORIT, price: '', description: 'Водосмешиваемый состав для операций прокатки, вытяжки, профилирования', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_TYW_4561', name: 'RENOFORM TYW 4561', image: ANTICORIT, price: '', description: 'Смазочный материал для волочения медной катанки, прутков и ленты', specifications: '', approvals: '', recommendations: '' },
+      { id: 'RENOFORM_TYW_5562', name: 'RENOFORM TYW 5562', image: ANTICORIT, price: '', description: 'Смазочный материал для волочения проволоки', specifications: '', approvals: '', recommendations: '' }
   ]
 },
 pressure_casting_compounds: {
   name: 'Составы для обработки давлением и литья',
   items: [
-      { id: 'LUBRODAL_C_80_S', name: 'LUBRODAL C 80 S', image: CastingCompounds, price: '', description: 'Разделительный состав на водной основе для процессов литья под давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'LUBRODAL_C_100_S', name: 'LUBRODAL C 100 S', image: CastingCompounds, price: '', description: 'Разделительный состав на водной основе для процессов литья под давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'LUBRODAL_F_133_S', name: 'LUBRODAL F 133 S', image: CastingCompounds, price: '', description: 'Водосмешиваемый состав для горячих и теплых процессов обработки давлением, не содержащий графит', specifications: '', approvals: '', recommendations: '' },
-      { id: 'LUBRODAL_F_525_S', name: 'LUBRODAL F 525 S', image: CastingCompounds, price: '', description: 'Графитсодержащий состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '' },
-      { id: 'LUBRODAL_R_150_S', name: 'LUBRODAL R 150 S', image: CastingCompounds, price: '', description: 'Водосмешиваемый состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '' }
+      { id: 'LUBRODAL_C_80_S', name: 'LUBRODAL C 80 S', image: ANTICORIT, price: '', description: 'Разделительный состав на водной основе для процессов литья под давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'LUBRODAL_C_100_S', name: 'LUBRODAL C 100 S', image: ANTICORIT, price: '', description: 'Разделительный состав на водной основе для процессов литья под давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'LUBRODAL_F_133_S', name: 'LUBRODAL F 133 S', image: ANTICORIT, price: '', description: 'Водосмешиваемый состав для горячих и теплых процессов обработки давлением, не содержащий графит', specifications: '', approvals: '', recommendations: '' },
+      { id: 'LUBRODAL_F_525_S', name: 'LUBRODAL F 525 S', image: ANTICORIT, price: '', description: 'Графитсодержащий состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '' },
+      { id: 'LUBRODAL_R_150_S', name: 'LUBRODAL R 150 S', image: ANTICORIT, price: '', description: 'Водосмешиваемый состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '' }
   ]
 }
   };

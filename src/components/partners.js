@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import emailjs from 'emailjs-com';
 import '../css/partners.css'; // Импорт CSS стилей
 import SvgHome from '../assetsImage/assets/house.svg';
 import vk from '../assetsImage/assets/icons8-вконтакте.svg';
@@ -41,6 +42,27 @@ const Partners = () => {
     const [fio, setFio] = useState('');
     const [email, setEmail] = useState('');
     const [text, setText] = useState('');
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+  
+      const templateParams = {
+        to_name: 'Менеджер Fuchs',
+        from_name: fio,
+        message: text,
+        reply_to: email
+      };
+  
+      emailjs.send('service_wrl8th7', 'template_u8q3865', templateParams, 'zPbJMJ7F2DRG_z8Uc')
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Сообщение отправлено успешно!');
+          window.location.reload();
+        }, (error) => {
+          console.error('FAILED...', error);
+          alert('Ошибка при отправке сообщения');
+        });
+    };
 
 
     return (
@@ -87,50 +109,61 @@ const Partners = () => {
             </div>
           </div>
           <div className="container-partners">
-            <h2>Не нашли, что искали?</h2>
-            <h3>Свяжитесь с нами и обсудим - как мы можем быть полезными друг другу!</h3>
-            <form action="#">
-              <div className="form-group">
-                <input className="form-control" 
-                                id="fio"
-                                type="text"
-                                value={fio}
-                                placeholder="ФИО*"
-                                onChange={(e) => setFio(e.target.value)}
-                                />
-              </div>
-              <div className="form-group">
-                <input className="form-control"
-                                id="email"
-                                type="email"
-                                value={email}
-                                placeholder="E-mail*"
-                                onChange={(e) => setEmail(e.target.value)}
-                                />
-              </div>
-              <div className="form-group">
-                <textarea className="form-control"  
-                id="text"
-                type="text"
-                value={text}
-                placeholder="Текст"
-                onChange={(e) => setText(e.target.value)}
-                ></textarea>
-              </div>
-              <div className="button_text_submit">
-                <div className="form-confirmation-section">
-                  <p className="user-consent-message-container">Нажимая на кнопку «Отправить», я подтверждаю ознакомление с <a href={Document1} download className="user-consent-text-markup">Пользовательским соглашением</a>и даю согласие на обработку <a href={Document2} className="user-consent-text-markup">Персональных данных</a>.</p>
-                </div>
-                <button type="submit" className="btn btn-primary">Отправить</button>
-              </div>
-            </form>
-          </div> 
+      <h2>Не нашли, что искали?</h2>
+      <h3>Свяжитесь с нами и обсудим - как мы можем быть полезными друг другу!</h3>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <input
+            className="form-control"
+            id="fio"
+            type="text"
+            value={fio}
+            placeholder="ФИО*"
+            onChange={(e) => setFio(e.target.value)}
+          />
+        </div>
+        <div className="form-group">
+          <input
+            className="form-control"
+            id="email"
+            type="email"
+            value={email}
+            placeholder="E-mail*"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div className="form-group">
+          <textarea
+            className="form-control"
+            id="text"
+            value={text}
+            placeholder="Текст"
+            onChange={(e) => setText(e.target.value)}
+          ></textarea>
+        </div>
+        <div className="button_text_submit">
+          <div className="form-confirmation-section">
+            <p className="user-consent-message-container">
+              Нажимая на кнопку «Отправить», я подтверждаю ознакомление с{' '}
+              <a href={Document1} download className="user-consent-text-markup">
+                Пользовательским соглашением
+              </a>{' '}
+              и даю согласие на обработку{' '}
+              <a href={Document2} download className="user-consent-text-markup">
+                Персональных данных
+              </a>.
+            </p>
+          </div>
+          <button type="submit" className="btn btn-primary">Отправить</button>
+        </div>
+      </form>
+    </div>
           <div className="address-info-section-adress">
               <div className="info-box-adress">
                 <h3 className="title-heading-adress">г. Пермь</h3>
-                <p>Адрес: <a href=""> Пермь, ул. Пожарского 67, офис 6</a></p>
-                <p>Телефон:<a href=""> +7 888 777-88-55</a></p>
-                <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru"> info-klg@fuchs-oil.ru</a></p>
+                <p>Адрес: <a href="">Пожарского 67, офис 6</a></p>
+                <p>Телефон: <a href="">+7 888 777-88-55</a></p>
+                <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">info-klg@fuchs-oil.ru</a></p>
               </div>
             </div>           
       </main>

@@ -10,6 +10,7 @@ import mainImage4 from '../assetsImage/assets/new (1).jpg';
 import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg';
 import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
 import products from './data/products';
+import logomobile from '../assetsImage/assets/fuchs_mobile.png'
 
 const HeaderIndex = () => {
   const [placeholder, setPlaceholder] = useState('Введите название продукта');
@@ -89,6 +90,12 @@ const HeaderIndex = () => {
     };
   }, []);
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
+const toggleMenu = () => {
+  setMenuOpen(!menuOpen);
+};
+
   return (
     <header className="corporate-info-container1">
       <div className="corporate-section">
@@ -104,9 +111,22 @@ const HeaderIndex = () => {
                     <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
                     <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
                   </div>
+                  <button className="menu-toggle-button" onClick={toggleMenu}>
+                    {menuOpen ? '✕' : '☰'}
+                  </button>
+                  <Link><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
                   <div className="logo_button_input">
                     <div className="logo_button">
                       <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
+                      <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
+                        <nav className="menu-links">
+                          <Link to="/about" className="menu-item" onClick={toggleMenu}>О компании</Link>
+                          <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
+                          <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
+                          <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
+                          <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
+                        </nav>
+                      </div>
                       <div className="button_product">
                         <form action="">
                           <Link to="/catalog">

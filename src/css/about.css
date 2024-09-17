@@ -250,3 +250,37 @@
 .about_chronical_blocks::-webkit-scrollbar {
   display: none; /* Скрываем полосу прокрутки в Chrome и Safari */
 }
+
+@media (max-width: 768px) {
+  .mega-heading {
+    font: 700 50px / 60px Inter, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    height: auto;
+    flex: 0;
+    text-align: right;
+  }
+
+  .company-description-text {
+    font: 500 44px / 44px Inter, sans-serif;
+  }
+
+  .distributor-info-section {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    flex: none;
+    margin-top: 2%;
+  }
+
+  .company-description-text {
+    text-align: right;
+  }
+
+  .distributor-info-block {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
