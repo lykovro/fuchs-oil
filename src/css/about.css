@@ -253,7 +253,7 @@
 
 @media (max-width: 768px) {
   .mega-heading {
-    font: 700 50px / 60px Inter, sans-serif;
+    font: 700 22px / 22px Inter, sans-serif;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
@@ -263,7 +263,7 @@
   }
 
   .company-description-text {
-    font: 500 44px / 44px Inter, sans-serif;
+    font: 500 20px / 22px Inter, sans-serif;
   }
 
   .distributor-info-section {
