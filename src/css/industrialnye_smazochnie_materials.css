@@ -305,3 +305,24 @@
     margin-right: 0;
   }
 
+  @media (max-width: 768px) {
+    .product-card-list-industrial {
+      flex-direction: column;
+    }
+
+    .transport-heading-style-industrial {
+      font: 600 20px / 24px Inter, sans-serif;
+      
+    }
+
+    .vehicle-image-container-industrial {
+      height: 50%;
+  
+      margin-left: 2%;
+    }
+
+    .transport-info-card-industrial {
+      width: 60%;
+      margin-left: 8%;
+    }
+  }

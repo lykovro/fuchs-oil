@@ -1470,11 +1470,15 @@
     
 
     .announcement-text-css {
-      font-size: 50px;
+      font-size: 20px;
     }
 
     .announcement-text {
-      font: 34px Inter, sans-serif;
+      font: 16px Inter, sans-serif;
+    }
+
+    .news_1_news_2 a:nth-child(n+2) {
+      margin-top: 4%;
     }
   
     .news_1_news_2, 
@@ -1509,7 +1513,7 @@
     }
 
     .vertical-card-container {
-      padding: 10px;
+     
       margin-top: 5%;
     }
   
@@ -1578,25 +1582,31 @@
 
     .upper_products_mobile {
       display: flex;
+      gap: 25px;
       width: 100%;
-      height: 10%;
+      height: 30%;
       justify-content: space-between;
     }
 
     .industrial-product-details-container_mobile {
-      width: 30%;
-      height: 20%;
+      width: 50%;
+      min-height: 100%;
       display: flex;
       flex-direction: column;
       margin-left: 0;
       margin-right: 0;
+      align-items: center;
+    }
+
+    .industrial-product-details-container_mobile:nth-child(n+2) {
+      
     }
 
     
 
     .motor-oil-image_mobile {
-      width: 420px;
-      height: 380px;
+      width: 70%;
+      height: 60%;
       margin-left: 0;
       margin-right: 0;
     }
@@ -1604,11 +1614,15 @@
     .product_text_mobile {
       display: flex;
     flex-direction: column;
-    height: 40%;
+    min-height: 40%;
     justify-content: space-evenly;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-left: 0;
     margin-right: 0;
+    }
+
+    .products {
+      margin-top: 5%;
     }
 
     .product_text_mobile span a {
@@ -1618,22 +1632,25 @@
     }
 
     .product_text_mobile p {
-      font-size: 38px;
+      font: 700 18px Inter, sans-serif;
         margin-top: 2%;
         margin-left: 0;
         margin-right: 0;
         font-weight: bold;
-      
+        word-break: break-all;
+        
     }
 
     .motor-oil-details-button-text_mobile {
-      font-size: 38px;
+      font-size: 16px;
         margin-top: 2%;
         font-weight: none;
     }
 
+
     .product_text_mobile span {
       margin-left: 0;
+      font-size: 14px;
     }
 
     .motor-oil-heading_mobile {
@@ -1662,10 +1679,24 @@
       border: none;
     }
 
+    .product-section-with-images-navigation {
+      align-items: center;
+      
+    }
+
+    .product-section-with-images-navigation {
+      margin-top: 10%;
+    }
+
     .vertical-spacer {
       height: 1000px;
     }
 
+    .product-catalog-layout {
+      min-width: auto;
+    }
+
+    
 
     
   }

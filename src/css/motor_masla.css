@@ -300,3 +300,29 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  @media (max-width: 768px) {
+
+    .catalog-title {
+      font: 700 24px / 20px Inter, sans-serif;
+    }
+
+    .contact-message {
+      font: 700 22px / 20px Inter, sans-serif;
+    }
+
+    .contact-message1 {
+      font: 400 14px Inter, sans-serif;
+    }
+
+    .contact-section-banner {
+      height: 15%;
+    }
+
+    .contact-section1 {
+      height: 150px;
+    }
+ 
+   
+    
+  }

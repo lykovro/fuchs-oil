@@ -654,6 +654,10 @@
 
 }
 
+.user-consent-message-container-mobile {
+  display: none;
+}
+
 
 
 @media (max-width: 768px) {
@@ -666,15 +670,144 @@
   }
 
   .contact-info-heading {
-    font: 700 48px Inter, sans-serif;
+    font: 700 18px Inter, sans-serif;
   }
+
+  .contact-info-heading1 {
+    font: 700 24px / 30px Inter, sans-serif;
+  }
+
+  .contact-info-container-vk-tele {
+    width: 100%;
+
+  }
+
+  .contacts_info {
+    width: 100%;
+  }
+
+  .info-box-block {
+    width: 70%;
+    height: 50px;
+    margin-top: 5%;
+  }
+
+  .info-box-block button {
+    font: 16px Inter, sans-serif;
+    font-weight: bold;
+  }
+
+  .info-box-block a {
+    width: 100%;
+  }
+
+  .info-box-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-partners h2 {
+    font: 700 24px / 30px Inter, sans-serif;
+  }
+
+  .container-partners h3 {
+    font-size: 20px;
+  }
+
+  .container-partners input[type="text"],
+.container-partners input[type="email"],
+.container-partners textarea {
+ font-size: 16px;
 }
 
-@media (max-width: 480px) {
-  #map-container {
-    height: 600px; /* Ещё меньше для самых маленьких экранов */
-  }
+.title-heading-adress {
+  font: 600 22px / 24px Inter, sans-serif;
+}
 
+.info-box-adress p {
+  font: 400 18px Inter, sans-serif;
+}
+
+.button_text_submit {
+  flex-direction: column;
+}
+
+.form-confirmation-section {
+  width: 100%;
+}
+
+.container-partners button.btn {
+  width: 100%;
+}
+
+.user-consent-message-container {
+ display: none;
+}
+
+.user-consent-message-container-mobile {
+  display: block;
+  box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-bottom: 5px;
+    font: 400 16px Inter, sans-serif;
+    color: rgba(66, 75, 79, 1);
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.container-partners button.btn {
+  margin-top: 3%;
+}
+
+.title-heading-politic {
+  font: 400 20px Inter, sans-serif;
+  width: auto;
+}
+
+.title-heading-politic li {
+  width: 100%;
+}
+
+.title-heading-politic li a {
+  font-size: 18px;
+  width: 100%;
+}
+
+.info-box-politic {
+  width: 100%;
+}
+
+.title-heading-politic li:nth-child(n+2) {
+  margin-top: 4%;
+}
+
+.address-info-section-politic {
+  margin-top: 30px;
+}
+
+.contact-info-section2 {
+  margin-top: 10%;
+}
+
+.info-politic-bez h3, .info-politic-bez div {
+  font-size: 18px;
+}
+
+.info-politic-bez h3, .info-politic-bez div:nth-child(n+2) {
+  margin-top: 5%;
+}
+
+#map-container {
+  width: 100%;
+}
+
+.button_text_submit {
+  width: 100%;
+}
+
+.container button.btn {
+  width: 100%;
+}
 
 }
 

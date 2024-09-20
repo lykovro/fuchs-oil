@@ -153,6 +153,17 @@ const Partners = () => {
                 Персональных данных
               </a>.
             </p>
+
+
+            <p className="user-consent-message-container-mobile">
+              Нажимая на кнопку «Отправить», я подтверждаю ознакомление с <a href={Document1} download className="user-consent-message-container-mobile">Пользовательским соглашением
+              </a>
+              и даю согласие на обработку
+              <a href={Document2} download className="user-consent-message-container-mobile">
+                Персональных данных
+              </a>
+            </p>
+
           </div>
           <button type="submit" className="btn btn-primary">Отправить</button>
         </div>

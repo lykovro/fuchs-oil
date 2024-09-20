@@ -380,22 +380,22 @@
     }
 
     .contact-header-text-style {
-      font: 700 70px Inter, sans-serif;
+      font: 700 22px Inter, sans-serif;
     }
 
     .product-title-style {
-      font: 700 70px Inter, sans-serif;
+      font: 700 22px Inter, sans-serif;
     }
     .contact-info-heading {
-      font: 700 64px Inter, sans-serif;
+      font: 700 20px Inter, sans-serif;
     }
 
     .contact-info-style_1 {
-      font: 400 48px / 68px Inter, sans-serif;
+      font: 400 18px / 26px Inter, sans-serif;
     }
 
     .contact-info-style {
-      font: 400 48px / 70px Inter, sans-serif;
+      font: 400 18px / 28px Inter, sans-serif;
     }
     .product-info-container1 {
       margin-top: 8%;
@@ -405,7 +405,7 @@
     }
 
     .contact-info-container {
-      margin-top: 10%;
+      margin-top: 1%;
     }
 
     .main-content-container {
@@ -413,8 +413,8 @@
     }
 
     .flex-container-with-padding a img {
-      width: 150px;
-      height: 100%;
+      width: 100%;
+      height: 50%;
     }
 
     .copyright-logo {
@@ -425,23 +425,24 @@
 
     .copyright-logo_mob {
       display: flex;
-      width: 210px;
-      height: 180px;
+      width: 60px;
+      height: auto;
     }
 
     .main-content-container-left-logo {
-      flex-direction: ROW;
+      flex-direction: column;
       
     }
 
     .company-copyright-section {
       margin-left: 0;
-      
-      
+      justify-content: flex-start;
+      margin-top: 5%;
       width: 100%;
+      
     }
     .copyright-text-display-style {
-      font: 400 45px Inter, sans-serif;
+      font: 400 16px Inter, sans-serif;
     }
 
     .main-content-container-left {
@@ -459,7 +460,12 @@
     }
 
     .informational-text-style {
-      font: 400 44px / 50px Inter, sans-serif;
+      font: 400 14px / 16px Inter, sans-serif;
       margin-top: 3%;
+      margin-bottom: 10%;
+    }
+
+    .product-title-info {
+      margin-left: 1%;
     }
   }

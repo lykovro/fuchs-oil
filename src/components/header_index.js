@@ -60,11 +60,13 @@ const HeaderIndex = () => {
       Object.keys(products).forEach((categoryKey) => {
         const category = products[categoryKey];
         const matchedItems = category.items.filter(item => 
-          item.name.toLowerCase().includes(query)
+            item.name.toLowerCase().includes(query)
         );
 
-        results.push(...matchedItems);
-      });
+        matchedItems.forEach(item => {
+            results.push({ ...item, category: categoryKey });
+        });
+    });
 
       setSearchResults(results);
     } else {
@@ -158,7 +160,7 @@ const toggleMenu = () => {
                           <ul>
                             {searchResults.map((item, index) => (
                               <li key={index}>
-                                <Link to={`/catalog/${item.id}`}>{item.name}</Link>
+                                <Link to={`/catalog/${item.category}/${item.id}`}>{item.name}</Link>
                               </li>
                             ))}
                           </ul>

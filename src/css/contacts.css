@@ -554,4 +554,12 @@ html {
     border-radius: 12px;
   }
 
+  @media (max-width: 768px) {
+
+    .info-box p {
+      text-align: center;
+      font: 400 17px Inter, sans-serif;
+    }
+  }
+
   
