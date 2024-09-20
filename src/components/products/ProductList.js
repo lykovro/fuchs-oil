@@ -18,6 +18,11 @@ function CategoryDetailPage() {
     groupedProducts.push(categoryProducts.slice(i, i + 4));
   }
 
+  const groupedProducts_mob = [];
+  for (let i = 0; i < categoryProducts.length; i += 2) {
+    groupedProducts_mob.push(categoryProducts.slice(i, i + 2));
+  }
+
   return (
     <main>
       <div className="product-section-with-images-navigation">
@@ -38,7 +43,7 @@ function CategoryDetailPage() {
         <p className="product-title-text-style-navigation"><Link to={`/catalog/${productsId}`}>{categoryName}</Link></p>
       </div>
 
-      <div className="catalog-container">
+      <div className="catalog-container_desktop">
         <h2 className="catalog-title">{categoryName}</h2>
         {groupedProducts.map((group, index) => (
           <><div key={index} className="fullwidth-container-upp">
@@ -62,6 +67,32 @@ function CategoryDetailPage() {
           </div><div className='transport-section'></div></>
           ))}
       </div>
+
+      <div className="catalog-container_mobile">
+        {groupedProducts_mob.map((group, index) => (
+          <><div key={index} className="fullwidth-container-upp_mobile">
+            {group.map(product => (
+              <div key={product.id} className="fullwidth-container-legkoviev_mobile">
+                <Link to={`/catalog/${productsId}/${product.id}`}>
+                  <div className="vehicle-info-card-legkovie_mobile">
+                    <div className="vehicle-image-container-legkovie_mobile">
+                      <img src={product.image} alt={product.name} />
+                    </div>
+                  </div>
+                  <div className="transport-info-card-legkovie_mobile">
+                    
+                    <div className="text_details_mobile">
+                      <p className="trandsport-text_mobile">{product.name}</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div><div className='transport-section_mobile'></div></>
+          ))}
+      </div>
+
+      
 
       <div className="contact-section1">
         <div className="contact-section">

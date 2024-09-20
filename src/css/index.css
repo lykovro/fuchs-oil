@@ -1582,14 +1582,15 @@
 
     .upper_products_mobile {
       display: flex;
+      gap: 25px;
       width: 100%;
-      height: 10%;
+      height: 30%;
       justify-content: space-between;
     }
 
     .industrial-product-details-container_mobile {
       width: 50%;
-      min-height: 20%;
+      min-height: 100%;
       display: flex;
       flex-direction: column;
       margin-left: 0;
@@ -1598,7 +1599,7 @@
     }
 
     .industrial-product-details-container_mobile:nth-child(n+2) {
-      margin-left: 3.5%;
+      
     }
 
     
@@ -1631,11 +1632,12 @@
     }
 
     .product_text_mobile p {
-      font: 700 20px Inter, sans-serif;
+      font: 700 18px Inter, sans-serif;
         margin-top: 2%;
         margin-left: 0;
         margin-right: 0;
         font-weight: bold;
+        word-break: break-all;
         
     }
 
@@ -1679,6 +1681,7 @@
 
     .product-section-with-images-navigation {
       align-items: center;
+      
     }
 
     .product-section-with-images-navigation {
@@ -1692,6 +1695,8 @@
     .product-catalog-layout {
       min-width: auto;
     }
+
+    
 
     
   }

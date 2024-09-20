@@ -624,6 +624,10 @@ html {
       margin-left: 0;
     }
 
+    main {
+      gap: 40px;
+    }
+
     .company-info-logo a {
       margin: 0;
       margin-left: 3%;
@@ -675,7 +679,7 @@ html {
     }
 
     .scroll-to-top {
-      
+      right: 30px;
     }
 
     /* Стили для меню */

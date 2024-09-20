@@ -322,6 +322,7 @@
     }
 
     .transport-info-card-industrial {
-      width: 70%;
+      width: 60%;
+      margin-left: 8%;
     }
   }

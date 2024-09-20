@@ -284,5 +284,47 @@
     flex-direction: row;
     width: 100%;
   }
+  
+  .about_header_head h2 {
+    font-size: 20px;
+  }
 
+  .about_header_head {
+    width: 65%;
+  }
+
+  .super-brief-statement {
+    font: 24px / 30px Inter, sans-serif;
+  }
+
+  .cosmic-highlight {
+    font: 700 24px / 30px Inter, sans-serif;
+  }
+
+  .about_title h2 {
+    font-size: 24px;
+  }
+
+  .about_title {
+    width: 100%;
+  }
+
+  .about_block_text {
+    height: 10%;
+    width: 100%;
+    word-break: break-all;
+  }
+
+  .about_block_text p {
+    font-size: 18px;
+  }
+
+  .about_block_pic {
+    height: 35%;
+    width: 100%;
+  }
+
+  .about_chronical h2 {
+    font-size: 24px;
+  }
 }

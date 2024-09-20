@@ -92,29 +92,33 @@ useEffect(() => {
                       </div>
                     </div>
                 </div>
-                <div className="upper_products_mobile">
-                <div className="industrial-product-details-container_mobile">
+                
+              <div className="upper_products_mobile">
+                    <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
-                      <p className="motor-oil-heading_mobile">Антикоррозионные составы</p>
-                          <span>
-                            <Link to="/catalog/anticorrosion_compounds">
-                              <p className="motor-oil-details-button-text_mobile">Подробнее</p>
-                            </Link>
-                          </span>
+                        <p className="motor-oil-heading_mobile">Антикоррозионные составы</p>
+                        <span>
+                          <Link to="/catalog/anticorrosion_compounds">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
                       </div>
                     </div>
-                <div className="industrial-product-details-container_mobile">
+                    <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
-                      <p className="motor-oil-heading_mobile">Смазочно-охлаждающие жидкости (СОЖ)</p>
-                          <span>
-                            <Link to="/catalog/cooling_lubricants">
-                              <p className="motor-oil-details-button-text_mobile">Подробнее</p>
-                            </Link>
-                          </span>
+                        <p className="motor-oil-heading_mobile">Смазочно-охлаждающие жидкости (СОЖ)</p>
+                        <span>
+                          <Link to="/catalog/cooling_lubricants">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
                       </div>
                     </div>
+                </div>
+                
+              <div className="upper_products_mobile">
                     <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
@@ -138,6 +142,9 @@ useEffect(() => {
                       </div>
                     </div>
                 </div>
+
+
+                
 
 
 
