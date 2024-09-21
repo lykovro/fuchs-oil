@@ -113,6 +113,56 @@ function ProductDetailPage() {
           </div>
         </div>
       </div>
+
+      <div className='product_opisanie_mobile'>
+          <div className="product-specifications">
+      <h3 onClick={toggleSpec}>Спецификации <span className={`arrow ${specOpen ? 'open' : ''}`}>&#9660;</span> </h3>
+      <div className={`collapsible-content ${specOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.specifications) ? (
+            product.specifications.map((spec, index) => (
+              <li key={index}>{spec}</li>
+            ))
+          ) : (
+            <li>Спецификации недоступны</li>
+          )}
+        </ul>
+      </div>
+    </div>
+
+    <div className="product-specifications">
+      <h3 onClick={toggleApproval}>Одобрения <span className={`arrow ${approvalOpen ? 'open' : ''}`}>&#9660;</span></h3>
+      <div className={`collapsible-content ${approvalOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.approvals) ? (
+            product.approvals.map((approval, index) => (
+              <li key={index}>{approval}</li>
+            ))
+          ) : (
+            <li>Одобрения недоступны</li>
+          )}
+        </ul>
+      </div>
+    </div>
+
+    <div className="product-specifications">
+      <h3 onClick={toggleRecommendations}>
+        Рекомендации Fuchs <span className={`arrow ${recommendationsOpen ? 'open' : ''}`}>&#9660;</span>
+      </h3>
+      <div className={`collapsible-content ${recommendationsOpen ? 'active' : ''}`}>
+        <ul>
+          {Array.isArray(product.recommendations) ? (
+            product.recommendations.map((recommendation, index) => (
+              <li key={index}>{recommendation}</li>
+            ))
+          ) : (
+            <li>{product.recommendations || 'Рекомендации недоступны'}</li>
+          )}
+        </ul>
+      </div>
+    </div>
+          </div>
+
       <div className='transport-section-section'></div>
       <div className="product-actions">
         <div className='info-box-block-tovar'><button>Описание продукта</button></div>

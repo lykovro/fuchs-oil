@@ -12,7 +12,7 @@
   }
 
 html {
-    min-width: 1510px;
+    min-width: auto;
     height: 100%;
   }
 

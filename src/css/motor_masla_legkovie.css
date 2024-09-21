@@ -450,6 +450,9 @@
   
     .fullwidth-container-legkoviev_mobile {
       display: flex;
+      width: 50%;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .fullwidth-container-legkoviev_mobile a {

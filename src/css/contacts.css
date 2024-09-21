@@ -557,7 +557,7 @@ html {
   @media (max-width: 768px) {
 
     .info-box p {
-      text-align: center;
+      text-align: left;
       font: 400 17px Inter, sans-serif;
     }
   }
