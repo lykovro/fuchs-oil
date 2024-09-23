@@ -12,7 +12,7 @@
   }
 
 html {
-    min-width: auto;
+    
     height: 100%;
   }
 
@@ -731,16 +731,20 @@ html {
 
 .menu-item:hover {
   display: flex;
-  color: #FFD700; /* цвет ссылки при наведении */
+  color: #FFD700; 
 }
 
 html {
   min-width: auto;
+  width: 100%;
+  max-width: 100%;
+  
   height: auto;
 }
 
 body {
   height: auto;
+  width: 100%;
 }
 
     

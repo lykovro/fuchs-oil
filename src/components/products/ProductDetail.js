@@ -29,27 +29,31 @@ function ProductDetailPage() {
     return (
         <main>
           <div className="product-section-with-images-navigation">
-            <div className="svg-container">
-              <Link to="/fuchs-oil"><img src={SvgHome} alt="Home"/></Link>
+            <div>
+              <div className="svg-container">
+                <Link to="/fuchs-oil"><img src={SvgHome} alt="Home"/></Link>
+              </div>
+              <div className="svg-container1">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <p className="product-title-text-style-navigation"><Link to="/catalog">Продукты</Link></p>
+              <div className="svg-container1">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <p className="product-title-text-style-navigation"><Link to={`/catalog/${categoryId}`}>{category.name}</Link></p>
             </div>
-            <div className="svg-container1">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-              </svg>            
+            <div>
+              <div className="svg-container1">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <p className="product-title-text-style-navigation"><Link to={`/catalog/${categoryId}/${productId}`}>{product.name}</Link></p>
             </div>
-            <p className="product-title-text-style-navigation"><Link to="/catalog">Продукты</Link></p>
-            <div className="svg-container1">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-              </svg>            
-            </div>
-            <p className="product-title-text-style-navigation"><Link to={`/catalog/${categoryId}`}>{category.name}</Link></p>
-            <div className="svg-container1">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.7071,7l5,5l-5,5" stroke="#90979C" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-              </svg>             
-            </div>
-            <p className="product-title-text-style-navigation"><Link to={`/catalog/${categoryId}/${productId}`}>{product.name}</Link></p>
          </div>
 
          <div className="catalog-container">
