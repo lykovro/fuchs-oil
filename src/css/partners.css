@@ -593,5 +593,19 @@
 
 }
 
+@media (max-width: 768px) {
+
+  .address-info-section {
+    margin-top: 20px;
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+  .info-box {
+    padding-top: 5%;
+  }
+  
+}
+
 
 

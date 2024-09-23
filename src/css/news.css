@@ -266,3 +266,29 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  @media (max-width: 768px) {
+    .product-card-list-line {
+      flex-direction: column;
+    }
+
+    .product-card-list-line a {
+      width: 100%;
+    }
+
+    .product-card-list-line-entity-card h3 {
+      font-size: 22px;
+    }
+
+   .product-card-list-line-entity-card h4 {
+    font-size: 14px;
+   }
+
+   .product-card-list-line-entity:hover p {
+    margin-top: 10%;
+   }
+
+   .product-card-list-line a:nth-child(n+2) {
+    margin-top: 10%;
+   }
+  }

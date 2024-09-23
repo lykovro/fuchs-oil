@@ -253,21 +253,22 @@
 
 @media (max-width: 768px) {
   .mega-heading {
-    font: 700 50px / 60px Inter, sans-serif;
+    font: 700 20px / 18px Inter, sans-serif;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
     height: auto;
+    min-width: 50%;
     flex: 0;
-    text-align: right;
+    text-align: left;
   }
 
   .company-description-text {
-    font: 500 44px / 44px Inter, sans-serif;
+    font: 500 16px / 12px Inter, sans-serif;
   }
 
   .distributor-info-section {
-    max-width: 100%;
+    max-width: 50%;
     margin-right: 0;
     margin-left: 0;
     flex: none;
@@ -279,8 +280,51 @@
   }
 
   .distributor-info-block {
-    flex-direction: column;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .about_header_head h2 {
+    font-size: 20px;
+  }
+
+  .about_header_head {
+    width: 65%;
+  }
+
+  .super-brief-statement {
+    font: 24px / 30px Inter, sans-serif;
+  }
+
+  .cosmic-highlight {
+    font: 700 24px / 30px Inter, sans-serif;
+  }
+
+  .about_title h2 {
+    font-size: 24px;
+  }
+
+  .about_title {
     width: 100%;
   }
 
+  .about_block_text {
+    height: 10%;
+    width: 100%;
+    word-break: break-all;
+  }
+
+  .about_block_text p {
+    font-size: 18px;
+  }
+
+  .about_block_pic {
+    height: 35%;
+    width: 100%;
+  }
+
+  .about_chronical h2 {
+    font-size: 24px;
+  }
 }

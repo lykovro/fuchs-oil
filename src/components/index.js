@@ -83,33 +83,23 @@ useEffect(() => {
                     <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
-                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <p className="motor-oil-heading_mobile">Трансмиссионные масла</p>
                         <span>
-                          <Link to="/catalog/motor_masla">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
-                          </Link>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="industrial-product-details-container_mobile">
-                      <img src={motor_maslo} className="motor-oil-image_mobile" />
-                      <div className="product_text_mobile">
-                        <p className="motor-oil-heading_mobile">Моторные масла</p>
-                        <span>
-                          <Link to="/catalog/motor_masla">
+                          <Link to="/catalog/transmission_oils">
                             <p className="motor-oil-details-button-text_mobile">Подробнее</p>
                           </Link>
                         </span>
                       </div>
                     </div>
                 </div>
-                <div className="upper_products_mobile">
-                <div className="industrial-product-details-container_mobile">
+                
+              <div className="upper_products_mobile">
+                    <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
-                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <p className="motor-oil-heading_mobile">Антикоррозионные составы</p>
                         <span>
-                          <Link to="/catalog/motor_masla">
+                          <Link to="/catalog/anticorrosion_compounds">
                             <p className="motor-oil-details-button-text_mobile">Подробнее</p>
                           </Link>
                         </span>
@@ -118,26 +108,43 @@ useEffect(() => {
                     <div className="industrial-product-details-container_mobile">
                       <img src={motor_maslo} className="motor-oil-image_mobile" />
                       <div className="product_text_mobile">
-                        <p className="motor-oil-heading_mobile">Моторные масла</p>
+                        <p className="motor-oil-heading_mobile">Смазочно-охлаждающие жидкости (СОЖ)</p>
                         <span>
-                          <Link to="/catalog/motor_masla">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
-                          </Link>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="industrial-product-details-container_mobile">
-                      <img src={motor_maslo} className="motor-oil-image_mobile" />
-                      <div className="product_text_mobile">
-                        <p className="motor-oil-heading_mobile">Моторные масла</p>
-                        <span>
-                          <Link to="/catalog/motor_masla">
+                          <Link to="/catalog/cooling_lubricants">
                             <p className="motor-oil-details-button-text_mobile">Подробнее</p>
                           </Link>
                         </span>
                       </div>
                     </div>
                 </div>
+                
+              <div className="upper_products_mobile">
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Огнестойкие и гидравлические масла</p>
+                        <span>
+                          <Link to="/catalog/fire_resistant_hydraulic_oils">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="industrial-product-details-container_mobile">
+                      <img src={motor_maslo} className="motor-oil-image_mobile" />
+                      <div className="product_text_mobile">
+                        <p className="motor-oil-heading_mobile">Очистители и промывочные составы</p>
+                        <span>
+                          <Link to="/catalog/cleaners_flush_compounds">
+                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+
+
+                
 
 
 
