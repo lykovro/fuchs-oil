@@ -379,6 +379,10 @@
     display: none;
   }
 
+  .catalog-container_desktop {
+    width: 100%;
+  }
+
   @media (max-width: 768px) {
 
     .catalog-container {

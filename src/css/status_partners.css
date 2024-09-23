@@ -124,3 +124,32 @@
     opacity: 1; /* Показать текст описания при наведении */
     transform: translate(0%, -10%);
 }
+
+@media (max-width: 768px) {
+    .content-status-section h3 {
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    .requirements-status-list li {
+        font-size: 14px;
+    }
+
+    .content-status:nth-child(n+2) {
+        margin-top: 5%;
+    }
+
+    .requirements-status-list_list {
+        flex-direction: column;
+    }
+
+    .requirements-status-list_list li:nth-child(n+2) {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .requirements-status-list_list li p {
+        font-size: 16px;
+    }
+
+}
