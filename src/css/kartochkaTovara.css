@@ -105,14 +105,16 @@ main {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin-top: 5%;
   }
   
   .product-specifications {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 25%;
     margin-left: 0;
     margin-right: 0;
+    
 
   }
 
@@ -122,6 +124,7 @@ main {
     color: #01509E;
     cursor: pointer;
     margin-left: 0;
+    margin-right: 0;
 
   }
   
@@ -132,6 +135,7 @@ main {
     font-size:18px;
     color: #5F5A5A;
     list-style: none;
+    text-align: center;
   }
   
   .product-specifications li {
@@ -263,6 +267,7 @@ main {
     transition: height 0.5s ease-in, opacity 0.5s ease-in;
     width: 100%;
     margin-left: 1%;
+    overflow: auto;
   }
 
   .arrow {
@@ -270,7 +275,103 @@ main {
     margin-left: 10px;
     transition: transform 0.3s ease;
   }
+
+  .product_opisanie_mobile {
+    display: none;
+  }
   
   .arrow.open {
     transform: rotate(180deg); /* Поворот стрелки вниз при раскрытии */
+  }
+
+  @media (max-width: 768px) {
+    .product-title-tovar {
+      font: 700 24px / 26px Inter, sans-serif;
+      margin-bottom: 7%;
+    }
+
+    .product-specifications ul {
+      margin-top: 6%;
+      text-align: left;
+    }
+
+    .product-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .info-box-block-tovar {
+      width: 70%;
+      height: 55px;
+
+    }
+
+    .info-box-block-tovar:nth-child(n+2) {
+      margin-top: 7%;
+    }
+
+    .product-actions {
+      background: rgba(242, 246, 247, 1);
+      padding-top: 5%;
+      padding-bottom: 5%;
+      border-radius: 12px;
+    }
+
+    .info-box-block-tovar button {
+      font: 18px Inter, sans-serif;
+      font-weight: bold;
+    }
+
+    .transport-section-section {
+      margin-top: 5%;
+    }
+
+    .product-image-container {
+      width: 60%;
+      height: auto;
+    }
+
+    .product-details {
+      width: 100%;
+      margin-top: 3%;
+    }
+
+
+    .product-description {
+      font-size: 18px;
+    }
+
+    .product-price {
+      display: none;
+    }
+
+    .product_opisanie_mobile {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .products_catalog_tovar {
+      height: auto;
+      flex-direction: column;
+    }
+
+    .product-specifications {
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .product-specifications:nth-child(n+2) {
+      margin-top: 7%;
+    }
+
+    .product_opisanie {
+      display: none;
+    }
+
+    .product-specifications h3 {
+      font-size: 18px;
+      
+    }
   }

@@ -450,6 +450,9 @@
   
     .fullwidth-container-legkoviev_mobile {
       display: flex;
+      width: 50%;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .fullwidth-container-legkoviev_mobile a {
@@ -482,5 +485,15 @@
     .transport-section_mobile {
       display: flex;
     }
+
+    .product-section-with-images {
+      align-items: center;
+      margin-top: 5%;
+      display: flex;
+    flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
+    max-width: 100%; /* Ограничение ширины */
+    }
+
+    
   }
 

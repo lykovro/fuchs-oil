@@ -666,7 +666,7 @@
   }
 
   #map-container {
-    height: 700px; /* Меньшая высота на мобильных устройствах */
+    height: 300px
   }
 
   .contact-info-heading {

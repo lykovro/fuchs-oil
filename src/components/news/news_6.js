@@ -52,7 +52,7 @@ const News6 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_5'>Анонс производства синтетических компрессорных масел серии RENOLIN UNISYN OL</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_5'>RENOLIN UNISYN OL</Link></a></p>
             </div>
             <div className='news_blocks_page'>
                 <h2>

@@ -51,7 +51,7 @@ const News2 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_2'>Анонс производства RENOLIN DTA</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_2'>RENOLIN DTA</Link></a></p>
             </div>
             <div className='news_blocks_page'>
                 <h2>

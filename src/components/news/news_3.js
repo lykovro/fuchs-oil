@@ -51,7 +51,7 @@ const News3 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_3'>Анонс производства компрессорных масел COMP MC</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_3'>Компрессорные масла COMP MC</Link></a></p>
             </div>
             <div className='news_blocks_page'>
                 <h2>
