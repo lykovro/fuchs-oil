@@ -98,6 +98,14 @@ const toggleMenu = () => {
   setMenuOpen(!menuOpen);
 };
 
+useEffect(() => {
+  if (menuOpen) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = 'auto';
+  }
+}, [menuOpen]);
+
   return (
     <header className="corporate-info-container1">
       <div className="corporate-section">
@@ -121,12 +129,22 @@ const toggleMenu = () => {
                     <div className="logo_button">
                       <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
+                      <div>
+                        <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
+                      </div>
                         <nav className="menu-links">
+                        <Link to="/catalog" className="menu-item" onClick={toggleMenu}>Каталог</Link>
+                        <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/about" className="menu-item" onClick={toggleMenu}>О компании</Link>
+                          <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
+                          <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
+                          <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
+                          <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
+                          <div className='fullscreen-menu-transport-section-section'></div>
                         </nav>
                       </div>
                       <div className="button_product">

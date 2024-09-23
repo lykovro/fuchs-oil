@@ -560,6 +560,12 @@ html {
       text-align: left;
       font: 400 17px Inter, sans-serif;
     }
+    
+    .container h2 {
+      font: 700 24px / 30px Inter, sans-serif;
+    }
+
+
   }
 
   

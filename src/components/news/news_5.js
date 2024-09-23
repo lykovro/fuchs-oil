@@ -52,7 +52,7 @@ const News5 = () => {
                         </g>
                         </svg>            
                 </div>
-                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_5'>Форум Стекло и современные технологии</Link></a></p>
+                <p className="product-title-text-style-navigation"><a href=""><Link to='/news/news_5'>Форум</Link></a></p>
             </div>
             <div className='news_blocks_page'>
                 <h2>

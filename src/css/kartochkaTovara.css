@@ -111,10 +111,10 @@ main {
   .product-specifications {
     display: flex;
     flex-direction: column;
-    
+    width: 25%;
     margin-left: 0;
     margin-right: 0;
-    align-items: center;
+    
 
   }
 
@@ -135,6 +135,7 @@ main {
     font-size:18px;
     color: #5F5A5A;
     list-style: none;
+    text-align: center;
   }
   
   .product-specifications li {
@@ -266,6 +267,7 @@ main {
     transition: height 0.5s ease-in, opacity 0.5s ease-in;
     width: 100%;
     margin-left: 1%;
+    overflow: auto;
   }
 
   .arrow {
@@ -290,6 +292,7 @@ main {
 
     .product-specifications ul {
       margin-top: 6%;
+      text-align: left;
     }
 
     .product-actions {
@@ -359,6 +362,7 @@ main {
 
     .product-specifications {
       align-items: flex-start;
+      width: 100%;
     }
 
     .product-specifications:nth-child(n+2) {
@@ -370,6 +374,7 @@ main {
     }
 
     .product-specifications h3 {
-      font-size: 18px
+      font-size: 18px;
+      
     }
   }
