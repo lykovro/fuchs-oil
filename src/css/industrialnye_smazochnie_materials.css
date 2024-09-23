@@ -317,7 +317,7 @@
 
     .vehicle-image-container-industrial {
       height: 50%;
-  
+  width: auto;
       margin-left: 2%;
     }
 
