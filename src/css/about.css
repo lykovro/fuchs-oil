@@ -173,31 +173,31 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 500px; /* Добавлено для контроля высоты блока */
+  height: auto; /* Позволить блоку автоматически изменять высоту */
 }
 
 .about_chronical_block {
   display: flex;
-  flex-direction: column;
-  width: 300px;
   height: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  flex-direction: column;
+  width: 200px; /* Фиксированная ширина блока */
+  height: auto; /* Автоматическая высота */
+  margin: 0 10px; /* Горизонтальный отступ */
   font-family: Inter;
-  
+  flex-shrink: 0; /* Запретить сжатие блоков */
 }
 
 .about_chronical_block:nth-child(n+2) {
-  margin-left: 3%;
+  margin-left: 1%;
 }
 
 .about_chronical_block_pic {
   width: 100%;
-  height: 50%;
+  height: 200px; /* Фиксированная высота изображения */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 12px;
+  border-radius: 12px;  
 }
 
 .about_chronical h2 {
@@ -217,34 +217,33 @@
 }
 
 .about_chronical_block_text {
+  padding: 2px;
   display: flex;
   flex-direction: column;
-  width: 90%;
-  height: 50%;
+  height: auto;
+  text-align: left;
+  width: 100%; 
 }
 
 .about_chronical_block_text p {
-  margin-top: 0%;
+  margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
   text-align: left;
   width: 100%;
-  overflow: hidden;
-  white-space:initial;
+  white-space: normal; /* Позволяет тексту переноситься на новую строку */
+  overflow: visible; /* Отключает обрезание текста */
+  word-wrap: break-word; /* Разрешает разрывы слов, чтобы текст не выходил за границы */
 }
 
 .about_chronical_blocks {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  transition: transform 0.3s ease;
-  overflow-x: auto; /* Разрешить горизонтальную прокрутку только внутри контейнера */
-  width: 100%; /* Ограничить ширину контейнера */
-  height: 400px;
-  white-space: nowrap;
-  overflow-y: hidden; /* Скрыть вертикальную полосу прокрутки */
-  scrollbar-width: none; /* Скрываем полосу прокрутки в Firefox */
-  -ms-overflow-style: none;
+  flex-wrap: nowrap; /* Не переносить блоки на следующую строку */
+  justify-content: flex-start;
+  overflow-x: auto; /* Горизонтальная прокрутка */
+  padding-bottom: 20px;
+  scrollbar-width: none; /* Скрыть скролл */
 }
 
 .about_chronical_blocks::-webkit-scrollbar {
