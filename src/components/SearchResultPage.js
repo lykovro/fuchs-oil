@@ -73,6 +73,26 @@ const SearchResultsPage = () => {
                   ))}
                 </div>
                 <div className='transport-section'></div>
+                <div className="fullwidth-container-upp-mobile">
+                  {group.map((product) => (
+                    <div key={product.id} className="fullwidth-container-legkovie-mobile">
+                      <Link to={`/catalog/${product.category}/${product.id}`}>
+                        <div className="vehicle-info-card-legkovie-mobile">
+                          <div className="vehicle-image-container-legkovie-mobile">
+                            <img src={product.image} alt={product.name} />
+                          </div>
+                        </div>
+                        <div className="transport-info-card-legkovie-mobile">
+                          
+                          <div className="text_details-mobile">
+                            <p className="trandsport-text-mobile">{product.name}</p>
+                          </div>
+                        </div>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+                <div className='transport-section-mobile'></div>
               </React.Fragment>
             ))
           ) : (

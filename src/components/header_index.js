@@ -129,7 +129,7 @@ useEffect(() => {
                     <div className="logo_button">
                       <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
-                      <div>
+                      <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
                       </div>
                         <nav className="menu-links">

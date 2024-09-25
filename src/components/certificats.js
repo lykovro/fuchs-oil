@@ -50,7 +50,7 @@ const Certificats = () => {
                     </g>
                 </svg>
                 </div>
-                <p className="contacts-info-heading"><a href=""><Link to="/partners/politika_sotrudnichestva">Сертификаты</Link></a></p>
+                <p className="contacts-info-heading"><a href=""><Link to="/partners/cetificats">Сертификаты</Link></a></p>
             </div>
         </div>
         <div className="contacts_info">
