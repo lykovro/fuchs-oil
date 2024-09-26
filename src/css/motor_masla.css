@@ -301,6 +301,14 @@
     margin-right: 0;
   }
 
+  .catalog-container-mobile {
+    display: none;;
+  }
+
+  .catalog-title-mobile {
+    display: none;
+  }
+
   @media (max-width: 768px) {
 
     .catalog-title {
@@ -322,6 +330,86 @@
     .contact-section1 {
       height: 150px;
     }
+
+    .catalog-container-mobile {
+
+    }
+
+    .catalog-container-mobile {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .catalog-title-mobile {
+      display: flex;
+    }
+
+    .fullwidth-container-legkovie-search-mobile {
+      display: flex;
+      width: 50%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .fullwidth-container-legkovie-search-mobile a {
+      width: 100%;
+      margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+    }
+
+    .vehicle-info-card-legkovie-search-mobile {
+      display: flex;
+        width: 70%;
+    }
+
+    .transport-info-card-legkovie-search-mobile {
+      display: flex;
+      margin-top: 5%;
+    }
+
+    .vehicle-image-container-legkovie-search-mobile {
+      display: flex;
+    }
+
+    .vehicle-image-container-legkovie-search-mobile img {
+      width: 100%;
+    height: 100%;
+    }
+
+    .text_details-search-mobile {
+      display: flex;
+    }
+
+    .trandsport-text-search-mobile {
+      display: flex;
+        font-size: 16px;
+
+        color: rgba(1, 80, 158, 1);
+    text-align: center;
+    }
+
+    .fullwidth-container-legkovie-search-mobile:nth-child(n+2) {
+      margin-left: 5%;
+    }
+
+    .trandsport-text-search-mobile {
+      
+    }
+
+    .transport-section-mobile {
+      box-sizing: border-box;
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid #c4cbd1;
+    }
+
+    .fullwidth-container-upp-mobile:nth-child(n+2) {
+      margin-top: 8%;
+    }
+
+
  
    
     

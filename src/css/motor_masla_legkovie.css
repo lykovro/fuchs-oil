@@ -540,7 +540,7 @@
     }
 
     .fullwidth-container-upp_mobile:nth-child(n+2) {
-      margin-top: 10%;
+      margin-top: 8%;
     }
   
     .fullwidth-container-legkoviev_mobile {
@@ -587,6 +587,13 @@
       display: flex;
     flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
     max-width: 100%; /* Ограничение ширины */
+    }
+
+    .transport-section_mobile {
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: 5%;
+      border-top: 1px solid #c4cbd1;
     }
 
     
