@@ -291,4 +291,10 @@
    .product-card-list-line a:nth-child(n+2) {
     margin-top: 10%;
    }
+
+   .contact-info-section-news {
+    width: 60%;
+   }
+
+  
   }
