@@ -311,18 +311,25 @@
     }
 
     .transport-heading-style-industrial {
-      font: 600 20px / 24px Inter, sans-serif;
+      font: 600 18px / 24px Inter, sans-serif;
       
     }
 
     .vehicle-image-container-industrial {
+      display: flex;
       height: 50%;
   max-width: 40%;
+  width: 40%;
       margin-left: 2%;
+    }
+
+    .vehicle-image-container-industrial img {
+      width: auto;
     }
 
     .transport-info-card-industrial {
       width: 60%;
-      margin-left: 8%;
+      margin-left: 5%;
+      padding-right: 3%;
     }
   }
