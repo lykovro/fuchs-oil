@@ -28,6 +28,11 @@ const SearchResultsPage = () => {
     groupedResults.push(results.slice(i, i + 4));
   }
 
+  const groupedResults_mob = [];
+  for (let i = 0; i < results.length; i += 2) {
+    groupedResults_mob.push(results.slice(i, i + 2));
+  }
+
   return (
 
     <main>
@@ -73,19 +78,32 @@ const SearchResultsPage = () => {
                   ))}
                 </div>
                 <div className='transport-section'></div>
+              </React.Fragment>
+            ))
+          ) : (
+            <div className= 'catalog-container_nothing'>
+              <p>Ничего не найдено</p>
+            </div>
+          )}
+        </div>
+
+        <div className="catalog-container-mobile">
+          {groupedResults_mob.length > 0 ? (
+            groupedResults_mob.map((group, index) => (
+              <React.Fragment key={index}>
                 <div className="fullwidth-container-upp-mobile">
                   {group.map((product) => (
-                    <div key={product.id} className="fullwidth-container-legkovie-mobile">
+                    <div key={product.id} className="fullwidth-container-legkovie-search-mobile">
                       <Link to={`/catalog/${product.category}/${product.id}`}>
-                        <div className="vehicle-info-card-legkovie-mobile">
-                          <div className="vehicle-image-container-legkovie-mobile">
+                        <div className="vehicle-info-card-legkovie-search-mobile">
+                          <div className="vehicle-image-container-legkovie-search-mobile">
                             <img src={product.image} alt={product.name} />
                           </div>
                         </div>
-                        <div className="transport-info-card-legkovie-mobile">
+                        <div className="transport-info-card-legkovie-search-mobile">
                           
-                          <div className="text_details-mobile">
-                            <p className="trandsport-text-mobile">{product.name}</p>
+                          <div className="text_details-search-mobile">
+                            <p className="trandsport-text-search-mobile">{product.name}</p>
                           </div>
                         </div>
                       </Link>

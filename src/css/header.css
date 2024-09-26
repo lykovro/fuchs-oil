@@ -440,11 +440,14 @@ html {
 
 
     .corporate-info-container1 {
+      position: sticky;
+      top: 0;
       padding: 0;
       flex-direction: column;
       align-items: center;
-      height: 25%;
+      
       width: 100%;
+      z-index: 2;
     }
   
     .company-info-container {
@@ -631,6 +634,7 @@ html {
     }
 
     main {
+      
       gap: 40px;
     }
 
@@ -675,7 +679,7 @@ html {
     }
 
     .all_products button p {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .scroll-button {
@@ -729,7 +733,7 @@ html {
 .fullscreen-menu_banner-image_adaptiv {
   width: 25%;
   margin-left: 0;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .fullscreen-menu-transport-section-section {
@@ -780,6 +784,8 @@ html {
 .search-results-dropdown {
   left: 48%;
   width: 48%;
+  top: 70%;
+  max-height: 230px;
 }
 
 .search-results-dropdown li a {
