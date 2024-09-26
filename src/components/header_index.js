@@ -131,7 +131,7 @@ useEffect(() => {
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
-                      </div>
+                      </div>  
                         <nav className="menu-links">
                         <Link to="/catalog" className="menu-item" onClick={toggleMenu}>Каталог</Link>
                         <div className='fullscreen-menu-transport-section-section'></div>
