@@ -35,7 +35,7 @@ useEffect(() => {
     script.type = 'text/javascript';
     script.charset = 'utf-8';
     script.async = true;
-    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&width=1058&height=444&lang=ru_RU&scroll=true';
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&amp;width=600&amp;height=503&amp;lang=ru_RU&amp;scroll=true';
 
     const container = document.getElementById('map-container');
     container.appendChild(script);

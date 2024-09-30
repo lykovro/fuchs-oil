@@ -190,7 +190,7 @@ useEffect(() => {
                 <div className="column-layout-container">
                   <div className="hierarchical-text-container">
                     <div className="vertical-section-aside">
-                      <p className="industry-description"><a href="tel:+7 888 777-88-55">+7 888 777-88-55</a></p>
+                      <p className="industry-description"><a href="tel:+7 922 386-63-60">+7 922 386-63-60</a></p>
                     </div>
                   </div>
                 </div>

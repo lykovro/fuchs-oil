@@ -15,7 +15,7 @@ const Contacts = () => {
     script.type = 'text/javascript';
     script.charset = 'utf-8';
     script.async = true;
-    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&width=1058&height=444&lang=ru_RU&scroll=true';
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1123d3f19331e94eb31a2832f6ee8e20f6587674f1d1743f4cbf517bc3c85ad8&amp;width=600&amp;height=503&amp;lang=ru_RU&amp;scroll=true';
 
     const container = document.getElementById('map-container');
     container.appendChild(script);
@@ -53,6 +53,10 @@ const Contacts = () => {
     });
   };
 
+  const vk_link = 'https://vk.com/permmaslafuchs'
+const tg_link = 'https://t.me/permmaslafuchs'
+const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/featured'
+
   return (
     <main className="">
       <div className="contact-info-section2">
@@ -83,16 +87,16 @@ const Contacts = () => {
         <div className="contact-info-container-vk-tele">
           <h2 className="contact-info-heading1">Наши контакты</h2>
           <div className="contact-info-display-style1">
-            <a href="#"><img src={vk} alt="VK"/></a>
-            <a href="#"><img src={tg} alt="Telegram"/></a>
+            <a href={vk_link}><img src={vk} alt="VK"/></a>
+            <a href={tg_link}><img src={tg} alt="Telegram"/></a>
           </div>
         </div>
         <div className="address-info-section">
           <div className="info-box">
             <h3 className="title-heading"><b>г. Пермь</b></h3>
-            <p>Адрес: <a href="#">Пожарского 67, офис 6</a></p>
-            <p>Телефон: <a href="tel:+78887778855">+7 888 777-88-55</a></p>
-            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">info-klg@fuchs-oil.ru</a></p>
+            <p>Адрес: <a href="#">Промышленная, 110И</a></p>
+            <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60</a></p>
+            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sa@mail.ru</a></p>
           </div>
         </div>
       </div>

@@ -8,6 +8,9 @@ import copyright_mobile from '../assetsImage/assets/fuchs_mobile.png'
 import { Link } from 'react-router-dom';
 
 
+const vk_link = 'https://vk.com/permmaslafuchs'
+const tg_link = 'https://t.me/permmaslafuchs'
+const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/featured'
 
 
 const Footer = () => {
@@ -20,15 +23,15 @@ const Footer = () => {
                         <div className="product-title-info">
                             <div className="contact-info-container">
                                 <p className="contact-info-heading">Телефон</p>
-                                <p className="contact-info-style_1"><a href="tel:8 888 777-88-55">8 888 777-88-55</a></p>
+                                <p className="contact-info-style_1"><a href="tel:+7 922 386-63-60">+7 922 386-63-60</a></p>
                             </div>
                             <div className="contact-details-section">
                                 <h3 className="contact-info-heading">Адрес</h3>
-                                <p className="contact-info-style_1"><a href="https://yandex.ru/maps/50/perm/house/promyshlennaya_ulitsa_11/YU8YdwRlQUYOQFttfXV0d3RnYw==/?ll=56.156737%2C57.953125&z=12.85">Пермь,<br />Промышленная, 11 <br />08:00-00:00</a></p>
+                                <p className="contact-info-style_1"><a href="https://yandex.ru/maps/org/fuchs/22794557065/?ll=56.153051%2C57.918200&z=12">Пермь,<br />Промышленная, 110И<br />10:00-18:00</a></p>
                             </div>
                             <div className="contact-details-section">
                                 <p className="contact-info-heading">Почта</p>
-                                <p className="contact-info-style_1"><a href="mailto:fuchsoil@fuchs.oi">fuchsoil@fuchs.oi</a></p>
+                                <p className="contact-info-style_1"><a href="mailto:nossa-sa@mail.ru">nossa-sa@mail.ru</a></p>
                             </div>
                         </div>
                     </div>
@@ -72,9 +75,9 @@ const Footer = () => {
                         <div className="main-content-container-left">
                             <div className='main-content-container-left-logo'>
                                 <div className="flex-container-with-padding">
-                                    <a href=""><img src={vk} alt="" /></a>
-                                    <a href=""><img src={tg} alt="" /></a>
-                                    <a href=""><img src={youtube} alt="" /></a>
+                                    <a href={vk_link}><img src={vk} alt="" /></a>
+                                    <a href={tg_link}><img src={tg} alt="" /></a>
+                                    <a href={youtube_link}><img src={youtube} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
                                     <a href=""><Link to="/fuchs-oil"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>

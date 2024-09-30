@@ -9,7 +9,8 @@ import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
 
 
-
+  const vk_link = 'https://vk.com/permmaslafuchs'
+const tg_link = 'https://t.me/permmaslafuchs'
 
 
 const Catalog = () => {
@@ -82,8 +83,8 @@ const Catalog = () => {
                 <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
               </div>
               <div className="contact-info-logos">
-                  <a href=""><img src={vk} className="contact-section-banner" alt="Vkontakte"/></a>
-                  <a href=""><img src={tg} className="contact-section-banner" alt="Telegram"/></a>
+                  <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte"/></a>
+                  <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram"/></a>
               </div>
           </div>
         </div>
