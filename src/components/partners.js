@@ -64,6 +64,9 @@ const Partners = () => {
         });
     };
 
+      const vk_link = 'https://vk.com/permmaslafuchs'
+const tg_link = 'https://t.me/permmaslafuchs'
+
 
     return (
         <main>
@@ -172,9 +175,9 @@ const Partners = () => {
           <div className="address-info-section-adress">
               <div className="info-box-adress">
                 <h3 className="title-heading-adress">г. Пермь</h3>
-                <p>Адрес: <a href="">Пожарского 67, офис 6</a></p>
-                <p>Телефон: <a href="">+7 888 777-88-55</a></p>
-                <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">info-klg@fuchs-oil.ru</a></p>
+                <p>Адрес: <a href="">Промышленная, 110И</a></p>
+                <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60</a></p>
+                <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sa@mail.ru</a></p>
               </div>
             </div>           
       </main>

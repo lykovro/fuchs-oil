@@ -26,6 +26,9 @@ function ProductDetailPage() {
         return <div>Продукт не найден</div>;
     }
 
+      const vk_link = 'https://vk.com/permmaslafuchs'
+const tg_link = 'https://t.me/permmaslafuchs'
+
     return (
         <main>
           <div className="product-section-with-images-navigation-details">
@@ -80,7 +83,7 @@ function ProductDetailPage() {
               <li key={index}>{spec}</li>
             ))
           ) : (
-            <li>Спецификации недоступны</li>
+            <li>Спецификации отсутствуют</li>
           )}
         </ul>
       </div>
@@ -95,7 +98,7 @@ function ProductDetailPage() {
               <li key={index}>{approval}</li>
             ))
           ) : (
-            <li>Одобрения недоступны</li>
+            <li>Одобрения отсутствуют</li>
           )}
         </ul>
       </div>
@@ -112,7 +115,7 @@ function ProductDetailPage() {
               <li key={index}>{recommendation}</li>
             ))
           ) : (
-            <li>{product.recommendations || 'Рекомендации недоступны'}</li>
+            <li>{product.recommendations || 'Рекомендации отсутствуют'}</li>
           )}
         </ul>
       </div>
@@ -128,7 +131,7 @@ function ProductDetailPage() {
               <li key={index}>{spec}</li>
             ))
           ) : (
-            <li>Спецификации недоступны</li>
+            <li>Спецификации отсутствуют</li>
           )}
         </ul>
       </div>
@@ -143,7 +146,7 @@ function ProductDetailPage() {
               <li key={index}>{approval}</li>
             ))
           ) : (
-            <li>Одобрения недоступны</li>
+            <li>Одобрения отсутствуют</li>
           )}
         </ul>
       </div>
@@ -160,7 +163,7 @@ function ProductDetailPage() {
               <li key={index}>{recommendation}</li>
             ))
           ) : (
-            <li>{product.recommendations || 'Рекомендации недоступны'}</li>
+            <li>{product.recommendations || 'Рекомендации отсутствуют'}</li>
           )}
         </ul>
       </div>
@@ -168,7 +171,11 @@ function ProductDetailPage() {
           </div>
       <div className='transport-section-section'></div>
       <div className="product-actions">
-        <div className='info-box-block-tovar'><button>Описание продукта</button></div>
+        {product.documentation && (
+        <div className="info-box-block-tovar">
+            <button onClick={() => window.open(product.documentation, '_blank')}>Документация</button>
+        </div>
+    )}
         <div className='info-box-block-tovar'><Link to="/contacts"><button>Где приобрести?</button></Link></div>
         <div className='info-box-block-tovar'><button>Зачем я тут?</button></div>
       </div>
@@ -182,8 +189,8 @@ function ProductDetailPage() {
                             <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
                         </div>
                         <div className="contact-info-logos">
-                            <a href="#"><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
-                            <a href="#"><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
                         </div>
                     </div>
                 </div>
