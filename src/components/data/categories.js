@@ -8,6 +8,7 @@ const categories = [
     { id: 'motor_masla', name: 'Моторные масла', image: MotorMasla },
     { id: 'transmission_oils', name: 'Трансмиссионные масла', image: Jidkosti },
     { id: 'anticorrosion_compounds', name: 'Антикоррозионные составы', image: MotorMasla },
+    { id: 'antifreeze', name: 'Антифризы', image: MotorMasla },
     { id: 'cooling_lubricants', name: 'Смазочно-охлаждающие жидкости (СОЖ)', image: ANTICORIT },
     { id: 'fire_resistant_hydraulic_oils', name: 'Огнестойкие и гидравлические масла', image: ANTICORIT },
     { id: 'cleaners_flush_compounds', name: 'Очистители и промывочные составы', image: ANTICORIT },

@@ -380,6 +380,7 @@
 
     .text_details-search-mobile {
       display: flex;
+      flex-direction: column;
     }
 
     .trandsport-text-search-mobile {

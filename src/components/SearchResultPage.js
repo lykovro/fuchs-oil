@@ -70,6 +70,7 @@ const SearchResultsPage = () => {
                         <div className="transport-info-card-legkovie">
                           
                           <div className="text_details">
+                          <p className="trandsport-text">{products[product.category].name}</p>
                             <p className="trandsport-text">{product.name}</p>
                           </div>
                         </div>
@@ -103,6 +104,7 @@ const SearchResultsPage = () => {
                         <div className="transport-info-card-legkovie-search-mobile">
                           
                           <div className="text_details-search-mobile">
+                          <p className="trandsport-text-search-mobile">{products[product.category].name}</p>
                             <p className="trandsport-text-search-mobile">{product.name}</p>
                           </div>
                         </div>

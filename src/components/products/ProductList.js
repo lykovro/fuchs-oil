@@ -61,6 +61,7 @@ const tg_link = 'https://t.me/permmaslafuchs'
                   <div className="transport-info-card-legkovie">
                     
                     <div className="text_details">
+                     
                       <p className="trandsport-text">{product.name}</p>
                     </div>
                   </div>
