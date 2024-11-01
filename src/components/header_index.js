@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
-import banner from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner from '../assetsImage/assets/Foxgear.jpg';
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
 import mainImage2 from '../assetsImage/assets/chemical.jpg';
@@ -118,7 +118,6 @@ useEffect(() => {
                     <p className="company-info-styles"><Link to="/about">О компании</Link></p>
                     <p className="company-info-styles"><Link to="/news">Новости</Link></p>
                     <p className="company-info-styles"><Link to="/partners">Партнерам</Link></p>
-                    <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
                     <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
                   </div>
                   <button className="menu-toggle-button" onClick={toggleMenu}>
@@ -140,8 +139,6 @@ useEffect(() => {
                           <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
-                          <div className='fullscreen-menu-transport-section-section'></div>
-                          <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>

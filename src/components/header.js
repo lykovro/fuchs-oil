@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '../css/header.css'; 
-import banner from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner from '../assetsImage/assets/Foxgear.jpg';
 import search from '../assetsImage/assets/search-svgrepo-com.svg';
 import { Link, useNavigate } from 'react-router-dom';
 import products from './data/products';
@@ -87,7 +87,6 @@ useEffect(() => {
                     <p className="company-info-styles"><Link to="/about">О компании</Link></p>
                     <p className="company-info-styles"><Link to="/news">Новости</Link></p>
                     <p className="company-info-styles"><Link to="/partners">Партнерам</Link></p>
-                    <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
                     <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
                   </div>
                   <button className="menu-toggle-button" onClick={toggleMenu}>
@@ -109,8 +108,8 @@ useEffect(() => {
                           <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
-                          <div className='fullscreen-menu-transport-section-section'></div>
-                          <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
+                          
+                          
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
