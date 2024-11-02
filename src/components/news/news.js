@@ -4,7 +4,7 @@ import SvgHome from '../../assetsImage/assets/house.svg';
 import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import Simposium from '../../assetsImage/assets_news/Bezymyannyy.png'
+import Simposium from '../../assetsImage/assets/banner_12x4_01_nosite.jpg'
 import RenolitDTA from '../../assetsImage/assets_news/08.04.png'
 import CompMc from '../../assetsImage/assets_news/COMP_MC.png'
 import Kaluga from '../../assetsImage/assets_news/Конференция_в_Калуге.jpg'

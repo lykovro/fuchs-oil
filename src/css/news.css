@@ -291,6 +291,14 @@
       width: 100%;
     }
 
+    .product-card-row {
+      width: 100%;
+    }
+
+    .news-card-link {
+      width: 100%;
+    }
+
     .product-card-list-line-entity-card h3 {
       font-size: 22px;
     }

@@ -183,6 +183,11 @@
     margin-left: 3%;
     margin-right: 3%;
   }
+
+  .info-box ul {
+    width: 100%;
+    padding-left: 1.5%;
+  }
   
   .info-box-blocks {
     margin-top: 3%;
@@ -298,6 +303,15 @@
     font: 400 14px Inter, sans-serif;
     font-weight: bold;
 }
+
+.address-info-section-description {
+  margin-top: 1%;
+  width: 100%;
+    
+    background: rgba(242, 246, 247, 1);
+    border-radius: 12px;
+}
+
 
 
 
@@ -601,8 +615,10 @@
     padding-bottom: 5%;
   }
 
-  .info-box {
-    padding-top: 5%;
+  
+
+  .info-box ul {
+    padding-left: 5%;
   }
   
 }

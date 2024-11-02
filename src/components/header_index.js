@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
-import banner from '../assetsImage/assets/Foxgear.jpg';
+import banner from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner_2 from '../assetsImage/assets/Foxgear.png'
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
 import mainImage2 from '../assetsImage/assets/chemical.jpg';
@@ -126,7 +127,9 @@ useEffect(() => {
                   <Link><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
                   <div className="logo_button_input">
                     <div className="logo_button">
+                    
                       <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
+                      <Link to="/fuchs-oil"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>

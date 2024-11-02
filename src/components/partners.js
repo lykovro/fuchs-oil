@@ -112,7 +112,7 @@ const tg_link = 'https://t.me/permmaslafuchs'
             </div>
           </div>
 
-          <div className="address-info-section">
+          <div className="address-info-section-description">
               <div className="info-box">
                 <p className="title-heading">Автомобильные масла, смазочные материалы и технические жидкости для автопарков Перми и Пермского края от компании НОССА</p>
                 <p className="title-heading">Правильный выбор смазочных материалов играет ключевую роль в поддержании автомобильного парка в рабочем состоянии. Компания НОССА предлагает Вам выбрать смазочные материалы FUCHS:</p>
@@ -144,7 +144,10 @@ const tg_link = 'https://t.me/permmaslafuchs'
               </div>
             </div>
           <div className="container-partners">
-             <h2>Преимущества сотрудничества с нами</h2>
+          <h2>Преимущества сотрудничества с нами</h2>
+             <div className='address-info-section-description'>
+            
+             <div className="info-box"> 
              <p className="title-heading">Сотрудничая с ООО «НОССА» Вы получаете доступ к высококачественным продуктам
 группы компаний FUCHS для поддержания бесперебойной работы техники в любых
 условиях эксплуатации, в том числе и экстремальных благодаря сохранению стабильности
@@ -175,6 +178,11 @@ const tg_link = 'https://t.me/permmaslafuchs'
                   Продукция группы компаний FUCHS основана на принципе: технология, которая
                   окупается.
                 </p>
+                <div className="info-box-blocks">
+                </div>
+            </div>
+             </div>
+             
           </div>
           
           <div className="container-partners">

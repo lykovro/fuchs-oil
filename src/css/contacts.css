@@ -230,6 +230,7 @@ html {
     white-space: pre-wrap;
     margin-left: 0;
     margin-right: 0;
+    line-height: 30px;
   }
 
   .info-box p a {
