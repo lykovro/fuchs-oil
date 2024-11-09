@@ -4,13 +4,13 @@ import SvgHome from '../../assetsImage/assets/house.svg';
 import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
 import { Link } from 'react-router-dom';
-import Simposium from '../../assetsImage/assets_news/Bezymyannyy.png'
+import Simposium from '../../assetsImage/assets/banner_12x4_01_nosite.jpg'
 import RenolitDTA from '../../assetsImage/assets_news/08.04.png'
 import CompMc from '../../assetsImage/assets_news/COMP_MC.png'
 import Kaluga from '../../assetsImage/assets_news/Конференция_в_Калуге.jpg'
 import Forum from '../../assetsImage/assets_news/img_333_74_ff025f.jpeg'
 import RenolinUnisyns from '../../assetsImage/assets_news/Anons-RENOLIN-UNISYN-OL.jpg'
-
+import { newsData } from '../data/newsData';
 
 
 
@@ -36,6 +36,12 @@ const News = () => {
 
       const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
+
+ // Группируем новости по 2 в каждой подгруппе
+ const groupedNews = [];
+ for (let i = 0; i < newsData.length; i += 2) {
+     groupedNews.push(newsData.slice(i, i + 2));
+ }
 
     return (
         <main>
@@ -64,103 +70,24 @@ const tg_link = 'https://t.me/permmaslafuchs'
           <div className="catalog-container">
             <h2 className="catalog-title">Новости</h2>
             <div className="product-card-list">
-                <div className="product-card-list-line">
-                    <a href="">
-                        <Link to="news_1">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>11.04.2024</h4>
-                                    <h3>Симпозиум в Ульяновске</h3>
-                                </div>
-                                    <p>
-                                        Уважаемые господа, 24 и 25 апреля состоится технологический симпозиум компании ДМТ в Ульяновске. Наша компания выступает в рамках технологического партнера на данном мероприятии. И будем рады ответить на все дополнительные вопросы.
-                                    </p>
-                            </div>
-                        </Link>
-                    </a>
-                    <a href="">
-                        <Link to="news_2">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>08.04.2024</h4>
-                                    <h3>Анонс производства RENOLIN DTA</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно производство масел RENOLIN DTA широкого диапазона вязкостей
-                                    </p>
-                                </div>
-                            </div>
-                        </Link>
-                    </a>
-                </div>
-                <div className="product-card-list-line">
-                    <a href="">
-                        <Link to="news_3">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>05.04.2024</h4>
-                                    <h3>Анонс производства компрессорных масел COMP MC</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно производство RENOLIN COMP 46 MC, которое дополнило линейку высококачественных масел для винтовых и поршневых компрессоров серии RENOLIN COMP MC 68, 100 и 150 вязкости.
-                                    </p>
-                                </div>
-                            </div>
-                        </Link>
-                    </a>
-                    <a href="">
-                        <Link to="news_4">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>03.04.2024</h4>
-                                    <h3>Конференция в Калуге</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        В конце апреля в г. Калуга состоится III-я Международная Конференция «Смазочные и технологические материалы для металлургической и метизной промышленности».
-                                    </p>
-                                </div>
-                            </div>
-                        </Link>
-                    </a>
-                    
-                </div>
-                <div className="product-card-list-line">
-                    <a href="">
-                        <Link to="news_5">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>21.12.2023</h4>
-                                    <h3>Форум Стекло и современные технологии</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                         14 и 15 декабря состоялся ежегодный международный форум «Стекло и Современные Технологии – XXI». Компания ФУКС ОЙЛ уже на протяжении нескольких лет участвует в данном мероприятии.
-                                    </p>
-                                </div>
-                            </div>
-                        </Link>
-                    </a>
-                    <a href="">
-                        <Link to="news_6">
-                            <div className="product-card-list-line-entity">
-                                <div className="product-card-list-line-entity-card">
-                                    <h4>21.02.2024</h4>
-                                    <h3>Анонс производства синтетических компрессорных масел серии RENOLIN UNISYN OL</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                    Уважаемые партнеры!
-                                    Спешим вам сообщить, что на производственной площадке концерна FUCHS в Калуге стало доступно производство синтетических компрессорных масел серии RENOLIN UNISYN OL. Линейка масел включает продукты 46 и 68 вязкости.                                    
-                                    </p>
-                                </div>
-                            </div>
-                        </Link>
-                    </a>
-                    
-                </div>
+                    {groupedNews.map((newsGroup, index) => (
+                        <div className="product-card-row" key={index}>
+                            {newsGroup.map(news => (
+                                <Link to={`/news/${news.id}`} key={news.id} className="news-card-link">
+                                    <div className="product-card-list-line-entity">
+                                        <div
+                                            className="product-card-list-line-entity-card"
+                                            style={{ backgroundImage: `url(${news.image})` }}
+                                        >
+                                            <h4>{news.date}</h4>
+                                            <h3>{news.title}</h3>
+                                        </div>
+                                        <p>{news.description}</p>
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    ))}
             </div>
           </div>
         <div className="contact-section1">

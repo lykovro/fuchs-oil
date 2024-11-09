@@ -301,6 +301,10 @@
     margin-right: 0;
   }
 
+  .contact-info-logos-mobile {
+    display: none;
+  }
+
   .catalog-container-mobile {
     display: none;;
   }
@@ -395,6 +399,20 @@
       margin-left: 5%;
     }
 
+    .contact-info-logos {
+      display: none;
+    }
+
+    .contact-info-logos-mobile {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 5%;
+    }
+
+    
+
     .trandsport-text-search-mobile {
       
     }
@@ -412,6 +430,7 @@
 
     .contact-info-logos {
       width: 30%;
+
      }
 
 

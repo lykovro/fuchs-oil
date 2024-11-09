@@ -24,6 +24,7 @@ const Footer = () => {
                             <div className="contact-info-container">
                                 <p className="contact-info-heading">Телефон</p>
                                 <p className="contact-info-style_1"><a href="tel:+7 922 386-63-60">+7 922 386-63-60</a></p>
+                                <p className="contact-info-style_1"><a href="tel:+79223216360">+7 922 321-63-60</a></p>
                             </div>
                             <div className="contact-details-section">
                                 <h3 className="contact-info-heading">Адрес</h3>
@@ -31,7 +32,7 @@ const Footer = () => {
                             </div>
                             <div className="contact-details-section">
                                 <p className="contact-info-heading">Почта</p>
-                                <p className="contact-info-style_1"><a href="mailto:nossa-sa@mail.ru">nossa-sa@mail.ru</a></p>
+                                <p className="contact-info-style_1"><a href="mailto:nossa-sa@mail.ru">nossa-sm@mail.ru</a></p>
                             </div>
                         </div>
                     </div>

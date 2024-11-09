@@ -75,6 +75,10 @@ import Certificats from './components/certificats'
 
 import SearchResultsPage  from './components/SearchResultPage'
 
+import NewsDetail from './components/news/NewsDetail'
+
+
+
 const routesData = [
    
     { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
@@ -89,6 +93,8 @@ const routesData = [
 
 
     { path: '/news', component: News, header: Header  },
+    { path: '/news/:id', component: () => <NewsDetail news={NewsDetail} />, header: Header },
+
     { path: '/news/news_1', component: News1, header: Header  },
     { path: '/news/news_2', component: News2, header: Header  },
     { path: '/news/news_3', component: News3, header: Header  },

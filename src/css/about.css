@@ -49,10 +49,11 @@
   border-radius: 12px;
   justify-content: flex-start;
   position: relative;
+  cursor: pointer;
 }
 
 .about_header_head {
-  width: 45%;
+  width: 60%;
   margin-left: 2%;
   margin-top: 2%;
 
@@ -97,20 +98,72 @@
 
 }
 
+.about-content-status-ul {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-requirements-status-list-partners {
+  list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 100%;
+}
+
+.about-requirements-status-list-partners:nth-child(n+2) {
+  margin-top: 2%;
+}
+
+.about-requirements-status-list-partners li {
+  display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(242, 246, 247, 1);
+    border-radius: 12px;
+    border: solid 0px #025BAC;
+    transition: border-width 0.05s linear, text-align 0.1s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+    justify-content: center;
+}
+
+.about-requirements-status-list-partners li:hover {
+  border-width: 0.5px;
+    text-align: center;
+    transform: translatey(2%);
+    cursor: pointer;
+}
+
+.about-requirements-status-list-partners li:nth-child(n+2) {
+  margin-left: 2%;
+}
+
 .super-brief-statement {
   font-weight: none;
-  font: 46px/46px Inter, sans-serif;
+  font: 28px/46px Inter, sans-serif;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   white-space: pre-wrap;
 }
 .cosmic-highlight {
-  font: 700 46px/46px Inter, sans-serif;
+  font: 700 32px/46px Inter, sans-serif;
   color: #025BAC;
   text-align: center;
 }
+
+.super_about_text {
+  color: #025BAC;
+  font-size: 38px;
+  text-align: left;
+  width: 100%;
+}
 .about_text {
-  width: 80%;
+  width: 100%;
+  margin-bottom: 4%;
 }
 
 .about_blocks {
@@ -246,6 +299,63 @@
   scrollbar-width: none; /* Скрыть скролл */
 }
 
+.about_title_cert {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  opacity: 1; /* Начальная прозрачность */
+  transition: opacity  0.5s ease; /* Плавный переход для прозрачности */
+}
+
+.about_title_cert img {
+  display: none; /* Изображение по умолчанию скрыто */
+  width: 26%;
+  height: 100%;
+  opacity: 1; /* Начальная прозрачность */
+ 
+}
+
+.about_header:hover + .about_title_cert img{
+  display: flex; /* Изображение становится видимым при наведении на about_header */
+  opacity: 1; /* Конечная прозрачность */
+  
+}
+
+.about_title_cert:hover {
+  opacity: 1; /* Конечная прозрачность */
+}
+
+
+
+.about_cert_full {
+  position: relative; 
+  width: 100%;
+    height: 70px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about_cert_full button {
+  font: 20px Inter, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: #025BAC;
+    border: 1px solid #01509E;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.7s;
+}
+
+.about_cert_full button:hover {
+  background-color: #025BAC;
+    color: white;
+    cursor: pointer;
+}
+
 .about_chronical_blocks::-webkit-scrollbar {
   display: none; /* Скрываем полосу прокрутки в Chrome и Safari */
 }
@@ -288,13 +398,35 @@
     font-size: 20px;
   }
 
+  .about_title_cert img {
+    width:90%;
+  }
+
   .about_header_head {
-    width: 65%;
+    width: 95%;
   }
 
   .super-brief-statement {
-    font: 24px / 30px Inter, sans-serif;
+    font: 20px / 30px Inter, sans-serif;
   }
+  .about-requirements-status-list-partners {
+    flex-direction: column;
+  }
+
+  .about-requirements-status-list-partners li {
+    height: 50%;
+  }
+
+  .about-requirements-status-list-partners li:nth-child(n+2) {
+    margin-left: 0;
+    margin-top: 2%;
+  }
+
+  .super_about_text {
+    font-size: 28px;
+  }
+
+
 
   .cosmic-highlight {
     font: 700 24px / 30px Inter, sans-serif;

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import '../css/contacts.css'; // Импорт CSS стилей
 import vk from '../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
+import viber from '../assetsImage/assets/icons8-viber.svg';
+import whatsapp from '../assetsImage/assets/icons8-whatsapp.svg';
 import SvgHome from '../assetsImage/assets/house.svg';
 import { Link } from 'react-router-dom';
 import Document1 from '../documents/Пользовательское_соглашение_fuchs.docx';
@@ -56,6 +58,7 @@ const Contacts = () => {
   const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
 const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/featured'
+const viber_link = 'viber://chat?number=%2B79526499046'
 
   return (
     <main className="">
@@ -89,14 +92,16 @@ const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/f
           <div className="contact-info-display-style1">
             <a href={vk_link}><img src={vk} alt="VK"/></a>
             <a href={tg_link}><img src={tg} alt="Telegram"/></a>
+            <a href={viber_link}><img src={viber} alt="Telegram"/></a>
+            <a href="viber://chat?number=%2B89526499046"><img src={whatsapp} alt="Telegram"/></a>
           </div>
         </div>
         <div className="address-info-section">
           <div className="info-box">
             <h3 className="title-heading"><b>г. Пермь</b></h3>
             <p>Адрес: <a href="#">Промышленная, 110И</a></p>
-            <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60</a></p>
-            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sa@mail.ru</a></p>
+            <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60  </a><a href="tel:+79223216360">+7 922 321-63-60</a></p>
+            <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sm@mail.ru</a></p>
           </div>
         </div>
       </div>

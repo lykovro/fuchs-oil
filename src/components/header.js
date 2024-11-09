@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '../css/header.css'; 
-import banner from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner from '../assetsImage/assets/logo_nossa_svg.svg';
+import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
 import search from '../assetsImage/assets/search-svgrepo-com.svg';
 import { Link, useNavigate } from 'react-router-dom';
 import products from './data/products';
-import logomobile from '../assetsImage/assets/fuchs_mobile.png'
+import logomobile from '../assetsImage/assets/logo_nossa_svg.svg'
+import logomobile2 from '../assetsImage/assets/fuchs_mobile.png'
 
 
 const Header = () => {
@@ -87,19 +89,22 @@ useEffect(() => {
                     <p className="company-info-styles"><Link to="/about">О компании</Link></p>
                     <p className="company-info-styles"><Link to="/news">Новости</Link></p>
                     <p className="company-info-styles"><Link to="/partners">Партнерам</Link></p>
-                    <p className="company-info-styles"><Link to="/corpolitic">Корпоративные политики</Link></p>
                     <p className="company-info-styles"><Link to="/contacts">Контакты</Link></p>
                   </div>
                   <button className="menu-toggle-button" onClick={toggleMenu}>
                     {menuOpen ? '✕' : '☰'}
                   </button>
                   <Link to="/fuchs-oil"><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
+                  
                   <div className="logo_button_input">
                     <div className="logo_button">
-                      <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
+                    <Link to="https://www.fuchs-oil.ru/"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
+                    <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
+                      
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
+                        <Link to="https://www.fuchs-oil.ru/"><img src={logomobile2} className="fullscreen-menu_banner-image_adaptiv_2"  alt="Banner"/></Link>
                       </div>
                         <nav className="menu-links">
                         <Link to="/catalog" className="menu-item" onClick={toggleMenu}>Каталог</Link>
@@ -109,8 +114,8 @@ useEffect(() => {
                           <Link to="/news" className="menu-item" onClick={toggleMenu}>Новости</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/partners" className="menu-item" onClick={toggleMenu}>Партнерам</Link>
-                          <div className='fullscreen-menu-transport-section-section'></div>
-                          <Link to="/corpolitic" className="menu-item" onClick={toggleMenu}>Корпоративные политики</Link>
+                          
+                          
                           <div className='fullscreen-menu-transport-section-section'></div>
                           <Link to="/contacts" className="menu-item" onClick={toggleMenu}>Контакты</Link>
                           <div className='fullscreen-menu-transport-section-section'></div>
