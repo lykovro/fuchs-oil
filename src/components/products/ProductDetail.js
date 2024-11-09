@@ -7,6 +7,8 @@ import '../../css/kartochkaTovara.css';
 import SvgHome from '../../assetsImage/assets/house.svg';
 import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
+import viber from '../../assetsImage/assets/icons8-viber.svg';
+import whatsapp from '../../assetsImage/assets/icons8-whatsapp.svg';
 
 function ProductDetailPage() {
     const { categoryId, productId } = useParams(); // Извлекаем параметры из URL
@@ -28,6 +30,7 @@ function ProductDetailPage() {
 
       const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
+const whatsapp_link = 'https://wa.me/89526499046'
 
     return (
         <main>
@@ -191,6 +194,18 @@ const tg_link = 'https://t.me/permmaslafuchs'
                         <div className="contact-info-logos">
                             <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
                             <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                        </div>
+                        <div className="contact-info-logos-mobile">
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                        </div>
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                          </div>
                         </div>
                     </div>
                 </div>

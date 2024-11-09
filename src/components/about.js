@@ -34,6 +34,8 @@ import photo_19 from "../assetsImage/assets_about/19.jpg"
 import photo_20 from "../assetsImage/assets_about/20.jpg"
 import photo_21 from "../assetsImage/assets_about/21.jpg"
 
+import cert from '../assetsImage/assets_about/certificat.jpg';
+
 
 
 
@@ -128,23 +130,63 @@ const About = () => {
             </div> 
             <div className="about_header">            
                 <div className="about_header_head">  
-                    <h2>FUCHS - 
-                        Официальный дистрибьютор оригинальных смазочных материалов Fuchs в России 
+                    <h2>Общество с Ограниченной Ответственностью «НОССА» является прямым коммерческим  партнером ООО «ФУКС ОИЛ» (дочернего подразделения FUCHS SE) на территории Пермского края.  
                     </h2>
                 </div>
             </div>
-            <div className="about_text">   
-                <p className="super-brief-statement">
-                    <span>Не существует </span>
-                    <span className="cosmic-highlight">смазочных материалов</span>
-                    <span>{messages["ltbr_gt"]}</span>
-                    <span className="cosmic-highlight">Наша компания </span>
-                    <span>поможет вам </span>
-                    <span className="cosmic-highlight">найти </span>
-                    <span> правильное решение для каждой области применения.</span>
-                </p>
+            <div className='about_title_cert'>
+                <img src={cert} alt="Certificat"/>
             </div>
             <div className='about_title'>
+                <h2>
+                    Решения от крупнейшего в мире независимого производителя смазочных материалов
+                </h2>
+                <div className="about_text">   
+                    <p className="super-brief-statement">
+                        <span><span className="cosmic-highlight">FUCHS</span> — это основанная в Германии глобальная группа компаний, которая уже в течение более чем 90 лет занимается разработкой, производством и сбытом смазочных материалов практически для всех областей применения и отраслей промышленности.</span>
+                        <br></br><span>В составе группы <span className="cosmic-highlight">FUCHS</span> насчитывается около 60 компаний и 6000 сотрудников по всему миру, в том числе в России в г. Калуга, а сама группа <span className="cosmic-highlight">FUCHS</span> является мировым лидером среди независимых производителей смазочных материалов.</span>
+                    </p>
+                 </div>
+     
+            </div>
+            <div className='about_title'>
+                <h2>
+                   Программа продукции компании FUCHS включает в себя более 10 000 продуктов и сопутствующих услуг в шести ключевых категориях
+                </h2>
+                <div className='about-content-status-ul'>
+                            <ul className="about-requirements-status-list-partners">
+                                <li>Автомобильные смазочные материалы</li>
+                                <li>Промышленные смазочные материалы</li>
+                                <li>Консистентные смазки</li>
+                            </ul>
+                            <ul className="about-requirements-status-list-partners">
+                                <li>Смазочные материалы для обработки металлов</li>
+                                <li>Смазочные материалы для специальных условий применения</li>
+                                <li>Услуги</li>
+                             </ul>
+                        </div>
+     
+            </div>
+            <div className='about_title'>
+                <div className="about_text">   
+                    <p className="super-brief-statement">
+                        <span>В тесном сотрудничестве со своими заказчиками группа компаний <span className="cosmic-highlight">FUCHS</span> разрабатывает комплексные инновационные и индивидуальные решения для самых различных областей применения.</span>
+                        <br></br><span>Производимые группой компаний <span className="cosmic-highlight">FUCHS</span> смазочные материалы известны своими высокими характеристиками, экологичностью, безопасностью и надежностью, эффективностью применения и экономичностью.</span>
+                    </p>
+                 </div>
+     
+            </div>
+
+            <div className='about_title'>
+                <div className="about_text">   
+                    <h3 className="super-brief-statement">
+                        <span className='super_about_text'><b>Продукция группы компаний FUCHS основана на принципе: технология, которая окупается.</b></span> 
+                    </h3>
+                 </div>
+     
+            </div>
+            
+            {/* <div className='about_title'>
                 <h2>
                      Миссия компании
                 </h2>
@@ -431,9 +473,9 @@ const About = () => {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
 
-            </div>
+            {/* </div> */}
          </main>
     )
 }

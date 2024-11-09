@@ -173,7 +173,7 @@ html {
     margin-left: 0;
     margin-right: 0;
     flex: 0 0 auto;
-    gap: 30px;
+    gap: 50px;
     width: 50%;
 }
 
@@ -199,6 +199,17 @@ html {
     flex-direction: row;
 }
 
+.logo_button a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.logo_button a:nth-child(n+2) {
+  margin-left: 5%;
+}
+
 .product-input-container_search {
     box-sizing: border-box;
     display: flex;
@@ -215,6 +226,17 @@ html {
     flex: 0 0 auto;
     max-width: initial;
     height: 60px;
+    border: none;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+.banner-image_2 {
+  box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    max-width: initial;
+    height: 40px;
     border: none;
     object-fit: cover;
     margin-left: 0;
@@ -361,8 +383,8 @@ html {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-    top: 17%; /* Расположить прямо под поисковым полем */
-    left: 38%;
+    top: 12.5%; /* Расположить прямо под поисковым полем */
+    left: 43.7%;
     width: 30%; /* Сделать ширину выпадающего окна такой же, как у input */
     max-height: 200px; /* Ограничение по высоте */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -473,15 +495,19 @@ html {
       gap: 0;
       margin-left: 6%;
     }
+
+    .banner-image_2 {
+      display: none;
+    }
   
     
 
     .logo_button a {
-      width: 100%;
+      
       height: 100%;
       display: flex;
-      justify-content: flex-start;
-        align-items: center;
+      justify-content: center;
+      
     }
 
     .button_product {
@@ -641,7 +667,7 @@ html {
     .company-info-logo a {
       margin: 0;
       margin-left: 3%;
-      height: 30%;
+      
      
       font: 700 24px / 16px Inter, sans-serif;
     }
@@ -716,7 +742,12 @@ html {
 }
 
 .fullscreen-image {
-  margin-top: 10%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  height: 7%;
+  width: 95%;
+  justify-content: space-between;
 }
 
 
@@ -731,9 +762,22 @@ html {
   
 }
 .fullscreen-menu_banner-image_adaptiv {
-  width: 25%;
+ 
   margin-left: 0;
   margin-bottom: 2%;
+  height: 70%;
+}
+
+.fullscreen-menu_banner-image_adaptiv_2 {
+        
+        margin-left: 0;
+        margin-bottom: 2%;
+        height: 100%;
+        
+}
+
+.logo_button a:nth-child(n+2) {
+  margin-right: 5%;
 }
 
 .fullscreen-menu-transport-section-section {
@@ -749,6 +793,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: 10%;
+  width: 80%;
 }
 
 .menu-item {

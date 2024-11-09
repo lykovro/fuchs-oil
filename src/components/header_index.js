@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
-import banner from '../assetsImage/assets/img_2_728_d81a07.png';
-import banner_2 from '../assetsImage/assets/Foxgear.png'
+import banner from '../assetsImage/assets/logo_nossa_svg.svg'; 
+import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
 import mainImage2 from '../assetsImage/assets/chemical.jpg';
@@ -11,7 +11,9 @@ import mainImage4 from '../assetsImage/assets/new (1).jpg';
 import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg';
 import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
 import products from './data/products';
-import logomobile from '../assetsImage/assets/fuchs_mobile.png'
+import logomobile from '../assetsImage/assets/logo_nossa_svg.svg'
+import logomobile2 from '../assetsImage/assets/fuchs_mobile.png'
+
 
 const HeaderIndex = () => {
   const [placeholder, setPlaceholder] = useState('Введите название продукта');
@@ -128,11 +130,12 @@ useEffect(() => {
                   <div className="logo_button_input">
                     <div className="logo_button">
                     
-                      <Link to="/fuchs-oil"><img src={banner} className="banner-image" alt="Banner"/></Link>
-                      <Link to="/fuchs-oil"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
+                      <Link to="https://www.fuchs-oil.ru/"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
+                      <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
+                        <Link to="https://www.fuchs-oil.ru/"><img src={logomobile2} className="fullscreen-menu_banner-image_adaptiv_2"  alt="Banner"/></Link>
                       </div>
                         <nav className="menu-links">
                         <Link to="/catalog" className="menu-item" onClick={toggleMenu}>Каталог</Link>
