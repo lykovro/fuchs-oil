@@ -481,6 +481,7 @@ html {
     align-items: flex-start;
     align-self: center;
     justify-content: flex-start;
+    width: 100%;
   }
 
   @media (max-width: 768px) {

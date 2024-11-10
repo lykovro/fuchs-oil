@@ -75,20 +75,32 @@ const Catalog = () => {
               </div>
           </div>
         </div>
-      <div className="contact-section1">
-        <div className="contact-section">
-          <div className="contacts">
-              <div className="contact-info-section-svyaz">
-                <h2 className="contact-message">Есть вопросы?</h2>
-                <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
-              </div>
-              <div className="contact-info-logos">
-                  <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte"/></a>
-                  <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram"/></a>
-              </div>
-          </div>
-        </div>
-      </div>
+        <div className="contact-section1">
+                <div className="contact-section">
+                    <div className="contacts">
+                        <div className="contact-info-section-news">
+                            <h2 className="contact-message">Есть вопросы?</h2>
+                            <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
+                        </div>
+                        <div className="contact-info-logos">
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                        </div>
+                        <div className="contact-info-logos-mobile">
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                        </div>
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
   </main>
     )
 }

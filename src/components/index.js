@@ -7,6 +7,7 @@ import RenolitDTA from '../assetsImage/assets_news/08.04.png'
 import CompMc from '../assetsImage/assets_news/COMP_MC.png'
 import Kaluga from '../assetsImage/assets_news/Конференция_в_Калуге.jpg'
 import Forum from '../assetsImage/assets_news/img_333_74_ff025f.jpeg'
+import NewsSection from './news/NewsSection';
 
 
 
@@ -259,7 +260,8 @@ useEffect(() => {
               </form>
             </div>
           </div>
-          <div className="news-section-container1">
+          <NewsSection />
+          {/* <div className="news-section-container1">
             <div className="news_1_news_2">
               <Link to="/news/news_1">
                 <div className="blue-gradient-box">
@@ -313,10 +315,10 @@ useEffect(() => {
                 </div>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
             <div className="distributor-info-block">
-              <p className="mega-heading">NOSSA<br />Официальный дистрибьютор оригинальных смазочных материалов Fuchs в России</p>
+              <p className="mega-heading">FUCHS<br />Официальный дистрибьютор оригинальных смазочных материалов Fuchs в России</p>
               <div className="distributor-info-section">
                 <p className="company-description-text">Наша компания является официальным дистрибьютором моторных масел и смазок Fuchs - мы предлагаем широкий ассортимент товаров по самым выгодным ценам!</p>
               </div>

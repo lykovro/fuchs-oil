@@ -32,6 +32,8 @@ function ProductDetailPage() {
 const tg_link = 'https://t.me/permmaslafuchs'
 const whatsapp_link = 'https://wa.me/89526499046'
 
+
+
     return (
         <main>
           <div className="product-section-with-images-navigation-details">
@@ -180,7 +182,7 @@ const whatsapp_link = 'https://wa.me/89526499046'
         </div>
     )}
         <div className='info-box-block-tovar'><Link to="/contacts"><button>Где приобрести?</button></Link></div>
-        <div className='info-box-block-tovar'><button>Зачем я тут?</button></div>
+        <div className='info-box-block-tovar'><Link to="tel:+79223216360"><button>📞Позвонить</button></Link></div>
       </div>
     </div>
 
