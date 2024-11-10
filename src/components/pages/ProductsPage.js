@@ -5,6 +5,8 @@ import '../../css/industrialnye_smazochnie_materials.css';
 import SvgHome from '../../assetsImage/assets/house.svg';
 import vk from '../../assetsImage/assets/icons8-вконтакте.svg';
 import tg from '../../assetsImage/assets/icons8-телеграмма-app.svg';
+import viber from '../../assetsImage/assets/icons8-viber.svg';
+import whatsapp from '../../assetsImage/assets/icons8-whatsapp.svg';
 
 function CategoryPage() {
     const categoryPairs = [];
@@ -14,6 +16,7 @@ function CategoryPage() {
 
 const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
+const whatsapp_link = 'https://wa.me/89526499046'
 
     return (
         <main>
@@ -62,19 +65,31 @@ const tg_link = 'https://t.me/permmaslafuchs'
             </div>
           </div>
           <div className="contact-section1">
-            <div className="contact-section">
-              <div className="contacts">
-                <div className="contact-info-section-news">
-                  <h2 className="contact-message">Есть вопросы?</h2>
-                  <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
+                <div className="contact-section">
+                    <div className="contacts">
+                        <div className="contact-info-section-news">
+                            <h2 className="contact-message">Есть вопросы?</h2>
+                            <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
+                        </div>
+                        <div className="contact-info-logos">
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                        </div>
+                        <div className="contact-info-logos-mobile">
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                        </div>
+                         <div className="contact-info-logos-mobile-section">
+                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="contact-info-logos">
-                  <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
-                  <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
-                </div>
-              </div>
             </div>
-          </div>
         </main>
       );
     }

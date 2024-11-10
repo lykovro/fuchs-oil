@@ -99,7 +99,7 @@ const viber_link = 'viber://chat?number=%2B79526499046'
         <div className="address-info-section">
           <div className="info-box">
             <h3 className="title-heading"><b>г. Пермь</b></h3>
-            <p>Адрес: <a href="#">Промышленная, 110И</a></p>
+            <p>Адрес: <a href="https://yandex.ru/maps/-/CDtn7I74">Промышленная, 110И</a></p>
             <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60  </a><a href="tel:+79223216360">+7 922 321-63-60</a></p>
             <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sm@mail.ru</a></p>
           </div>
