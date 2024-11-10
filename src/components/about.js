@@ -1,17 +1,9 @@
 import React, {useEffect, useState, useRef } from 'react';
 import '../css/about.css'; // Импорт CSS стилей
 import SvgHome from '../assetsImage/assets/house.svg';
-import vk from '../assetsImage/assets/icons8-вконтакте.svg';
-import tg from '../assetsImage/assets/icons8-телеграмма-app.svg';
+
 import { Link } from 'react-router-dom';
-import Simposium from '../assetsImage/assets_news/Bezymyannyy.png'
-import RenolitDTA from '../assetsImage/assets_news/08.04.png'
-import CompMc from '../assetsImage/assets_news/COMP_MC.png'
-import Kaluga from '../assetsImage/assets_news/Конференция_в_Калуге.jpg'
-import messages from "./messages.json";
-import lubricants from "../assetsImage/assets/lubricants.png"
-import Rectangle from "../assetsImage/assets/Rectangle.png"
-import Rectangle2 from "../assetsImage/assets/Rectangle_2.png"
+
 import photo_1 from "../assetsImage/assets_about/1.jpg"
 import photo_2 from "../assetsImage/assets_about/2.jpg"
 import photo_3 from "../assetsImage/assets_about/3.jpg"
@@ -35,7 +27,8 @@ import photo_20 from "../assetsImage/assets_about/20.jpg"
 import photo_21 from "../assetsImage/assets_about/21.jpg"
 
 import cert from '../assetsImage/assets_about/certificat.jpg';
-
+import Popup from './pages/about_popup.js';
+import { directionsData } from './data/directionsData';
 
 
 
@@ -44,6 +37,16 @@ import cert from '../assetsImage/assets_about/certificat.jpg';
 
 
 const About = () => {
+
+    const [selectedDirection, setSelectedDirection] = useState(null);
+
+  const handleClick = (direction) => {
+    setSelectedDirection(direction);
+  };
+
+  const handleClose = () => {
+    setSelectedDirection(null);
+  };
 
     const backgroundImages = [
         `url(${photo_1})`,
@@ -102,6 +105,18 @@ const About = () => {
       }
     };
   }, []);
+
+
+  const directionsData = [
+    { title: 'Автомобильные смазочные материалы', description: ['Информация о автомобильных смазочных материалах...', 'Информация о автомобильных смазочных материалах...', 'Информация о автомобильных смазочных материалах...']},
+    { title: 'Промышленные смазочные материалы', description: 'Информация о промышленных смазочных материалах...' },
+    { title: 'Консистентные смазки', description: 'Информация о консистентных смазках...' },
+    { title: 'Смазочные материалы для обработки металлов', description: 'Информация о смазочных материалах для обработки металлов...' },
+    { title: 'Смазочные материалы для специальных условий применения', description: 'Информация о смазочных материалах для специальных условий...' },
+    { title: 'Услуги', description: 'Информация об услугах...' },
+];
+
+  
     
 
     return (
@@ -130,7 +145,7 @@ const About = () => {
             </div> 
             <div className="about_header">            
                 <div className="about_header_head">  
-                    <h2>Общество с Ограниченной Ответственностью «НОССА» является прямым коммерческим  партнером ООО «ФУКС ОИЛ» (дочернего подразделения FUCHS SE) на территории Пермского края.  
+                    <h2>ООО «НОССА» является прямым коммерческим  партнером ООО «ФУКС ОИЛ» (дочернего подразделения FUCHS SE) на территории Пермского края.  
                     </h2>
                 </div>
             </div>
@@ -153,18 +168,30 @@ const About = () => {
                 <h2>
                    Программа продукции компании FUCHS включает в себя более 10 000 продуктов и сопутствующих услуг в шести ключевых категориях
                 </h2>
-                <div className='about-content-status-ul'>
-                            <ul className="about-requirements-status-list-partners">
-                                <li>Автомобильные смазочные материалы</li>
-                                <li>Промышленные смазочные материалы</li>
-                                <li>Консистентные смазки</li>
-                            </ul>
-                            <ul className="about-requirements-status-list-partners">
-                                <li>Смазочные материалы для обработки металлов</li>
-                                <li>Смазочные материалы для специальных условий применения</li>
-                                <li>Услуги</li>
-                             </ul>
-                        </div>
+                <div className="about-content-status-ul">
+                    <ul className="about-requirements-status-list-partners">
+                        {directionsData.slice(0, 3).map((direction) => (
+                        <li key={direction.title} onClick={() => handleClick(direction)}>
+                            {direction.title}
+                        </li>
+                        ))}
+                    </ul>
+                    <ul className="about-requirements-status-list-partners">
+                        {directionsData.slice(3).map((direction) => (
+                        <li key={direction.title} onClick={() => handleClick(direction)}>
+                            {direction.title}
+                        </li>
+                        ))}
+                    </ul>
+
+                    {selectedDirection && (
+                        <Popup
+                        title={selectedDirection.title}
+                        description={selectedDirection.description}
+                        onClose={handleClose}
+                        />
+                    )}
+    </div>
      
             </div>
             <div className='about_title'>
