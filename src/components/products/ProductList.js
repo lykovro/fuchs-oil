@@ -25,9 +25,10 @@ function CategoryDetailPage() {
     groupedProducts_mob.push(categoryProducts.slice(i, i + 2));
   }
 
-    const vk_link = 'https://vk.com/permmaslafuchs'
+  const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
-const whatsapp_link = 'https://wa.me/89526499046'
+const viber_link = 'viber://chat?number=79223216360'
+const whatsapp_link = 'https://wa.me/79223216360'
 
   return (
     <main>
@@ -111,8 +112,8 @@ const whatsapp_link = 'https://wa.me/89526499046'
             <div className="contact-info-logos">
               <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
               <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
-              <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
-              <a href={tg_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+              <a href={viber_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+              <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
             </div>
             <div className="contact-info-logos-mobile">
                          <div className="contact-info-logos-mobile-section">
@@ -120,7 +121,7 @@ const whatsapp_link = 'https://wa.me/89526499046'
                             <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
                         </div>
                          <div className="contact-info-logos-mobile-section">
-                            <a href={vk_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={viber_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
                             <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
                           </div>
               </div>

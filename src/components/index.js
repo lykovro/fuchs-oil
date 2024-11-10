@@ -76,7 +76,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Моторные масла</p>
                         <span>
                           <Link to="/catalog/motor_masla">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                              <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>
@@ -87,7 +87,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Трансмиссионные масла</p>
                         <span>
                           <Link to="/catalog/transmission_oils">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>
@@ -101,7 +101,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Антикоррозионные составы</p>
                         <span>
                           <Link to="/catalog/anticorrosion_compounds">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>
@@ -112,7 +112,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Смазочно-охлаждающие жидкости (СОЖ)</p>
                         <span>
                           <Link to="/catalog/cooling_lubricants">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>
@@ -126,7 +126,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Огнестойкие и гидравлические масла</p>
                         <span>
                           <Link to="/catalog/fire_resistant_hydraulic_oils">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>
@@ -137,7 +137,7 @@ useEffect(() => {
                         <p className="motor-oil-heading_mobile">Очистители и промывочные составы</p>
                         <span>
                           <Link to="/catalog/cleaners_flush_compounds">
-                            <p className="motor-oil-details-button-text_mobile">Подробнее</p>
+                          <span lassName="motor-oil-details-button-text_mobile"> Подробнее</span>
                           </Link>
                         </span>
                       </div>

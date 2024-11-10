@@ -1671,7 +1671,7 @@
     }
 
     .product_text_mobile p {
-      font: 700 18px Inter, sans-serif;
+      font: 700 16px Inter, sans-serif;
         margin-top: 2%;
         margin-left: 0;
         margin-right: 0;
@@ -1680,8 +1680,12 @@
         
     }
 
+    .motor-oil-heading_mobile {
+      
+    }
+
     .motor-oil-details-button-text_mobile {
-      font-size: 16px;
+        font-size: 14px;
         margin-top: 2%;
         font-weight: none;
     }

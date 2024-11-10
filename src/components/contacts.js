@@ -57,8 +57,8 @@ const Contacts = () => {
 
   const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
-const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/featured'
-const viber_link = 'viber://chat?number=%2B79526499046'
+const viber_link = 'viber://chat?number=79223216360'
+const whatsapp_link = 'https://wa.me/79223216360'
 
   return (
     <main className="">
@@ -93,7 +93,7 @@ const viber_link = 'viber://chat?number=%2B79526499046'
             <a href={vk_link}><img src={vk} alt="VK"/></a>
             <a href={tg_link}><img src={tg} alt="Telegram"/></a>
             <a href={viber_link}><img src={viber} alt="Telegram"/></a>
-            <a href="viber://chat?number=%2B89526499046"><img src={whatsapp} alt="Telegram"/></a>
+            <a href={whatsapp_link}><img src={whatsapp} alt="Telegram"/></a>
           </div>
         </div>
         <div className="address-info-section">
