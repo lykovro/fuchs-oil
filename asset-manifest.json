@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.786413cd.css",
-    "main.js": "/fuchs-oil/static/js/main.81a17cdd.js",
+    "main.css": "/fuchs-oil/static/css/main.ad05195f.css",
+    "main.js": "/fuchs-oil/static/js/main.14656d25.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/certificat.jpg": "/fuchs-oil/static/media/certificat.5897d96f68265a2c3eb6.jpg",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
@@ -201,12 +201,12 @@
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.786413cd.css.map": "/fuchs-oil/static/css/main.786413cd.css.map",
-    "main.81a17cdd.js.map": "/fuchs-oil/static/js/main.81a17cdd.js.map",
+    "main.ad05195f.css.map": "/fuchs-oil/static/css/main.ad05195f.css.map",
+    "main.14656d25.js.map": "/fuchs-oil/static/js/main.14656d25.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.786413cd.css",
-    "static/js/main.81a17cdd.js"
+    "static/css/main.ad05195f.css",
+    "static/js/main.14656d25.js"
   ]
 }
