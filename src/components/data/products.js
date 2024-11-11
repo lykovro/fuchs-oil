@@ -551,7 +551,7 @@ const products = {
       ]
   },
   antifreeze: {
-    name: 'Антифризы',
+    name: 'Масла для направляющих скольжения',
     items: [
         { id: 'MAINTAIN_FRICOFIN_HDC', name: 'MAINTAIN FRICOFIN HDC (-40)', image: MotorMasla, price: '', description: 'Высококачественный готовый для применения антифриз на основе моноэтиленгликоля. Подходит для увеличенного срока службы. Не содержит аминов, боратов и силикатов', 
           specifications: ['ASTM D 3306 TYPE III', 'ASTM D 6210 TYPE III FF', 'GB 29743-2013 (LEC II -40, HEC II -40)'], 

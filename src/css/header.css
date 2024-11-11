@@ -236,7 +236,7 @@ html {
     display: block;
     flex: 0 0 auto;
     max-width: initial;
-    height: 40px;
+    height: 65px;
     border: none;
     object-fit: cover;
     margin-left: 0;
@@ -289,6 +289,10 @@ html {
     color: rgba(105, 107, 108, 1);
     flex: 0 0 auto;
     white-space: pre-wrap;
+}
+
+.industry-description:nth-child(n+2) {
+  margin-top: 5%;
 }
 
 .industry-description a {
@@ -765,7 +769,7 @@ html {
  
   margin-left: 0;
   margin-bottom: 2%;
-  height: 70%;
+  height: 100%;
 }
 
 .fullscreen-menu_banner-image_adaptiv_2 {

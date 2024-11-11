@@ -318,7 +318,7 @@ useEffect(() => {
           </div> */}
         </div>
             <div className="distributor-info-block">
-              <p className="mega-heading">FUCHS<br />Официальный дистрибьютор оригинальных смазочных материалов Fuchs в России</p>
+              <p className="mega-heading">ООО "НОССА"<br />Официальный дистрибьютор оригинальных смазочных материалов Fuchs в России</p>
               <div className="distributor-info-section">
                 <p className="company-description-text">Наша компания является официальным дистрибьютором моторных масел и смазок Fuchs - мы предлагаем широкий ассортимент товаров по самым выгодным ценам!</p>
               </div>
