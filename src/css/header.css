@@ -387,8 +387,8 @@ html {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-    top: 12.5%; /* Расположить прямо под поисковым полем */
-    left: 43.7%;
+    top: 17%; /* Расположить прямо под поисковым полем */
+    left: 39.7%;
     width: 30%; /* Сделать ширину выпадающего окна такой же, как у input */
     max-height: 200px; /* Ограничение по высоте */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);

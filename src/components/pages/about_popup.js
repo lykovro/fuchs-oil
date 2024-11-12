@@ -20,9 +20,14 @@ const Popup = ({ title, description, onClose }) => {
                 <button className="popup-close" onClick={handleClose}>×</button>
                 <h2>{title}</h2>
                 {Array.isArray(description) ? (
-                    description.map((text, index) => <p key={index}>{text}</p>)
+                    description.map((text, index) => (
+                        <p
+                            key={index}
+                            dangerouslySetInnerHTML={{ __html: text }}
+                        />
+                    ))
                 ) : (
-                    <p>{description}</p>
+                    <p dangerouslySetInnerHTML={{ __html: description }} />
                 )}
             </div>
         </div>

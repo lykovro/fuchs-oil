@@ -360,10 +360,16 @@
   width: 80%;
   transform: translateY(-20px);
   transition: transform 0.3s ease;
+  max-height: 80vh; /* ограничение по высоте */
+  overflow-y: auto; /* добавляем прокрутку */
 }
 
 .popup-content p {
   font-size: 18px;
+}
+
+.popup-content p:nth-child(n+2) {
+  margin-top: 1%;
 }
 
 .popup-visible .popup-content {
@@ -461,6 +467,16 @@
   
   .about_header_head h2 {
     font-size: 20px;
+  }
+
+  .popup-content p {
+    font-size: 14PX;
+  }
+
+  .popup-content {
+    margin-top: 40%;
+    height: 60%;
+    
   }
 
   .about_title_cert img {
