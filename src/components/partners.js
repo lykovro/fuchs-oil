@@ -175,8 +175,8 @@ const tg_link = 'https://t.me/permmaslafuchs'
                   </li>
               </ul>
               <p className="title-heading">
-                  Продукция группы компаний FUCHS основана на принципе: технология, которая
-                  окупается.
+                  Продукция группы компаний FUCHS основана на принципе: технологии, которые
+                  окупаются.
                 </p>
                 <div className="info-box-blocks">
                 </div>

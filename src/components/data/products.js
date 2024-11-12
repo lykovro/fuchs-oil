@@ -698,6 +698,30 @@ pressure_casting_compounds: {
       { id: 'LUBRODAL_R_150_S', name: 'LUBRODAL R 150 S', image: ANTICORIT, price: '', description: 'Водосмешиваемый состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '',
         documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), }
   ]
+},
+plastic_lubricants: {
+  name: 'Пластичные смазки',
+  items: [
+      { id: 'RENOLIT_FET_L_0', name: 'RENOLIT FET L 0', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+      { id: 'RENOLIT_FET_L_00', name: 'RENOLIT FET L 00', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+      { id: 'RENOLIT_FET_L_1', name: 'RENOLIT FET L 1', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+      { id: 'RENOLIT_FET_L_2', name: 'RENOLIT FET L 2', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+      { id: 'RENOLIT_FET_L_3', name: 'RENOLIT FET L 3', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+        { id: 'RENOLIT_FET_LF_1', name: 'RENOLIT FET LF 1', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+          documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+          { id: 'RENOLIT_FET_LF_2', name: 'RENOLIT FET LF 2', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+            documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+            { id: 'RENOLIT_FET_LF_3', name: 'RENOLIT FET LF 3', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+              documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
+      
+    
+  
+  ]
 }
   };
 

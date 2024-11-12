@@ -268,7 +268,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 0;
   }
 
@@ -298,7 +298,7 @@
   }
   .copyright-text-display-style {
     margin-right: 0;
-    margin-left: 1%;
+    margin-left: 5%;
     flex: 0 0 auto;
     font: 400 13px Inter, sans-serif;
     color: rgba(144, 151, 156, 1);
