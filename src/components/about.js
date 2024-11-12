@@ -170,7 +170,7 @@ const About = () => {
                 <h2>
                    Программа продукции компании FUCHS включает в себя более 10 000 продуктов и сопутствующих услуг в шести ключевых категориях
                 </h2>
-                <div className="about-content-status-ul">
+                <div className="about-content-status-ul"> 
                     <ul className="about-requirements-status-list-partners">
                         {directionsData.slice(0, 3).map((direction) => (
                         <li key={direction.title} onClick={() => handleClick(direction)}>

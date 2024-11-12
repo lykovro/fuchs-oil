@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fuchs-oil/static/css/main.64c90d73.css",
-    "main.js": "/fuchs-oil/static/js/main.570d16ad.js",
+    "main.css": "/fuchs-oil/static/css/main.f01359cd.css",
+    "main.js": "/fuchs-oil/static/js/main.bdf9762c.js",
     "static/js/453.d3f9ee4e.chunk.js": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js",
     "static/media/certificat.jpg": "/fuchs-oil/static/media/certificat.5897d96f68265a2c3eb6.jpg",
     "static/media/new.jpg": "/fuchs-oil/static/media/new.07829cae49f72142e3b0.jpg",
@@ -173,6 +173,7 @@
     "static/media/19.jpg": "/fuchs-oil/static/media/19.76f7aa083fda6be88eee.jpg",
     "static/media/3.jpg": "/fuchs-oil/static/media/3.95f013135cf0b62b1be5.jpg",
     "static/media/TITAN-ATF_DII_1L_1080x1080.png": "/fuchs-oil/static/media/TITAN-ATF_DII_1L_1080x1080.c8595ba0f4ffdda16f50.png",
+    "static/media/svg-editor-image.png": "/fuchs-oil/static/media/svg-editor-image.b4d32d3671a24332614f.png",
     "static/media/4.jpg": "/fuchs-oil/static/media/4.3cb53a3415fd8b1a9309.jpg",
     "static/media/7.jpg": "/fuchs-oil/static/media/7.6556fc4ee0d8603fdd73.jpg",
     "static/media/11.jpg": "/fuchs-oil/static/media/11.85554cc36ddd87f7a93f.jpg",
@@ -192,21 +193,21 @@
     "static/media/Политика_конфиденциальности_для_сайта.docx": "/fuchs-oil/static/media/Политика_конфиденциальности_для_сайта.506b50f23c1a46f0e9ae.docx",
     "static/media/1.jpg": "/fuchs-oil/static/media/1.3d2f36c7a154d91d2404.jpg",
     "static/media/fuchs_mobile.png": "/fuchs-oil/static/media/fuchs_mobile.742d24043c5fdc498b02.png",
-    "static/media/logo_nossa_svg.svg": "/fuchs-oil/static/media/logo_nossa_svg.a09ebf5081fe4c519af3bc9b26aa7968.svg",
     "static/media/icons8-viber.svg": "/fuchs-oil/static/media/icons8-viber.afdde496aaa27d36c80d2114f65b3b65.svg",
     "static/media/icons8-whatsapp.svg": "/fuchs-oil/static/media/icons8-whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "static/media/icons8-вконтакте.svg": "/fuchs-oil/static/media/icons8-вконтакте.4d7dd60e56dd66aa7404e75eb57f29a7.svg",
+    "static/media/icons8-yandex-zen.svg": "/fuchs-oil/static/media/icons8-yandex-zen.86e55715cbfee9c3cb6c75d2e0fea4e5.svg",
     "static/media/icons8-телеграмма-app.svg": "/fuchs-oil/static/media/icons8-телеграмма-app.b0589b5e724dd92cc132ddb6a0e049d9.svg",
     "static/media/house.svg": "/fuchs-oil/static/media/house.25cf89ba1efa5bc88ab13b97cdad8caa.svg",
     "index.html": "/fuchs-oil/index.html",
     "static/media/search-svgrepo-com.svg": "/fuchs-oil/static/media/search-svgrepo-com.01da7b90b09620b3b6c61977cfa584e0.svg",
     "static/media/icons8-youtube-play.svg": "/fuchs-oil/static/media/icons8-youtube-play.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.64c90d73.css.map": "/fuchs-oil/static/css/main.64c90d73.css.map",
-    "main.570d16ad.js.map": "/fuchs-oil/static/js/main.570d16ad.js.map",
+    "main.f01359cd.css.map": "/fuchs-oil/static/css/main.f01359cd.css.map",
+    "main.bdf9762c.js.map": "/fuchs-oil/static/js/main.bdf9762c.js.map",
     "453.d3f9ee4e.chunk.js.map": "/fuchs-oil/static/js/453.d3f9ee4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c90d73.css",
-    "static/js/main.570d16ad.js"
+    "static/css/main.f01359cd.css",
+    "static/js/main.bdf9762c.js"
   ]
 }
