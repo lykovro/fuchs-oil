@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
-import banner from '../assetsImage/assets/logo_nossa_svg.svg'; 
+import banner from '../assetsImage/assets/svg-editor-image.png'; 
 import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
@@ -11,7 +11,7 @@ import mainImage4 from '../assetsImage/assets/new (1).jpg';
 import mainImage5 from '../assetsImage/assets/white_sedan_driving_on_the_highway_accross_the_forest_01.jpg';
 import mainImage6 from '../assetsImage/assets/stroitelnaya_p2.jpg';
 import products from './data/products';
-import logomobile from '../assetsImage/assets/logo_nossa_svg.svg'
+import logomobile from '../assetsImage/assets/svg-editor-image.png'
 import logomobile2 from '../assetsImage/assets/fuchs_mobile.png'
 
 
@@ -193,6 +193,7 @@ useEffect(() => {
                   <div className="hierarchical-text-container">
                     <div className="vertical-section-aside">
                       <p className="industry-description"><a href="tel:+7 922 386-63-60">+7 922 386-63-60</a></p>
+                      <p className="industry-description"><a href="tel:+79223216360">+7 922 321-63-60</a></p>
                     </div>
                   </div>
                 </div>

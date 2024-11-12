@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/footer.css'; // Импорт CSS стилей
 import vk from '../assetsImage/assets/icons8-вконтакте.svg'
 import tg from '../assetsImage/assets/icons8-телеграмма-app.svg'
+import dzen from '../assetsImage/assets/icons8-yandex-zen.svg'
 import youtube from '../assetsImage/assets/icons8-youtube-play.svg'
 import copyright from '../assetsImage/assets/img_18_2_f4d569.png'
 import copyright_mobile from '../assetsImage/assets/fuchs_mobile.png'
@@ -11,6 +12,7 @@ import { Link } from 'react-router-dom';
 const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
 const youtube_link = 'https://www.youtube.com/channel/UCK39EITAlqHIqDk7ilunH-g/featured'
+const dzen_link = 'https://dzen.ru/a/YnvKxe3iUDJy42vJ?sid=171127712520241434'
 
 
 const Footer = () => {
@@ -79,6 +81,7 @@ const Footer = () => {
                                     <a href={vk_link}><img src={vk} alt="" /></a>
                                     <a href={tg_link}><img src={tg} alt="" /></a>
                                     <a href={youtube_link}><img src={youtube} alt="" /></a>
+                                    <a href={dzen_link}><img src={dzen} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
                                     <a href=""><Link to="/fuchs-oil"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>

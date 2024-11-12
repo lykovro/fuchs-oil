@@ -236,7 +236,7 @@ html {
     display: block;
     flex: 0 0 auto;
     max-width: initial;
-    height: 40px;
+    height: 65px;
     border: none;
     object-fit: cover;
     margin-left: 0;
@@ -289,6 +289,10 @@ html {
     color: rgba(105, 107, 108, 1);
     flex: 0 0 auto;
     white-space: pre-wrap;
+}
+
+.industry-description:nth-child(n+2) {
+  margin-top: 5%;
 }
 
 .industry-description a {
@@ -383,8 +387,8 @@ html {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-    top: 12.5%; /* Расположить прямо под поисковым полем */
-    left: 43.7%;
+    top: 17%; /* Расположить прямо под поисковым полем */
+    left: 39.7%;
     width: 30%; /* Сделать ширину выпадающего окна такой же, как у input */
     max-height: 200px; /* Ограничение по высоте */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -765,7 +769,7 @@ html {
  
   margin-left: 0;
   margin-bottom: 2%;
-  height: 70%;
+  height: 100%;
 }
 
 .fullscreen-menu_banner-image_adaptiv_2 {
