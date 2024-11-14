@@ -34,8 +34,14 @@ html {
     display: flex;
     justify-content: center;
     max-width: 1314px;
-    max-height: 400px;
+    flex-direction: column;
     margin-top: 30px;
+  }
+
+  .company-info-layout img {
+    max-height: 400px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .corporate-info-container1 {
@@ -50,9 +56,16 @@ html {
     position: center;
     }
 
+    #hover-text {
+      transition: opacity 0.5s ease-in-out;
+    object-fit: cover;
+    position: center;
+    }
+
   .company-info-layout img {
     max-width: 1314px;
-    border-radius: 16px;
+    border-radius: 16px 16px 16px 0;
+    
   }
 
 
@@ -473,6 +486,24 @@ html {
     max-width: initial;
     height: 48px;
     margin-left: 11px;
+  }
+
+  .hover-text {
+    font-family: Inter;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 1;
+    color: white;
+    padding: 20px;
+    background-color: rgba(1, 80, 158, 0.75);
+    border-radius: 0 0 12px 12px; /* Скруглить только нижние углы */
+    min-width: 150px;
+    height: 20px;
+    max-width: 700px;
+    transition: opacity 0.5s ease;
   }
   .hierarchical-container {
     box-sizing: border-box;

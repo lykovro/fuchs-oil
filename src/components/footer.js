@@ -82,10 +82,10 @@ const Footer = () => {
                         <div className="main-content-container-left">
                             <div className='main-content-container-left-logo'>
                                 <div className="flex-container-with-padding">
-                                    <a href={vk_link}><img src={vk} alt="" /></a>
-                                    <a href={tg_link}><img src={tg} alt="" /></a>
-                                    <a href={youtube_link}><img src={youtube} alt="" /></a>
-                                    <a href={dzen_link}><img src={dzen} alt="" /></a>
+                                    <a href={vk_link} target="_blank"><img src={vk} alt="" /></a>
+                                    <a href={tg_link} target="_blank"><img src={tg} alt="" /></a>
+                                    <a href={youtube_link} target="_blank"><img src={youtube} alt="" /></a>
+                                    <a href={dzen_link} target="_blank"><img src={dzen} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
                                     <a href=""><Link to="/fuchs-oil"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>

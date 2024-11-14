@@ -98,7 +98,7 @@ useEffect(() => {
                   
                   <div className="logo_button_input">
                     <div className="logo_button">
-                    <Link to="https://www.fuchs-oil.ru/"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
+                    <Link to="https://www.fuchs-oil.ru/" target="_blank"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
                     <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
                       
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>

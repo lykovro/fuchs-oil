@@ -318,9 +318,9 @@ useEffect(() => {
           </div> */}
         </div>
             <div className="distributor-info-block">
-              <p className="mega-heading">ООО "НОССА"<br />Официальный дистрибьютор оригинальных смазочных материалов Fuchs в Пермском крае</p>
+              <p className="mega-heading">ООО "НОССА"<br />является прямым коммерческим партнером ООО «ФУКС ОИЛ» (дочернего подразделения FUCHS SE) на территории Пермского края.</p>
               <div className="distributor-info-section">
-                <p className="company-description-text">Наша компания является официальным дистрибьютором моторных масел и смазок Fuchs - мы предлагаем широкий ассортимент товаров по самым выгодным ценам!</p>
+                <p className="company-description-text">Наша компания является официальным представителем моторных масел и смазок <b>FUCHS</b> - мы предлагаем широкий ассортимент продуктов по самым выгодным ценам!</p>
               </div>
             </div>
             <div id="map-container" className="vertical-spacer" />

@@ -159,7 +159,7 @@ const About = () => {
                 <div className="about_text">   
                     <p className="super-brief-statement">
                         <span><span className="cosmic-highlight">FUCHS</span> — это основанная в Германии глобальная группа компаний, которая уже в течение более чем 90 лет занимается разработкой, производством и сбытом смазочных материалов практически для всех областей применения и отраслей промышленности.</span>
-                        <br></br><span>В составе группы <span className="cosmic-highlight">FUCHS</span> насчитывается около 60 компаний и 6000 сотрудников по всему миру, в том числе в России в <a className='about_text_a' href="https://www.fuchs-oil.ru/production/"><b>г. Калуга</b></a>, а сама группа <span className="cosmic-highlight">FUCHS</span> является мировым лидером среди независимых производителей смазочных материалов.</span>
+                        <br></br><span>В составе группы <span className="cosmic-highlight">FUCHS</span> насчитывается около 60 компаний и 6000 сотрудников по всему миру, в том числе в России в <a className='about_text_a' href="https://www.fuchs-oil.ru/production/" target="_blank"><b>г. Калуга</b></a>, а сама группа <span className="cosmic-highlight">FUCHS</span> является мировым лидером среди независимых производителей смазочных материалов.</span>
                         <br></br><span>В отличие от других иностранных производителей, на данный момент, <span className="cosmic-highlight">FUCHS</span> - единственная европейская компания, которая легально производит свои продукты на территории РФ с использованием импортных основ (ПАО) и пакетов присадок!</span>
 
                     </p>
