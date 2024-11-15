@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
 import banner from '../assetsImage/assets/svg-editor-image.png'; 
-import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner_2 from '../assetsImage/assets/Лого-FUCHS.png';
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
 import mainImage2 from '../assetsImage/assets/chemical.jpg';

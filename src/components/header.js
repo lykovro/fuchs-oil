@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '../css/header.css'; 
 import banner from '../assetsImage/assets/svg-editor-image.png';
-import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner_2 from '../assetsImage/assets/Лого-FUCHS.png';
 import search from '../assetsImage/assets/search-svgrepo-com.svg';
 import { Link, useNavigate } from 'react-router-dom';
 import products from './data/products';
@@ -98,9 +98,13 @@ useEffect(() => {
                   
                   <div className="logo_button_input">
                     <div className="logo_button">
-                    <Link to="https://www.fuchs-oil.ru/" target="_blank"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
                     <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
-                      
+               
+               <div className ="logo_text_right">
+                 <p>Смазочные материалы</p>
+               </div>
+           
+               <Link to="https://www.fuchs-oil.ru/" target="_blank"><img src={banner_2} className="banner-image" alt="Banner"/></Link>                      
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
