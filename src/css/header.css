@@ -146,7 +146,7 @@ html {
 .company-info-logo {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 0;
 }
 
@@ -174,7 +174,7 @@ html {
     margin-right: 0;
     flex: 0 0 auto;
     gap: 50px;
-    width: 50%;
+    
 }
 
 .company-info-styles {
@@ -197,6 +197,7 @@ html {
     margin-right: 0;
     display: flex;
     flex-direction: row;
+    width: 67%;
 }
 
 .logo_button a {
@@ -204,10 +205,12 @@ html {
   flex-direction: column;
   text-decoration: none;
   justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .logo_button a:nth-child(n+2) {
-  margin-left: 5%;
+  margin-left: 0%;
 }
 
 .product-input-container_search {
@@ -225,10 +228,26 @@ html {
     display: block;
     flex: 0 0 auto;
     max-width: initial;
-    height: 60px;
+    height: 40px;
     border: none;
     object-fit: cover;
     margin-left: 0;
+}
+
+.logo_text_right {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  width: 40%;
+  font-weight: bold;
+  text-align: justify;
+  font-family: Inter;
+  margin-right: 3%;
+  
+}
+
+.logo_text_right p {
+  font-size: 26px;
 }
 
 .banner-image_2 {
@@ -236,7 +255,7 @@ html {
     display: block;
     flex: 0 0 auto;
     max-width: initial;
-    height: 65px;
+    height: 80px;
     border: none;
     object-fit: cover;
     margin-left: 0;
@@ -247,6 +266,7 @@ html {
     display: flex;
     align-items: center;
     height: 100%;
+    margin-right: 0;
 }
 
 .button_product button {
@@ -387,8 +407,8 @@ html {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-    top: 17%; /* Расположить прямо под поисковым полем */
-    left: 39.7%;
+    top: 18.5%; /* Расположить прямо под поисковым полем */
+    left: 62%;
     width: 30%; /* Сделать ширину выпадающего окна такой же, как у input */
     max-height: 200px; /* Ограничение по высоте */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);

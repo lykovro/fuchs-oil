@@ -242,7 +242,7 @@ html {
   .field:focus {
     outline: none;
     box-shadow: 0.5px 0.5px 0.5px #f4f7f6;
-    padding-right: 100px;
+    padding-right: 50px;
     transition-duration: 0.5s;
   }
 
@@ -489,8 +489,9 @@ html {
   }
 
   .hover-text {
+    display: none;
     font-family: Inter;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     margin-left: 0;
     font-size: 24px;
