@@ -116,6 +116,7 @@
     .news_block p {
         font-size: 18px;
         margin-top: 7%;
+        text-align: left;
     }
 
     .news_block h3 {

@@ -61,7 +61,7 @@ html {
     justify-content: flex-start;
     width: 1314px;
     padding-top: 19.5px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -796,6 +796,10 @@ html {
   margin-left: 0;
   margin-bottom: 2%;
   height: 100%;
+}
+
+.logo_button {
+  width: 5%;
 }
 
 .fullscreen-menu_banner-image_adaptiv_2 {

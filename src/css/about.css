@@ -489,7 +489,8 @@
   }
 
   .super-brief-statement {
-    font: 20px / 30px Inter, sans-serif;
+    font: 16px / 30px Inter, sans-serif;
+    
   }
   .about-requirements-status-list-partners {
     flex-direction: column;
@@ -498,8 +499,12 @@
 
   .about-requirements-status-list-partners li {
     height: 60%;
-    font-size: 18px;
+    font-size: 16px;
   }
+  .about_text {
+    width: 100%;
+  }
+
 
   .about-requirements-status-list-partners li:nth-child(n+2) {
     margin-left: 0;
@@ -508,6 +513,7 @@
 
   .super_about_text {
     font-size: 28px;
+  
   }
 
   .popup-content {
@@ -517,11 +523,11 @@
 
 
   .cosmic-highlight {
-    font: 700 24px / 30px Inter, sans-serif;
+    font: 700 20px / 30px Inter, sans-serif;
   }
 
   .about_title h2 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 10%;
   }
 
