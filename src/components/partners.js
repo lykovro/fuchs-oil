@@ -150,7 +150,7 @@ const tg_link = 'https://t.me/permmaslafuchs'
              <div className="info-box"> 
              <p className="title-heading">Сотрудничая с ООО «НОССА» Вы получаете доступ к высококачественным продуктам
 группы компаний FUCHS для поддержания бесперебойной работы техники в любых
-условиях эксплуатации, в том числе и экстремальных благодаря сохранению стабильности
+условиях эксплуатации, в том числе и экстремальных, благодаря сохранению стабильности
 эксплуатационных качеств масла от замены к замене.</p>
               <ul>  
                 <li>
@@ -175,8 +175,8 @@ const tg_link = 'https://t.me/permmaslafuchs'
                   </li>
               </ul>
               <p className="title-heading">
-                  Продукция группы компаний FUCHS основана на принципе: технология, которая
-                  окупается.
+                  Продукция группы компаний FUCHS основана на принципе: технологии, которые
+                  окупаются.
                 </p>
                 <div className="info-box-blocks">
                 </div>
@@ -249,7 +249,7 @@ const tg_link = 'https://t.me/permmaslafuchs'
           <div className="address-info-section-adress">
               <div className="info-box-adress">
                 <h3 className="title-heading-adress">г. Пермь</h3>
-                <p>Адрес: <a href="https://yandex.ru/maps/-/CDtn7I74">Промышленная, 110И</a></p>
+                <p>Адрес: <a href="https://yandex.ru/maps/-/CDtn7I74" target="_blank">Промышленная, 110И</a></p>
                 <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60 </a><a href="tel:+79223216360">+7 922 321-63-60</a></p>
                 <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sm@mail.ru</a></p>
               </div>

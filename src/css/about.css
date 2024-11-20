@@ -10,7 +10,7 @@
     box-sizing: border-box;
     flex: 0 1 710px;
     max-width: 710px;
-    font: 700 47px / 52px Inter, sans-serif;
+    font: 700 36px / 52px Inter, sans-serif;
     color: rgba(23, 33, 38, 1);
     text-align: left;
     white-space: pre-wrap;
@@ -146,7 +146,7 @@
 
 .super-brief-statement {
   font-weight: none;
-  font: 28px/46px Inter, sans-serif;
+  font: 24px/46px Inter, sans-serif;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   white-space: pre-wrap;
@@ -159,7 +159,7 @@
 
 .super_about_text {
   color: #025BAC;
-  font-size: 38px;
+  font-size: 34px;
   text-align: left;
   width: 100%;
 }
@@ -176,7 +176,7 @@
 }
 
 .about_title h2 {
-  font-size: 40px;
+  font-size: 38px;
     width: 100%;
     margin-bottom: 5%;
     color: rgba(1, 80, 158, 1);
@@ -366,6 +366,7 @@
 
 .popup-content p {
   font-size: 18px;
+  text-align: justify;
 }
 
 .popup-content p:nth-child(n+2) {
@@ -488,7 +489,8 @@
   }
 
   .super-brief-statement {
-    font: 20px / 30px Inter, sans-serif;
+    font: 16px / 30px Inter, sans-serif;
+    
   }
   .about-requirements-status-list-partners {
     flex-direction: column;
@@ -497,8 +499,12 @@
 
   .about-requirements-status-list-partners li {
     height: 60%;
-    font-size: 18px;
+    font-size: 16px;
   }
+  .about_text {
+    width: 100%;
+  }
+
 
   .about-requirements-status-list-partners li:nth-child(n+2) {
     margin-left: 0;
@@ -507,6 +513,7 @@
 
   .super_about_text {
     font-size: 28px;
+  
   }
 
   .popup-content {
@@ -516,11 +523,11 @@
 
 
   .cosmic-highlight {
-    font: 700 24px / 30px Inter, sans-serif;
+    font: 700 20px / 30px Inter, sans-serif;
   }
 
   .about_title h2 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 10%;
   }
 

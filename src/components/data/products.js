@@ -553,21 +553,21 @@ const products = {
   antifreeze: {
     name: 'Масла для направляющих скольжения',
     items: [
-        { id: 'MAINTAIN_FRICOFIN_HDC', name: 'MAINTAIN FRICOFIN HDC (-40)', image: MotorMasla, price: '', description: 'Высококачественный готовый для применения антифриз на основе моноэтиленгликоля. Подходит для увеличенного срока службы. Не содержит аминов, боратов и силикатов', 
-          specifications: ['ASTM D 3306 TYPE III', 'ASTM D 6210 TYPE III FF', 'GB 29743-2013 (LEC II -40, HEC II -40)'], 
-          approvals: '', 
-          recommendations: ['DETROIT DIESEL 7SE298, 93K217', 'DAF 74002', 'CAT EC-1', 'CASE MS 1710', 'CUMMINS CES 14439', 'IVECO 18-1830', 'KOMATSU AF-NAC', 'MAN 324 TYPE N'],
-          documentation: documents.find((doc) => doc.includes('MAINTAIN FRICOFIN HDC (-40) ru 2023')), },
-        { id: 'MAINTAIN_FRICOFIN_LL_23', name: 'MAINTAIN FRICOFIN LL 23 (-40)', image: MotorMasla, price: '', description: 'Высококачественный готовый для применения антифриз на основе моноэтиленгликоля. Подходит для увеличенного срока службы. Не содержит нитритов, аминов, фосфатов, боратов и силикатов', 
-          specifications: '', 
+        { id: 'RENEP_SW_CGLP_220', name: 'RENEP SW CGLP 220', image: ANTICORIT, price: '', description: 'Для снижения энергетических затрат при подаче по направляющим, особое внимание необходимо уделять смазочному материалу, используемому для смазывания элементов скольжения. Смазочно-охлаждающая жидкость и материал направляющих являются важными параметрами при выборе большинства масел для направляющих. Интервал замены масла выбирают в зависимости от механической обработки и станка. Масла RENEP SW CGLP подходят для смазывания направляющих станочного оборудования всех основных пар материалов: чугун-чугун, чугун-сталь, сталь-пластик и других.', 
+          specifications: ['SH/T0361-98'], 
           approvals: '', 
           recommendations: '',
-          documentation: documents.find((doc) => doc.includes('MAINTAIN FRICOFIN LL 23 (-40) ru 2023')), },
-        { id: 'MAINTAIN_FRICOFIN_S_23', name: 'MAINTAIN FRICOFIN S 23 (-40)', image: MotorMasla, price: '', description: 'Высококачественный готовый для применения антифриз на основе моноэтиленгликоля. Не содержит нитритов, аминов и фосфатов.', 
-          specifications: ['ASTM D 3306 TYPE III', 'BS 6580:2010', 'ГОСТ 33591-2015 Тип III', 'NB/SH/T 0521-2010', 'GB 29743-2013'], 
+          documentation: documents.find((doc) => doc.includes('RENEP-SW-CGLP-ru')), },
+        { id: 'RENEP_SW_CGLP_32', name: 'RENEP SW CGLP 32', image: ANTICORIT, price: '', description: 'Для снижения энергетических затрат при подаче по направляющим, особое внимание необходимо уделять смазочному материалу, используемому для смазывания элементов скольжения. Смазочно-охлаждающая жидкость и материал направляющих являются важными параметрами при выборе большинства масел для направляющих. Интервал замены масла выбирают в зависимости от механической обработки и станка. Масла RENEP SW CGLP подходят для смазывания направляющих станочного оборудования всех основных пар материалов: чугун-чугун, чугун-сталь, сталь-пластик и других.', 
+          specifications: ['SH/T0361-98'], 
           approvals: '', 
-          recommendations: ['КАМАЗ (в т.ч. НЕФАЗ)', 'Группа ГАЗ (в т.ч ЛиАЗ, УАЗ, ПАЗ)', 'ЯМЗ'],
-          documentation: documents.find((doc) => doc.includes('ANTICORIT RPO 3050 ru')), }
+          recommendations: '',
+          documentation: documents.find((doc) => doc.includes('RENEP-SW-CGLP-ru')), },
+        { id: 'RENEP_SW_CGLP_68', name: 'RENEP SW CGLP 68', image: ANTICORIT, price: '', description: 'Для снижения энергетических затрат при подаче по направляющим, особое внимание необходимо уделять смазочному материалу, используемому для смазывания элементов скольжения. Смазочно-охлаждающая жидкость и материал направляющих являются важными параметрами при выборе большинства масел для направляющих. Интервал замены масла выбирают в зависимости от механической обработки и станка. Масла RENEP SW CGLP подходят для смазывания направляющих станочного оборудования всех основных пар материалов: чугун-чугун, чугун-сталь, сталь-пластик и других.', 
+          specifications: ['SH/T0361-98'], 
+          approvals: '', 
+          recommendations: '',
+          documentation: documents.find((doc) => doc.includes('RENEP-SW-CGLP-ru')), }
     ]
 },
   cooling_lubricants: {
@@ -697,6 +697,47 @@ pressure_casting_compounds: {
         documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), },
       { id: 'LUBRODAL_R_150_S', name: 'LUBRODAL R 150 S', image: ANTICORIT, price: '', description: 'Водосмешиваемый состав для горячих процессов обработки давлением', specifications: '', approvals: '', recommendations: '',
         documentation: documents.find((doc) => doc.includes('TITAN UNIMAX CI 5W-40 MC')), }
+  ]
+},
+plastic_lubricants: {
+  name: 'Пластичные смазки',
+  items: [
+      { id: 'RENOLIT_FET_L_0', name: 'RENOLIT FET L 0', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-L-seriya-ru')), },
+      { id: 'RENOLIT_FET_L_00', name: 'RENOLIT FET L 00', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-L-seriya-ru')), },
+      { id: 'RENOLIT_FET_L_1', name: 'RENOLIT FET L 1', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-L-seriya-ru')), },
+      { id: 'RENOLIT_FET_L_2', name: 'RENOLIT FET L 2', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-L-seriya-ru')), },
+      { id: 'RENOLIT_FET_L_3', name: 'RENOLIT FET L 3', image: ANTICORIT, price: '', description: 'RENOLIT FET L – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла, литиевого загустителя и технологичного пакета присадок. Благодаря содержанию противозадирных (EP – extreme pressure) присадок, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-L-seriya-ru')), },
+       { id: 'RENOLIT_FET_LF_1', name: 'RENOLIT FET LF 1', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+          documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LF-seriya-ru')), },
+       { id: 'RENOLIT_FET_LF_2', name: 'RENOLIT FET LF 2', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+            documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LF-seriya-ru')), },
+       { id: 'RENOLIT_FET_LF_3', name: 'RENOLIT FET LF 3', image: ANTICORIT, price: '', description: 'RENOLIT FET LF – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, а также твердым добавкам в виде дисульфида молибдена (MoS2), продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+              documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LF-seriya-ru')), },
+       { id: 'RENOLIT_FET_LH_1', name: 'RENOLIT FET LH 1', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LH-seriya-ru')), },
+       { id: 'RENOLIT_FET_LH_2', name: 'RENOLIT FET LH 2', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                  documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LH-seriya-ru')), },
+       { id: 'RENOLIT_FET_LH_3', name: 'RENOLIT FET LH 3', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                    documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LH-seriya-ru')), },
+      
+      { id: 'RENOLIT_FET_LX_1', name: 'RENOLIT FET LX 1', image: ANTICORIT, price: '', description: 'RENOLIT FET LX – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+                      documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LX-seriya-ru')), },
+      { id: 'RENOLIT_FET_LX_2', name: 'RENOLIT FET LX 2', image: ANTICORIT, price: '', description: 'RENOLIT FET LX – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью.', specifications: '', approvals: '', recommendations: '',
+                        documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LX-seriya-ru')), },
+        { id: 'RENOLIT_FET_LX_3', name: 'RENOLIT FET LX 3', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                          documentation: documents.find((doc) => doc.includes('TRENOLIT-FET-LX-seriya-ru')), },
+       { id: 'RENOLIT_FET_LX_EP_1', name: 'RENOLIT FET LX EP 1', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                            documentation: documents.find((doc) => doc.includes('RENOLIT-FET-LX-seriya-ru')), },
+       { id: 'RENOLIT_FET_CS_1_2', name: 'RENOLIT FET CS 1/2', image: ANTICORIT, price: '', description: 'RENOLIT FET LH – это серия пластичных смазок, изготовленных на основе высококачественного минерального базового масла и комплексного литиевого загустителя. Благодаря технологичному пакету присадок, содержащему противозадирные (EP – extreme pressure) присадки, продукты обладают выдающейся несущей способностью', specifications: '', approvals: '', recommendations: '',
+                              documentation: documents.find((doc) => doc.includes('RENOLIT-FET-CS-1_2-ru')), },
+      
+    
+  
   ]
 }
   };

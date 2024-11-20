@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/header_index.css'; 
 import banner from '../assetsImage/assets/svg-editor-image.png'; 
-import banner_2 from '../assetsImage/assets/img_2_728_d81a07.png';
+import banner_2 from '../assetsImage/assets/Лого-FUCHS.png';
 import searchIcon from '../assetsImage/assets/search-svgrepo-com.svg';
 import mainImage1 from '../assetsImage/assets/metalurgiya-glavnaya.jpg'; 
 import mainImage2 from '../assetsImage/assets/chemical.jpg';
@@ -20,6 +20,7 @@ const HeaderIndex = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [mainImage, setMainImage] = useState(mainImage1);
+  const [hoverText, setHoverText] = useState(''); 
   const [transition, setTransition] = useState(false);
   const navigate = useNavigate();
   const searchRef = useRef(null); // Ref for the search container
@@ -32,12 +33,12 @@ const HeaderIndex = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       switch (mainImage) {
-        case mainImage1: changeImage(mainImage2); break;
-        case mainImage2: changeImage(mainImage3); break;
-        case mainImage3: changeImage(mainImage4); break;
-        case mainImage4: changeImage(mainImage5); break;
-        case mainImage5: changeImage(mainImage6); break;
-        case mainImage6: changeImage(mainImage1); break;
+        case mainImage1: changeImage(mainImage2, "Химическая и горнодобывающая промышленность"); break;
+        case mainImage2: changeImage(mainImage3, "Сельское хозяйство"); break;
+        case mainImage3: changeImage(mainImage4, "Коммерческий транспорт"); break;
+        case mainImage4: changeImage(mainImage5, "Легковой автотранспорт"); break;
+        case mainImage5: changeImage(mainImage6, "Строительная промышленность"); break;
+        case mainImage6: changeImage(mainImage1, "Металлургия и Машиностроение"); break;
         default: break;
       }
     }, 6000);
@@ -45,10 +46,11 @@ const HeaderIndex = () => {
     return () => clearInterval(intervalId);
   }, [mainImage]);
 
-  const changeImage = (newImage) => {
+  const changeImage = (newImage, newText) => {
     setTransition(true);
     setTimeout(() => {
       setMainImage(newImage);
+      setHoverText(newText); // Update text with each image change
       setTransition(false);
     }, 300);
   };
@@ -130,8 +132,14 @@ useEffect(() => {
                   <div className="logo_button_input">
                     <div className="logo_button">
                     
-                      <Link to="https://www.fuchs-oil.ru/"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
-                      <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
+                    <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
+               
+                      <div className ="logo_text_right">
+                        <p>Смазочные материалы</p>
+                      </div>
+                  
+                      <Link to="https://www.fuchs-oil.ru/" target="_blank"><img src={banner_2} className="banner-image" alt="Banner"/></Link>
+                      
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
                         <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
@@ -201,22 +209,22 @@ useEffect(() => {
               <div className="partner-info-section">
                 <div className="industrial-product-categories-container">
                   <Link to="/solution/mattalurgia_machine">
-                    <div id="image_header_1" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage1)}><p>Металлургия и Машиностроение</p></div>
+                    <div id="image_header_1" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage1, "Металлургия и Машиностроение")}><p>Металлургия и Машиностроение</p></div>
                   </Link>
                   <Link to="/solution/khimicheskaya_promyshlennost">
-                    <div id="image_header_2" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage2)}><p>Химическая и горнодобывающая промышленность</p></div>
+                    <div id="image_header_2" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage2, "Химическая и горнодобывающая промышленность")}><p>Химическая и горнодобывающая промышленность</p></div>
                   </Link>
                   <Link to="/solution/selskoe_khozyaystvo">
-                    <div id="image_header_3" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage3)}><p>Сельское хозяйство</p></div>
+                    <div id="image_header_3" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage3, "Сельское хозяйство")}><p>Сельское хозяйство</p></div>
                   </Link>
                   <Link to="/solution/kommercheskiy_transport">
-                    <div id="image_header_4" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage4)}><p>Коммерческий транспорт</p></div>
+                    <div id="image_header_4" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage4, "Коммерческий транспорт")}><p>Коммерческий транспорт</p></div>
                   </Link>
                   <Link to="/solution/legkovoy_avtotransport">
-                    <div id="image_header_5" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage5)}><p>Легковой автотранспорт</p></div>
+                    <div id="image_header_5" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage5, "Легковой автотранспорт")}><p>Легковой автотранспорт</p></div>
                   </Link>
                   <Link to="/solution/promyshlennost_stroitelnykh_materialov">
-                    <div id="image_header_6" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage6)}><p>Строительная промышленность</p></div>
+                    <div id="image_header_6" className="industrial-text-block" onMouseEnter={() => changeImage(mainImage6, "Строительная промышленность")}><p>Строительная промышленность</p></div>
                   </Link>
                 </div>
               </div>
@@ -225,11 +233,16 @@ useEffect(() => {
         </div>
       </div>
       <div className="company-info-layout">
-        <img id="header_image" src={mainImage} alt="Default Image"                 
-        style={{
-                    transition: transition ? 'opacity 0.3s ease-in-out' : '',
-                    opacity: transition ? '0' : '1',
-                }} />
+        <img 
+          id="header_image" 
+          src={mainImage} 
+          alt="Default Image"                
+          style={{
+            transition: transition ? 'opacity 0.3s ease-in-out' : '',
+            opacity: transition ? '0' : '1',
+          }} 
+        />
+        <div className="hover-text">{hoverText}</div> {/* Display hover text */}
       </div>
     </header>
   );

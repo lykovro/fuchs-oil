@@ -57,7 +57,7 @@ const Contacts = () => {
 
   const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
-const viber_link = 'viber://chat?number=79223216360'
+const viber_link = 'viber://add?number=79223216360'
 const whatsapp_link = 'https://wa.me/79223216360'
 
   return (
@@ -90,16 +90,16 @@ const whatsapp_link = 'https://wa.me/79223216360'
         <div className="contact-info-container-vk-tele">
           <h2 className="contact-info-heading1">Наши контакты</h2>
           <div className="contact-info-display-style1">
-            <a href={vk_link}><img src={vk} alt="VK"/></a>
-            <a href={tg_link}><img src={tg} alt="Telegram"/></a>
-            <a href={viber_link}><img src={viber} alt="Telegram"/></a>
-            <a href={whatsapp_link}><img src={whatsapp} alt="Telegram"/></a>
+            <a href={vk_link} target="_blank"><img src={vk} alt="VK"/></a>
+            <a href={tg_link} target="_blank"><img src={tg} alt="Telegram"/></a>
+            <a href={viber_link} target="_blank"><img src={viber} alt="Telegram"/></a>
+            <a href={whatsapp_link} target="_blank"><img src={whatsapp} alt="Telegram"/></a>
           </div>
         </div>
         <div className="address-info-section">
           <div className="info-box">
             <h3 className="title-heading"><b>г. Пермь</b></h3>
-            <p>Адрес: <a href="https://yandex.ru/maps/-/CDtn7I74">Промышленная, 110И</a></p>
+            <p>Адрес: <a href="https://yandex.ru/maps/-/CDtn7I74" target="_blank">Промышленная, 110И</a></p>
             <p>Телефон: <a href="tel:+79223866360">+7 922 386-63-60  </a><a href="tel:+79223216360">+7 922 321-63-60</a></p>
             <p>E-mail: <a href="mailto:info-klg@fuchs-oil.ru">nossa-sm@mail.ru</a></p>
           </div>

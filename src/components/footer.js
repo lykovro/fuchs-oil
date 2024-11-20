@@ -4,8 +4,8 @@ import vk from '../assetsImage/assets/icons8-вконтакте.svg'
 import tg from '../assetsImage/assets/icons8-телеграмма-app.svg'
 import dzen from '../assetsImage/assets/icons8-yandex-zen.svg'
 import youtube from '../assetsImage/assets/icons8-youtube-play.svg'
-import copyright from '../assetsImage/assets/img_18_2_f4d569.png'
-import copyright_mobile from '../assetsImage/assets/fuchs_mobile.png'
+import copyright from '../assetsImage/assets/svg-editor-image.png'
+import copyright_mobile from '../assetsImage/assets/svg-editor-image.png'
 import { Link } from 'react-router-dom';
 
 
@@ -46,7 +46,11 @@ const Footer = () => {
                             <p className="contact-info-style"><Link to="/catalog/anticorrosion_compounds">Антикоррозионные составы</Link></p>
                             <p className="contact-info-style"><Link to="/catalog/cooling_lubricants">Смазочно-охлаждающие жидкости (СОЖ)</Link></p>
                             <p className="contact-info-style"><Link to="/catalog/fire_resistant_hydraulic_oils">Огнестойкие и гидравлические масла</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/antifreeze">Масла для направляющих скольжения</Link></p>
                             <p className="contact-info-style"><Link to="/catalog/cleaners_flush_compounds">Очистители и промывочные составы</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/metalworking_oils">Масла для обработки металлов</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/pressure_casting_compounds">Составы для обработки давлением и литья</Link></p>
+                            <p className="contact-info-style"><Link to="/catalog/plastic_lubricants">Пластичные смазки</Link></p>
                         </div>
                     </div>
                     <div className="product-info-container1">
@@ -78,14 +82,14 @@ const Footer = () => {
                         <div className="main-content-container-left">
                             <div className='main-content-container-left-logo'>
                                 <div className="flex-container-with-padding">
-                                    <a href={vk_link}><img src={vk} alt="" /></a>
-                                    <a href={tg_link}><img src={tg} alt="" /></a>
-                                    <a href={youtube_link}><img src={youtube} alt="" /></a>
-                                    <a href={dzen_link}><img src={dzen} alt="" /></a>
+                                    <a href={vk_link} target="_blank"><img src={vk} alt="" /></a>
+                                    <a href={tg_link} target="_blank"><img src={tg} alt="" /></a>
+                                    <a href={youtube_link} target="_blank"><img src={youtube} alt="" /></a>
+                                    <a href={dzen_link} target="_blank"><img src={dzen} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
                                     <a href=""><Link to="/fuchs-oil"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>
-                                    <p className="copyright-text-display-style">2024 © ООО «FUCHS-OIL»</p>
+                                    <p className="copyright-text-display-style">2024 © ООО «НОССА»</p>
                                 </div>
                             </div>
                             <p className="informational-text-style">Все цены, указанные на сайте приведены как справочная информация и не являются<br />публичной офертой, определяемой положениями статьи 437 Гражданского кодекса<br />Российской Федерации и могут быть изменены в любое время без предупреждения.</p>

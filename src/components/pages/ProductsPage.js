@@ -16,7 +16,7 @@ function CategoryPage() {
 
 const vk_link = 'https://vk.com/permmaslafuchs'
 const tg_link = 'https://t.me/permmaslafuchs'
-const viber_link = 'viber://chat?number=79223216360'
+const viber_link = 'viber://add?number=79223216360'
 const whatsapp_link = 'https://wa.me/79223216360'
 
     return (
@@ -73,10 +73,10 @@ const whatsapp_link = 'https://wa.me/79223216360'
                             <p className="contact-message1">Свяжитесь с нами любым удобным для Вас способом</p>
                         </div>
                         <div className="contact-info-logos">
-                            <a href={vk_link}><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
-                            <a href={tg_link}><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
-                            <a href={viber_link}><img src={viber} className="contact-section-banner" alt="Viber" /></a>
-                            <a href={whatsapp_link}><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
+                            <a href={vk_link} target="_blank"><img src={vk} className="contact-section-banner" alt="Vkontakte" /></a>
+                            <a href={tg_link} target="_blank"><img src={tg} className="contact-section-banner" alt="Telegram" /></a>
+                            <a href={viber_link} target="_blank"><img src={viber} className="contact-section-banner" alt="Viber" /></a>
+                            <a href={whatsapp_link} target="_blank"><img src={whatsapp} className="contact-section-banner" alt="Whastsapp" /></a>
                         </div>
                         <div className="contact-info-logos-mobile">
                          <div className="contact-info-logos-mobile-section">

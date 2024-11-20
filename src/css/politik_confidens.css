@@ -708,6 +708,7 @@
 
   .container-partners h2 {
     font: 700 24px / 30px Inter, sans-serif;
+    margin-bottom: 5%;
   }
 
   .container-partners h3 {
@@ -721,11 +722,11 @@
 }
 
 .title-heading-adress {
-  font: 600 22px / 24px Inter, sans-serif;
+  font: 600 20px / 24px Inter, sans-serif;
 }
 
 .info-box-adress p {
-  font: 400 18px Inter, sans-serif;
+  font: 400 15px Inter, sans-serif;
 }
 
 .button_text_submit {
@@ -749,7 +750,7 @@
   box-sizing: border-box;
     flex: 0 0 auto;
     padding-bottom: 5px;
-    font: 400 16px Inter, sans-serif;
+    font: 400 14px Inter, sans-serif;
     color: rgba(66, 75, 79, 1);
     text-align: left;
     white-space: pre-wrap;

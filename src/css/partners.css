@@ -182,6 +182,7 @@
     justify-content: center;
     margin-left: 3%;
     margin-right: 3%;
+    text-align: justify;
   }
 
   .info-box ul {
@@ -622,8 +623,12 @@
   }
   
   .info-box {
-    padding-top: 5%;
+    
     padding-bottom: 5%;
+  }
+
+  .title-heading {
+    padding-top: 8%;
   }
 }
 
