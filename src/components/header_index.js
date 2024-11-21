@@ -132,7 +132,7 @@ useEffect(() => {
                   <div className="logo_button_input">
                     <div className="logo_button">
                     
-                    <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
+                    <Link to="/"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
                
                       <div className ="logo_text_right">
                         <p>Смазочные материалы</p>
@@ -142,7 +142,7 @@ useEffect(() => {
                       
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
-                        <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
+                        <Link to="/"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
                       </div>  
                         <nav className="menu-links">
                         <Link to="/catalog" className="menu-item" onClick={toggleMenu}>Каталог</Link>

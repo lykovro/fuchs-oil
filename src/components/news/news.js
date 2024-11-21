@@ -47,7 +47,7 @@ const tg_link = 'https://t.me/permmaslafuchs'
         <main>
           <div className="product-section-with-images-navigation">
             <div className="svg-container">
-            <a href=""><Link to="/fuchs-oil"><img src={SvgHome} alt=""/></Link></a>
+            <a href=""><Link to="/"><img src={SvgHome} alt=""/></Link></a>
             </div>
             <div className="svg-container1">
                 <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">

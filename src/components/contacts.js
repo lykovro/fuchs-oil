@@ -65,7 +65,7 @@ const whatsapp_link = 'https://wa.me/79223216360'
       <div className="contact-info-section2">
         <div className="contact-section-with-products">
           <div className="svg-container">
-            <Link to="/fuchs-oil"><img src={SvgHome} alt="Home"/></Link>
+            <Link to=""><img src={SvgHome} alt="Home"/></Link>
           </div>
           <div className="svg-container1">
             <svg viewBox="0 0 24 24" x="0" y="0" fill="none" xmlns="http://www.w3.org/2000/svg">

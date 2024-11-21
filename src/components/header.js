@@ -94,11 +94,11 @@ useEffect(() => {
                   <button className="menu-toggle-button" onClick={toggleMenu}>
                     {menuOpen ? '✕' : '☰'}
                   </button>
-                  <Link to="/fuchs-oil"><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
+                  <Link to="/"><img src={logomobile} className="banner-image_adaptiv" alt="Banner"/></Link>
                   
                   <div className="logo_button_input">
                     <div className="logo_button">
-                    <Link to="/fuchs-oil"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
+                    <Link to="/"><img src={banner} className="banner-image_2" alt="Banner"/></Link>
                
                <div className ="logo_text_right">
                  <p>Смазочные материалы</p>
@@ -107,7 +107,7 @@ useEffect(() => {
                <Link to="https://www.fuchs-oil.ru/" target="_blank"><img src={banner_2} className="banner-image" alt="Banner"/></Link>                      
                       <div className={`fullscreen-menu ${menuOpen ? 'open' : ''}`}>
                       <div className='fullscreen-image'>
-                        <Link to="/fuchs-oil"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
+                        <Link to="/"><img src={logomobile} className="fullscreen-menu_banner-image_adaptiv"  alt="Banner"/></Link>
                         <Link to="https://www.fuchs-oil.ru/"><img src={logomobile2} className="fullscreen-menu_banner-image_adaptiv_2"  alt="Banner"/></Link>
                       </div>
                         <nav className="menu-links">

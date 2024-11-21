@@ -81,7 +81,7 @@ import NewsDetail from './components/news/NewsDetail'
 
 const routesData = [
    
-    { path: '/fuchs-oil/', component: Index, header: HeaderIndex },
+    { path: '/', component: Index, header: HeaderIndex },
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
 

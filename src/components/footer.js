@@ -88,7 +88,7 @@ const Footer = () => {
                                     <a href={dzen_link} target="_blank"><img src={dzen} alt="" /></a>
                                 </div>
                                 <div className="company-copyright-section">
-                                    <a href=""><Link to="/fuchs-oil"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>
+                                    <a href=""><Link to="/"><img src={copyright} className="copyright-logo" alt="" /><img src={copyright_mobile} className="copyright-logo_mob" alt="" /></Link></a>
                                     <p className="copyright-text-display-style">2024 © ООО «НОССА»</p>
                                 </div>
                             </div>
