@@ -1,12 +1,12 @@
 <?php
-$host = "localhost"; // Обычно "localhost" для shared-хостинга
-$user = "ваш_логин"; // Логин для базы данных
-$password = "ваш_пароль"; // Пароль для базы данных
-$dbname = "ваша_база"; // Имя базы данных
+$host = "localhost"; 
+$user = "u2909435_default"; // Логин для базы данных
+$password = "72HNlZy8Cnt4bX2e"; // Пароль для базы данных
+$dbname = "u2909435_default"; // Имя базы данных
 
 $conn = new mysqli($host, $user, $password, $dbname);
 
 if ($conn->connect_error) {
-    die("Ошибка подключения121212: " . $conn->connect_error);
+    die("Ошибка подключения: " . $conn->connect_error);
 }
 ?>
