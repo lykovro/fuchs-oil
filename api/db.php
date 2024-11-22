@@ -7,6 +7,6 @@ $dbname = "ваша_база"; // Имя базы данных
 $conn = new mysqli($host, $user, $password, $dbname);
 
 if ($conn->connect_error) {
-    die("Ошибка подключения: " . $conn->connect_error);
+    die("Ошибка подключения121212: " . $conn->connect_error);
 }
 ?>
