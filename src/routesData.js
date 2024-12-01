@@ -77,6 +77,8 @@ import SearchResultsPage  from './components/SearchResultPage'
 
 import NewsDetail from './components/news/NewsDetail'
 
+import Login from "./pages/Login";
+
 
 
 const routesData = [
@@ -84,6 +86,9 @@ const routesData = [
     { path: '/', component: Index, header: HeaderIndex },
     { path: '/index', component: Index, header: HeaderIndex },
     { path: '/contacts', component: Contacts, header: Header },
+
+    { path: '/login', component: Login , header: Header },
+    { path: '/admin', component: News, header: Header },
 
     { path: '/catalog', component: Catalog, header: Header },
     { path: '/catalog/:productsId', component: () => <CategoryDetailPage products={CategoryDetailPage} />, header: Header },
