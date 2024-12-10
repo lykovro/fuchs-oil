@@ -79,6 +79,8 @@ import NewsDetail from './components/news/NewsDetail'
 
 import Login from "./pages/Login";
 
+import ReviewsPage from './components/Reviews/ReviewsPage'
+
 
 
 const routesData = [
@@ -95,7 +97,7 @@ const routesData = [
     { path: '/catalog/:categoryId/:productId', component: () => <ProductDetailPage productDetails={ProductDetailPage} />, header: Header },
 
     { path: "/search", component: SearchResultsPage, header: Header},
-
+    { path: "/reviews", component: ReviewsPage, header: Header},
 
     { path: '/news', component: News, header: Header  },
     { path: '/news/:id', component: () => <NewsDetail news={NewsDetail} />, header: Header },
